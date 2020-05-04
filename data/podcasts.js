@@ -1,5 +1,5 @@
-import egghead from '../content/images/egghead.png'
-import hashnode from '../content/thumbnails/hashnode.svg'
+import egghead from '../content/images/thumbnail.png'
+import hashnode from '../content/thumbnails/thumbnail.png'
 
 export default [
   {

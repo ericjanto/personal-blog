@@ -7,32 +7,32 @@ import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
-import docker from '../../content/thumbnails/docker.png'
-import node from '../../content/thumbnails/node.png'
-import redux from '../../content/thumbnails/redux.png'
-import react from '../../content/thumbnails/react.png'
-import vue from '../../content/thumbnails/vue.png'
-import bash from '../../content/thumbnails/bash.png'
-import css from '../../content/thumbnails/css.png'
-import mvc from '../../content/thumbnails/triangle.png'
-import terminal from '../../content/thumbnails/terminal.png'
-import sql from '../../content/thumbnails/sql.png'
-import cookie from '../../content/thumbnails/cookie.png'
-import json from '../../content/thumbnails/json.png'
+import docker from '../../content/thumbnails/thumbnail.png'
+import node from '../../content/thumbnails/thumbnail.png'
+import redux from '../../content/thumbnails/thumbnail.png'
+import react from '../../content/thumbnails/thumbnail.png'
+import vue from '../../content/thumbnails/thumbnail.png'
+import bash from '../../content/thumbnails/thumbnail.png'
+import css from '../../content/thumbnails/thumbnail.png'
+import mvc from '../../content/thumbnails/thumbnail.png'
+import terminal from '../../content/thumbnails/thumbnail.png'
+import sql from '../../content/thumbnails/thumbnail.png'
+import cookie from '../../content/thumbnails/thumbnail.png'
+import json from '../../content/thumbnails/thumbnail.png'
 
 const manuals = [
-  { name: 'React', image: react, url: '/getting-started-with-react' },
-  { name: 'Redux', image: redux, url: '/redux-react-guide' },
-  { name: 'Vue', image: vue, url: '/getting-started-with-vue' },
-  { name: 'Docker', image: docker, url: '/continuous-integration-pipeline-docker' },
-  { name: 'Node', image: node, url: '/node-express-postgresql-heroku' },
-  { name: 'Bash', image: bash, url: '/how-to-create-and-use-bash-scripts' },
-  { name: 'CSS', image: css, url: '/overview-of-css-concepts' },
-  { name: 'MVC', image: mvc, url: '/javascript-mvc-todo-app' },
-  { name: 'CLI', image: terminal, url: '/how-to-use-the-command-line-for-apple-macos-and-linux' },
-  { name: 'SQL', image: sql, url: '/overview-of-sql-commands-and-pdo-operations' },
-  { name: 'Auth', image: cookie, url: '/full-stack-cookies-localstorage-react-express' },
-  { name: 'JSON', image: json, url: '/how-to-use-json-data-with-php-or-javascript' },
+  { name: 'React', image: react, url: '/test-article' },
+  { name: 'Redux', image: redux, url: '/test-article' },
+  { name: 'Vue', image: vue, url: '/test-article' },
+  { name: 'Docker', image: docker, url: '/test-article' },
+  { name: 'Node', image: node, url: '/test-article' },
+  { name: 'Bash', image: bash, url: '/test-article' },
+  { name: 'CSS', image: css, url: '/test-article' },
+  { name: 'MVC', image: mvc, url: '/test-article' },
+  { name: 'CLI', image: terminal, url: '/test-article' },
+  { name: 'SQL', image: sql, url: '/test-article' },
+  { name: 'Auth', image: cookie, url: '/test-article' },
+  { name: 'JSON', image: json, url: '/test-article' },
 ]
 
 export default class BlogPage extends Component {

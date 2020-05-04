@@ -1,6 +1,6 @@
-import wordpress from '../content/thumbnails/wp.png'
-import react from '../content/thumbnails/react.png'
-import vue from '../content/thumbnails/vue.png'
+import wordpress from '../content/thumbnails/thumbnail.png'
+import react from '../content/thumbnails/thumbnail.png'
+import vue from '../content/thumbnails/thumbnail.png'
 
 export default [
   {

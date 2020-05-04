@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import tania from '../../content/images/tania2020crop.jpg'
-import patreon from '../../content/thumbnails/patreon.png'
-import kofi from '../../content/thumbnails/kofi.png'
+import tania from '../../content/images/thumbnail.png'
+import patreon from '../../content/thumbnails/thumbnail.png'
+import kofi from '../../content/thumbnails/thumbnail.png'
 
 export default class UserInfo extends Component {
   render() {
