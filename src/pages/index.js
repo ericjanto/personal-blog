@@ -5,14 +5,10 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
-import quotes from '../../data/quotes'
-import tania from '../../content/images/thumbnail.png'
+import projects from '../../data/projectsSelected'
+import portrait from '../../content/images/portrait.jpg'
 
 export default class Index extends Component {
   render() {
@@ -23,40 +19,40 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Full Stack Software Developer`} />
+        <Helmet title={`${config.siteTitle} – Student`} />
         <SEO />
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Tania 👋`} </h1>
+              <h1>{`Hey, I'm Eric 👋`} </h1>
               <p>
-                {`I'm a full stack software developer creating `}
-                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
-                  open source
-                </a>{' '}
-                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
+                {`I'm a CS & AI student at the `}
+                <a href="https://www.ed.ac.uk/about/our-history" target="_blank" rel="noopener noreferrer">
+                  University of Edinburgh
+                </a>{''}
+                , <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
                 development.
               </p>
               <div className="social-buttons">
                 <GitHubButton
-                  href="https://github.com/taniarascia"
+                  href="https://github.com/ericjanto"
                   data-size="large"
-                  data-show-count="true"
+                  data-show-count="false"
                 >
-                  taniarascia
+                  ericjanto
                 </GitHubButton>
               </div>
             </div>
             <div className="newsletter-section">
-              <img src={tania} className="newsletter-avatar" alt="Tania" />
+              <img src={portrait} className="newsletter-avatar" alt="Eric" />
               <div>
                 <h3>Email Newsletter</h3>
                 <p>
-                  I write tutorials. Get an update when something new comes out by signing up below!
+                  Stay up to date by signing up to my newsletter.
                 </p>
-                <a className="button" href="https://taniarascia.substack.com">
+                <Link to="/newsletter" className="button">
                   Subscribe
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -84,32 +80,13 @@ export default class Index extends Component {
           </section>
 
           <section className="section">
-            <h2>Open Source Projects</h2>
+            <h2>Latest Projects
+              <Link to="/projects" className="view-all">
+                View all
+              </Link>
+            </h2>
             <ProjectListing projects={projects} />
           </section>
-
-          <section className="section">
-            <h2>Interviews</h2>
-            <SimpleListing simple data={podcasts} />
-          </section>
-
-          <section className="section">
-            <h2>Talks</h2>
-            <SimpleListing simple data={speaking} />
-          </section>
-        </div>
-        <div className="gradient-section">
-          <div className="container">
-            <h2>Other People Say...</h2>
-          </div>
-          <div className="quotations">
-            {quotes.map(quote => (
-              <blockquote className="quotation" key={quote.name}>
-                <p>{quote.quote}</p>
-                <cite>— {quote.name}</cite>
-              </blockquote>
-            ))}
-          </div>
         </div>
       </Layout>
     )

@@ -22,7 +22,7 @@ export default class ProjectListing extends Component {
             </h2>
             <p>{project.description}</p>
             <div className="buttons">
-              <GitHubButton href={project.source} data-size="large" data-show-count="true">
+              <GitHubButton href={project.source} data-size="large" data-show-count="false">
                 Source
               </GitHubButton>
               {project.path && (
