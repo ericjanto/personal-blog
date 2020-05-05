@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "ericjanto.netlify.app",
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "1.1.0",
-  "author": "Tania Rascia",
-  "repository": "git@github.com:taniarascia/taniarascia.com",
+  "author": "Eric Janto",
+  "repository": "git@github.com:ericjanto/personal-blog",
   "dependencies": {
     "eslint-utils": "^1.4.1",
     "gatsby": "^2.13.13",
@@ -56,13 +56,16 @@
     "write-good": "^1.0.1"
   },
   "keywords": [
-    "tania rascia",
-    "development",
-    "dev",
+    "eric janto",
+    "software",
+    "software engineering",
     "tutorials",
     "tech",
     "articles",
-    "blog"
+    "blog",
+    "swift",
+    "ios",
+    "student"
   ],
   "license": "MIT",
   "main": "n/a",
