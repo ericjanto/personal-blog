@@ -6,8 +6,8 @@ template: page
 
 If you enjoy my blog, I'm sure you'd like my email-newsletter too!
 - 💭 I put much effort into my emails
-- ⛔️ No spam: my newsletter appears biweekly
-- 👀 Have a look at an example [here](/example)
+- ⛔️ No spam: witty content, delivered biweekly
+- 👀 Have a look at an [example](/example)
 - ☝️ One-click unsubscribe anytime
 
 <div class="centered-iframe">
@@ -25,7 +25,7 @@ If you enjoy my blog, I'm sure you'd like my email-newsletter too!
 Critiques, ideas, comments? Feel free to drop me an email!
 
 - **Email**: [jantoeric@gmail.com](mailto:jantoeric@gmail.com)
+- **LinkedIn**: [Eric Janto](https://linkedin.com/in/eric-janto/)
 - **GitHub**: [ericjanto](https://github.com/ericjanto/)
-- **Twitter**: [JantoEric](https://twitter.com/JantoEric/)
+- **Twitter**: [@JantoEric](https://twitter.com/JantoEric/)
 - **Instagram**: [ericjanto](https://instagram.com/ericjanto/)
-- **Feed**: [RSS](https://www.ericjanto.netlify.app/rss.xml)
