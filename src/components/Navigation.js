@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import floppy from '../images/floppy.png'
+import house from '../images/house.png'
 import sun from '../images/sun.svg'
 import moon from '../images/moon.svg'
 import ThemeContext from '../context/ThemeContext'
@@ -36,9 +36,10 @@ export default class Navigation extends Component {
     return (
       <nav className={scrolled ? 'nav scroll' : 'nav'}>
         <div className="nav-container">
-          <div className="brand">
+          <div className="brand"> 
             <Link to="/">
-              <img src={floppy} className="favicon" alt="Floppy Diskette" />
+              <div className="brand-icon">🏡</div>
+              {/* <img src={house} className="favicon" alt="House with Garden" /> */}
               <span className="text">Eric Janto</span>
             </Link>
           </div>

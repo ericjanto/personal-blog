@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import tania from '../../content/images/thumbnail.png'
+import eric from '../../content/images/portrait.jpg'
 import patreon from '../../content/thumbnails/thumbnail.png'
 import kofi from '../../content/thumbnails/thumbnail.png'
 
@@ -10,19 +10,17 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={tania} alt="Tania Rascia" />
+              <img className="avatar" src={eric} alt="Eric Janto" />
             </div>
             <div>
               <h3>Author</h3>
               <p>
-                Hey, I’m Tania, a full stack software engineer. I write about what I know to help
-                viewers like you. My site has <strong>no ads, sponsors, or bullshit.</strong> If you
-                enjoy my content, please consider supporting what I do!
+                Hey, I’m Eric.
               </p>
 
               <div className="flex">
                 <a
-                  href="https://ko-fi.com/taniarascia"
+                  href="https://ko-fi.com/"
                   className="donate-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -32,7 +30,7 @@ export default class UserInfo extends Component {
                 </a>
                 <a
                   className="patreon-button"
-                  href="https://www.patreon.com/taniarascia"
+                  href="https://www.patreon.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

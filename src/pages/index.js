@@ -15,7 +15,8 @@ export default class Index extends Component {
     const { data } = this.props
 
     const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    // eslint-disable-next-line no-lone-blocks
+    {/* const popularPostEdges = data.popular.edges */}
 
     return (
       <Layout>
@@ -26,12 +27,13 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Eric 👋`} </h1>
               <p>
-                {`I'm a CS & AI student at the `}
-                <a href="https://www.ed.ac.uk/about/our-history" target="_blank" rel="noopener noreferrer">
-                  University of Edinburgh
-                </a>{''}
-                , <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
-                development.
+                {`I'm a Computer Science & AI student, `}
+                <Link to="/blog">writing</Link>{` `}
+                {`about machine learning,
+                Swift development and other cool stuff. I work off my creativity
+                on `}
+                <Link to="/projects">side-projects</Link>
+                .
               </p>
               <div className="social-buttons">
                 <GitHubButton
@@ -69,7 +71,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>
               Most Popular
               <Link to="/categories/popular" className="view-all">
@@ -77,7 +79,7 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          </section> */}
 
           <section className="section">
             <h2>Latest Projects

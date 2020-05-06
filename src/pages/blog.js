@@ -7,7 +7,8 @@ import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
-import docker from '../../content/thumbnails/thumbnail.png'
+// eslint-disable-next-line no-lone-blocks
+{/* import docker from '../../content/thumbnails/thumbnail.png'
 import node from '../../content/thumbnails/thumbnail.png'
 import redux from '../../content/thumbnails/thumbnail.png'
 import react from '../../content/thumbnails/thumbnail.png'
@@ -33,7 +34,7 @@ const manuals = [
   { name: 'SQL', image: sql, url: '/test-article' },
   { name: 'Auth', image: cookie, url: '/test-article' },
   { name: 'JSON', image: json, url: '/test-article' },
-]
+] */}
 
 export default class BlogPage extends Component {
   state = {
@@ -67,6 +68,7 @@ export default class BlogPage extends Component {
       <Layout>
         <Helmet title={`Articles – ${config.siteTitle}`} />
         <SEO />
+        {/*
         <div className="gradient-section articles">
           <div className="container">
             <h2 className="text-center">The Missing Instruction Manuals of the Web</h2>
@@ -79,7 +81,7 @@ export default class BlogPage extends Component {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <h1 className="articles-title">Articles</h1>
           <div className="category-container">

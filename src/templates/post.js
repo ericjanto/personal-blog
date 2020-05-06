@@ -3,12 +3,14 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
-import UserInfo from '../components/UserInfo'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import tania from '../../content/images/thumbnail.png'
+import eric from '../../content/images/portrait-small.jpg'
+
+// eslint-disable-next-line no-lone-blocks
+{/* import UserInfo from '../components/UserInfo' */}
 
 export default class PostTemplate extends Component {
   render() {
@@ -32,7 +34,7 @@ export default class PostTemplate extends Component {
     const date = formatDate(post.date)
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
       config.siteUrl
-    }/${post.slug}/&via=taniarascia`
+    }/${post.slug}/&via=JantoEric`
 
     return (
       <Layout>
@@ -47,7 +49,7 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <Link to="/me">
-                  <img src={tania} className="avatar-small" alt="Tania" />
+                  <img src={eric} className="avatar-small" alt="Eric" />
                 </Link>
                 <time className="date">{date}</time>/
                 <a
@@ -65,7 +67,7 @@ export default class PostTemplate extends Component {
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <UserInfo config={config} />
+        {/* <UserInfo config={config} /> */}
       </Layout>
     )
   }
