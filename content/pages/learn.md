@@ -10,17 +10,17 @@ This includes both topics from **Computer Science** and **Artificial Intelligenc
 
 ## Classes at Uni
 
-- [x] **First Semester**
+- [x] First Semester
   - [x] Introduction to Computation (Logic & Haskell)
   - [x] Introduction to Linear Algebra
   - [x] Topics in Popular Music
-- [x] **Second Semester**
+- [x] Second Semester
   - [x] Object-Orientated Programming (Java)
   - [x] Calculus and Its Applications
   - [x] Foundation French Language 2
-- [ ] **Second Year**
-- [ ] **Third Year**
-- [ ] **Fourth Year**
+- [ ] Second Year
+- [ ] Third Year
+- [ ] Fourth Year
 
 
 ## To Learn
@@ -39,17 +39,17 @@ Checked things stay here until I write about them.
 
 #### Algorithms
 
-- [ ] **Complexity** (Big O notation)
+- [ ] Complexity (Big O notation)
   - [ ] Size complexity
   - [ ] Time complexity
-- [ ] **Sorting**
+- [ ] Sorting
   - [ ] Bubble
   - [ ] Insertion
   - [ ] Selection
   - [ ] Merge
   - [ ] Heap
   - [ ] Quick
-- [ ] **Searching**
+- [ ] Searching
   - [ ] Binary search
 - [ ] Pattern matching
 - [ ] Recursion
@@ -73,7 +73,7 @@ Checked things stay here until I write about them.
 
 #### Programming Paradigms
 
-- [ ] **Object Design**
+- [ ] Object Design
   - [ ] Coupling
   - [ ] Cohesion
 
