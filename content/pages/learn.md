@@ -27,15 +27,44 @@ This includes both topics from **Computer Science** and **Artificial Intelligenc
 
 Checked things stay here until I write about them.
 
-### Haskell
-
-- [x] Recursion
-- [x] List Comprehension
-- [ ] The Variables Curiosity
-- [ ] Data Types
-- [ ] Tuples
-
 ### Computer Science
+
+#### Haskell
+
+- [x] Comments
+- [x] Difference to Imperative Language
+- [ ] Data Types / Type System
+- [x] QuickCheck
+- [x] Lists
+  - [x] List Functions (head, concatenate,...)
+  - [x] List Comprehension
+  - [x] Infinite Lists
+- [ ] Tuples
+- [ ] Pairs
+- [ ] Pattern Matching
+- [x] Guards
+- [x] Ranges
+- [x] Recursion
+- [x] Higher Order Functions
+  - [ ] Curried Functions
+  - [x] Map
+  - [x] Filter
+  - [ ] Fold (l / r)
+  - [ ] Lambdas
+- [x] Function Application with $
+- [ ] Data Abstraction
+  - [ ] Defining a New Data Type
+  - [ ] Type Parameters
+  - [ ] Type Synonyms
+  - [ ] Type Classes
+- [ ] Modules
+- [ ] Algorithms
+  - [ ] Quicksort
+- [x] Data Structures
+  - [x] Tree
+- [ ] Input / Output
+- [ ] Monads
+- [ ] Do-Notation
 
 #### Algorithms
 
