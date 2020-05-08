@@ -2,7 +2,7 @@ export default [
   {
     icon: '🎨',
     title: 'ColorFolio',
-    path: 'https://ericjanto.github.io/',
+    path: 'https://ericjanto.github.io/ColorFolio',
     source: 'https://github.com/ericjanto/ColorFolio/',
     description: 'A customisable portfolio website. Featuring a clever one-page design.',
   },
