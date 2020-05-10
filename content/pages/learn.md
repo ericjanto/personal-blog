@@ -35,10 +35,6 @@ Checked things stay here until I write about them.
 - [x] Difference to Imperative Language
 - [ ] Data Types / Type System
 - [x] QuickCheck
-- [x] Lists
-  - [x] List Functions (head, concatenate,...)
-  - [x] List Comprehension
-  - [x] Infinite Lists
 - [ ] Tuples
 - [ ] Pairs
 - [ ] Pattern Matching
@@ -61,6 +57,10 @@ Checked things stay here until I write about them.
 - [ ] Algorithms
   - [ ] Quicksort
 - [x] Data Structures
+  - [x] Lists
+  - [x] List Functions (head, concatenate,...)
+  - [x] List Comprehension
+  - [x] Infinite Lists
   - [x] Tree
 - [ ] Input / Output
 - [ ] Monads
@@ -110,6 +110,7 @@ Checked things stay here until I write about them.
 
 - [x] Git Basics
 - [ ] Git Advanced
+- [ ] Emacs
 
 ## Learned
 
