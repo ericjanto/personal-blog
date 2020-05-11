@@ -33,7 +33,6 @@ Checked things stay here until I write about them.
 
 - [x] Comments
 - [x] Difference to Imperative Language
-- [ ] Data Types / Type System
 - [x] QuickCheck
 - [ ] Tuples
 - [ ] Pairs
@@ -47,12 +46,15 @@ Checked things stay here until I write about them.
   - [x] Filter
   - [ ] Fold (l / r)
   - [ ] Lambdas
+- [ ] Function Composition
 - [x] Function Application with $
-- [ ] Data Abstraction
-  - [ ] Defining a New Data Type
+- [ ] Data & Type System
+  - [ ] Defining a New Data Type, Data Abstraction
+  - [x] Most Common Data Types
   - [ ] Type Parameters
   - [ ] Type Synonyms
   - [ ] Type Classes
+  - [ ] Type Polymorphism
 - [ ] Modules
 - [ ] Algorithms
   - [ ] Quicksort
