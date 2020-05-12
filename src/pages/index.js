@@ -29,7 +29,7 @@ export default class Index extends Component {
               <p>
                 {`I'm a Computer Science & AI student, `}
                 <Link to="/blog">writing</Link>{` `}
-                {`about Machine Learning,
+                {`about functional programming,
                 Swift development and other cool stuff. I work off my creativity
                 on `}
                 <Link to="/projects">side-projects</Link>
