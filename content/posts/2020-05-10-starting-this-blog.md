@@ -7,8 +7,8 @@ slug: starting-this-blog
 categories:
   - Personal
 tags:
-  - blogging
-  - college
+  - 'blogging'
+  - 'college'
   - 'student life'
 ---
 
