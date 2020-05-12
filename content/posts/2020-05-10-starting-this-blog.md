@@ -58,7 +58,7 @@ Both a new article and a newsletter email go online **on Sundays**, in a biweekl
 	- Everything that interests me
 	- Swift development since that's what I'm going for atm
 - Artificial Intelligence
-- In general topics on my [learning page](/learn)
+- In general topics on my [learn page](/learn)
 
 
 ## Inspiration

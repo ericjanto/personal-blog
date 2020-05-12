@@ -4,9 +4,8 @@ slug: newsletter
 template: page
 ---
 
-If you enjoy my blog, I'm sure you'd like my email-newsletter too!
-- 💭 I put much effort into my emails
-- ⛔️ No spam: witty content, delivered biweekly
+If you enjoy my blog, make sure to subscribe to my email-newsletter!
+- ⛔️ No spam: only a notification, delivered biweekly
 - 👀 Have a look at an [example](/example)
 - ☝️ One-click unsubscribe anytime
 
