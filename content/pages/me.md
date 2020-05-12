@@ -4,7 +4,7 @@ slug: me
 template: page
 ---
 
-I’m Eric Janto, a full time Computer Science & AI student, and an ambitious hobby pianist & violinist. I [learn in public](/learn) and write about everything I know or find interesting.
+I’m Eric, a full time Computer Science & AI student, and an ambitious hobby pianist & violinist. I [learn in public](/learn) and write about everything I know or find interesting.
 
 I created this website to enhance my study methods and
 to force a productive structure onto my life.

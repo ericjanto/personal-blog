@@ -7,7 +7,7 @@ import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
-import eric from '../../content/images/portrait-small.jpg'
+import eric from '../../content/images/portrait.png'
 
 // eslint-disable-next-line no-lone-blocks
 {/* import UserInfo from '../components/UserInfo' */}

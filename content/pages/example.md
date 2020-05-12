@@ -17,5 +17,5 @@ template: page
 >
 >If you are interested in these topics, make sure to [read the article](https://ericjanto.com).
 >
->Best wishes,</br>
+>See you soon,</br>
 >Eric

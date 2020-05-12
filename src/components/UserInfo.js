@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import eric from '../../content/images/portrait.jpg'
+import eric from '../../content/images/portrait.png'
 import patreon from '../../content/thumbnails/thumbnail.png'
 import kofi from '../../content/thumbnails/thumbnail.png'
 

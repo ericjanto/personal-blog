@@ -8,7 +8,7 @@ import ProjectListing from '../components/ProjectListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projectsSelected'
-import portrait from '../../content/images/portrait.jpg'
+import portrait from '../../content/images/portrait.png'
 
 export default class Index extends Component {
   render() {
