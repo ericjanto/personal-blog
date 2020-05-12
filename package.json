@@ -73,7 +73,7 @@
     "develop": "gatsby develop",
     "dev": "yarn run develop",
     "serve": "gatsby serve",
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
     "build:gh": "yarn run clean && yarn run build:pp && gh-pages -d public",
     "clean": "rm -rf public && rm -rf .cache",
