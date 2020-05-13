@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: 'Eric Janto',
   siteTitleAlt: 'Eric Janto',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://ericjanto.netlify.app/',
+  siteUrl: 'https://ericjanto.com/',
   repo: 'https://github.com/ericjanto/personal-blog',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
