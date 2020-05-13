@@ -8,6 +8,7 @@ If you enjoy my blog, make sure to subscribe to my email-newsletter!
 - ⛔️ No spam: only a notification, delivered biweekly
 - 👀 Have a look at an [example](/example)
 - ☝️ One-click unsubscribe anytime
+- 📣 You can also subscribe to my [RSS-feed](https://ericjanto.com/rss.xml)
 
 <div class="centered-iframe">
   <iframe

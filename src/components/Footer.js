@@ -9,11 +9,11 @@ export default class Footer extends Component {
     return (
       <footer className="footer container">
         <div>
-          <Link to="/newsletter">Newsletter</Link>
           <Link to="/newsletter#contact--more">Contact</Link>
-          {/* <a href="https://www.ericjanto.netlify.com/rss.xml" target="_blank" rel="noopener noreferrer">
+          <Link to="/newsletter">Newsletter</Link>
+          <a href="https://www.ericjanto.com/rss.xml" target="_blank" rel="noopener noreferrer">
             RSS
-          </a> */}
+          </a>
         </div>
         <div>
           <a href="https://github.com/ericjanto" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer">
