@@ -14,14 +14,14 @@ to force a productive structure onto my life.
 
 - 🎓 studies at Edinburgh uni
 - 🇩🇪 from Germany
-- 🎶 plays violin in orchestra(s)
+- 🎶 plays violin in orchestras
 - 🎹 should play piano more often
 - 💤 loves hammocks
 - 🏊🏼‍♂️ likes swimming (did it competitively)
 - 🙉 is a bit afraid of monkeys
+- 🍕 likes pizza
 - 📖 admires Latin literature
 - ☕️ prefers tea over coffee
-- 🤗 likes hugs
 
 ## Sources of Inspiration
 
