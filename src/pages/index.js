@@ -27,7 +27,7 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Eric...`} </h1>
               <p>
-                {`... a Computer Science & AI student, `}
+                {`...a Computer Science & AI student, `}
                 <Link to="/blog">writing</Link>{` `}
                 {`about functional programming,
                 Swift development and other cool stuff. I work off my creativity
