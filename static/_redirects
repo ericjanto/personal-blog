@@ -1,5 +1,6 @@
 # Redirects from what the browser requests to what we serve
 # https://www.netlify.com/docs/redirects/
+/                        https://www.ericjanto.com/
 /tutorials/              /blog/
 /thoughts/               /blog/
 /projects/               /projects/
