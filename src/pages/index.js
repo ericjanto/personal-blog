@@ -28,11 +28,11 @@ export default class Index extends Component {
               <h1>{`Hey, I'm Eric...`} </h1>
               <p>
                 {`...a Computer Science & AI student, `}
-                <Link to="/blog">writing</Link>{` `}
+                <Link to="/blog/">writing</Link>{` `}
                 {`about functional programming,
                 Swift development and other cool stuff. I work off my creativity
                 on `}
-                <Link to="/projects">side-projects</Link>
+                <Link to="/projects/">side-projects</Link>
                 .
               </p>
               <div className="social-buttons">
@@ -64,7 +64,7 @@ export default class Index extends Component {
           <section className="section">
             <h2>
               Latest Articles
-              <Link to="/blog" className="view-all">
+              <Link to="/blog/" className="view-all">
                 View all
               </Link>
             </h2>
@@ -83,7 +83,7 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>Latest Projects
-              <Link to="/projects" className="view-all">
+              <Link to="/projects/" className="view-all">
                 View all
               </Link>
             </h2>

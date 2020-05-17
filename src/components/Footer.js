@@ -10,7 +10,6 @@ export default class Footer extends Component {
       <footer className="footer container">
         <div>
           <Link to="/newsletter#contact--more">Contact</Link>
-          <Link to="/newsletter">Newsletter</Link>
           <a href="https://www.ericjanto.com/rss.xml" target="_blank" rel="noopener noreferrer">
             RSS
           </a>
