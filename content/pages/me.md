@@ -18,7 +18,6 @@ to force a productive structure onto my life.
 - 🎹 should play piano more often
 - 💤 loves hammocks
 - 🏊🏼‍♂️ likes swimming (did it competitively)
-- 🙉 is a bit afraid of monkeys
 - 🍕 likes pizza
 - 📖 admires Latin literature
 - ☕️ prefers tea over coffee
