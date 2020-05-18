@@ -1,4 +1,4 @@
-$background: #202020;
+$background: rgb(47, 52, 55);
 $foreground: #b3b9c5;
 $accent: #303030;
 $dark-border: darken($background, 3%);
@@ -7,6 +7,10 @@ $dark-primary: $tag;
 .dark {
   background: $background;
   color: $foreground;
+
+  hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.438);
+  }
 
   a {
     color: $dark-primary;
@@ -286,7 +290,7 @@ $dark-primary: $tag;
   }
 
   pre code {
-    background: #3a3a3a;
+    background: rgb(63, 68, 71);
   }
 
   .gradient-section {

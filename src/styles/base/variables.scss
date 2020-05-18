@@ -87,6 +87,12 @@ $border-radius: 6px;
 $borders: $border-width $border-style $border-color;
 $box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.16);
 
+/* Line Break Borders */
+
+$line-border-width: 1px;
+$line-border-color: #ebebeb;
+$line-borders: $line-border-width $border-style $line-border-color;
+
 /* Buttons */
 
 $primary-hover: lighten($primary-color, 33%);
