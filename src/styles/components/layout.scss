@@ -1094,10 +1094,19 @@ blockquote {
     }
   }
 
+  .in-text {
+    margin-right: 0 !important;
+    text-decoration: underline;
+  }
+
   .footer-img {
     height: 30px;
     width: 30px;
     margin-bottom: 0;
+  }
+
+  * {
+    color: rgba(0, 0, 0, 0.6);
   }
 }
 

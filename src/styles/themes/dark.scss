@@ -1,16 +1,12 @@
 $background: #2f3437;
 $foreground: #ffffffe6;
-$accent: rgb(71,76,80);
+$accent: #474c50;
 $dark-border: darken($background, 3%);
 $dark-primary: $tag;
 
 .dark {
   background: $background;
   color: $foreground;
-
-  hr {
-    border-top: 1px solid rgba(255, 255, 255, 0.438);
-  }
 
   a {
     color: $dark-primary;
@@ -21,6 +17,11 @@ $dark-primary: $tag;
       color: darken($dark-primary, 15%);
       background: transparent;
     }
+  }
+
+  /* line-break */
+  hr {
+    border-top: $border-width $border-style #ffffff26;
   }
 
   .lead {
@@ -290,7 +291,7 @@ $dark-primary: $tag;
   }
 
   pre code {
-    background: rgb(63, 68, 71);
+    background: #3f4447;
   }
 
   .gradient-section {
@@ -355,6 +356,10 @@ $dark-primary: $tag;
       &:hover {
         color: lighten($foreground, 10%);
       }
+    }
+
+    * {
+      color: darken($foreground, 20%);
     }
   }
 

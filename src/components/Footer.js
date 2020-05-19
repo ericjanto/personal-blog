@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import netlify from '../../content/images/netlify.png'
+import react from '../../content/images/react.png'
 import gatsby from '../../content/images/gatsby.png'
-import github from '../../content/images/github.png'
 
 export default class Footer extends Component {
   render() {
@@ -15,20 +14,19 @@ export default class Footer extends Component {
           </a>
         </div>
         <div>
-          <a href="https://github.com/ericjanto" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer">
+          A&nbsp;
+          <a className="in-text" href="https://www.notion.so/customers/personal-websites" title="About Notion" target="_blank" rel="noopener noreferrer">Notion</a>
+          &nbsp;inpired blog,&nbsp;
+          <a className="in-text" href="https://github.com/ericjanto/personal-blog" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer">built</a>
+          &nbsp;with&nbsp;
+          <a className="in-text" href="https://reactjs.org/" title="Built with React" target="_blank" rel="noopener noreferrer">
             <img
-              src={github}
+              src={react}
               className="footer-img"
-              alt="GitHub"
+              alt="React"
             />
           </a>
-          <a href="https://www.netlify.com/" title="Hosted by Netlify" target="_blank" rel="noopener noreferrer">
-            <img
-              src={netlify}
-              className="footer-img"
-              alt="Netlify"
-            />
-          </a>
+          &nbsp;and&nbsp;&nbsp;
           <a href="https://www.gatsbyjs.org/" title="Built with Gatsby" target="_blank" rel="noopener noreferrer">
             <img
               src={gatsby}
