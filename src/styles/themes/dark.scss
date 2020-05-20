@@ -106,8 +106,8 @@ $dark-primary: $tag;
     border-color: $background;
 
     &.scroll {
-      background: darken($background, 5%);
-      border-color: darken($background, 5%);
+      background: darken($background, 6.5%);
+      border-bottom: 0px solid rgba(55,53,47,0.16);
     }
 
     .brand a {
@@ -274,20 +274,23 @@ $dark-primary: $tag;
   }
 
   th {
-    border-bottom: 2px solid darken($background, 5%);
+    border-bottom: 1px solid #ffffff26;
+    border-top: 1px solid #ffffff26;
+    border-right: 1px solid #ffffff26;
   }
 
   // Extra border above footer
   tfoot th {
-    border-top: 2px solid darken($background, 8%);
+    border-top: 1px solid #ffffff26;
   }
 
   td {
-    border-bottom: 2px solid darken($background, 8%);
+    border-right: 1px solid #ffffff26;
+    border-bottom: 1px solid #ffffff26;
   }
 
-  tbody tr:nth-child(even) {
-    background-color: lighten($background, 5%);
+  tbody tr:nth-child(odd) {
+    background-color: lighten($background, 2%);
   }
 
   pre code {
@@ -503,6 +506,6 @@ $dark-primary: $tag;
   }
 
   path {
-    stroke: $keyword;
+    stroke: #eeeeee;
   }
 }

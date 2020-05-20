@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-import GitHubButton from 'react-github-btn'
 import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
@@ -9,6 +8,9 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projectsSelected'
 import portrait from '../../content/images/portrait.png'
+
+// eslint-disable-next-line no-lone-blocks
+{/* import GitHubButton from 'react-github-btn' */}
 
 export default class Index extends Component {
   render() {

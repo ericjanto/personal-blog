@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import react from '../../content/images/react.png'
-import gatsby from '../../content/images/gatsby.png'
 
 export default class Footer extends Component {
   render() {

@@ -10,7 +10,7 @@ pre.language-terminal code.language-terminal {
   padding: 1rem;
   font-family: $code-font-family;
   border: 1px solid #d8d9da;
-  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.16);
+  /*box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.16);*/
   border-radius: 6px;
   padding-top: 45px;
   margin: 2rem 0;
@@ -64,7 +64,7 @@ pre code {
   overflow: auto;
   background-color: #333;
   border: 0;
-  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.15);*/
 }
 
 // Keyboard input
@@ -72,7 +72,7 @@ kbd {
   background-color: #f7f7f7;
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+  /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;*/
   color: #333;
   display: inline-block;
   font-family: $font-family;
@@ -147,6 +147,7 @@ code[class*='language-sass'] {
 }
 
 .token.string,
+.token.char,
 .token.attr-value {
   color: $string;
 }
@@ -168,7 +169,7 @@ code[class*='language-sass'] {
 }
 
 .token.builtin {
-  color: #4a7baa;
+  color: #bde052;
 }
 
 .token.parameter {
