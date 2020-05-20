@@ -54,5 +54,4 @@ Pieces I'm learning at the moment:
 - **Static site generator:** [Gatsby](https://gatsbyjs.org)
 - **Syntax highlighting:** [PrismJS](http://prismjs.com/)
 - **Code theme:** [New Moon](https://taniarascia.github.io/new-moon)
-- **Email newsletter:** [Substack](https://substack.com)
 - **Notes:** [Notion](https://www.notion.so/?r=0970c1810c2f45918f297f8aefc85041)

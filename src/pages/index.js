@@ -35,7 +35,7 @@ export default class Index extends Component {
                 <Link to="/projects/">side-projects</Link>
                 .
               </p>
-              <div className="social-buttons">
+              {/* <div className="social-buttons">
                 <GitHubButton
                   href="https://github.com/ericjanto"
                   data-size="large"
@@ -43,7 +43,7 @@ export default class Index extends Component {
                 >
                   ericjanto
                 </GitHubButton>
-              </div>
+              </div> */}
             </div>
             <div className="newsletter-section">
               <img src={portrait} className="newsletter-avatar" alt="Eric" />

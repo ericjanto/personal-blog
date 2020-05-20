@@ -46,9 +46,7 @@ something (screw that [forgetting-curve](https://en.wikipedia.org/wiki/Forgettin
 ## What Can You Expect?
 
 - Articles in tutorial form
-- Newsletter about a more general topic ([example](/example))
-
-Both a new article and a newsletter email go online **on Sundays**, in a biweekly manner.
+- To be published in a biweekly manner
 
 ### Topics I'll Be Writing About
 
