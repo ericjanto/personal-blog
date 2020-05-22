@@ -51,6 +51,15 @@ module.exports = {
             },
           },
           'gatsby-remark-prismjs',
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 1,
+              toHeading: 6
+            },
+          },
           'gatsby-remark-copy-linked-files',
           {
             resolve: `gatsby-remark-autolink-headers`,
