@@ -55,7 +55,7 @@ export default class Index extends Component {
                   For more details about me, click the button below.
                 </p>
                 <Link to="/me/" className="button">
-                  Stalk me
+                  Stalk Eric
                 </Link>
               </div>
             </div>
