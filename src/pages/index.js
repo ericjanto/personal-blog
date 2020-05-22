@@ -50,12 +50,12 @@ export default class Index extends Component {
             <div className="newsletter-section">
               <img src={portrait} className="newsletter-avatar" alt="Eric" />
               <div>
-                <h3>Email Newsletter</h3>
+                <h3>Just here to stalk me?</h3>
                 <p>
-                  Stay up to date by signing up to my newsletter.
+                  For more details about me, click the button below.
                 </p>
-                <Link to="/newsletter" className="button">
-                  Subscribe
+                <Link to="/me/" className="button">
+                  Stalk me
                 </Link>
               </div>
             </div>
