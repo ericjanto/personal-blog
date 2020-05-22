@@ -422,7 +422,7 @@
 .post,
 .page {
   h2 {
-    border-bottom: 1px solid lighten($border-color, 12%);
+    border-bottom: 1px solid $border-color;
   }
 }
 
