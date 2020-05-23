@@ -27,10 +27,10 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Eric...`} </h1>
+              <h1>{`Hi there...`} </h1>
               <p>
-                {`...a Computer Science & AI student, `}
-                <Link to="/blog/">writing</Link>{` `}
+                {`...welcome to my personal notepad. I like to `}
+                <Link to="/blog/">write</Link>{` `}
                 {`about functional programming,
                 Swift development and other cool stuff. I work off my creativity
                 on `}
