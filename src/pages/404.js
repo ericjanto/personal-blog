@@ -5,27 +5,11 @@ import SEO from '../components/SEO'
 import {NotFoundBox} from '../components/NotFoundBox';
 
 
-export default class NotFoundPage extends Component {
-  static contextType = ThemeContext
+const NotFoundPage = () => (
+  <Layout simple>
+    <SEO title="404: Not found" />
+    <NotFoundBox />
+  </Layout>
+);
 
-  componentDidMount() {
-    const { setNotFound } = this.context
-
-    setNotFound()
-  }
-
-  componentWillUnmount() {
-    const { setFound } = this.context
-
-    setFound()
-  }
-
-  render() {
-    return (
-      <Layout simple>
-        <SEO title="404: Not found" />
-        <NotFoundBox />
-      </Layout>
-  )
-  }
-}
+export default NotFoundPage;
