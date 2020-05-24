@@ -45,3 +45,8 @@ caption {
 tbody tr:nth-child(odd) {
   background-color: $stripes;
 }
+
+th:last-child,
+td:last-child {
+  border-right: 0px;
+}
