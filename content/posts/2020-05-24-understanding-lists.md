@@ -173,7 +173,7 @@ ghci> [2,4..20]
 ```
 To count down in a list, it's not sufficient to write `[20..1]`.
 
->To make a list with all number from 20 down to 1 you have to type `[20,19..1]` . 
+>To make a list with all numbers from 20 down to 1 you have to type `[20,19..1]` . 
 
 ### Infinite Lists
 
