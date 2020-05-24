@@ -34,12 +34,12 @@ Checked things stay here until I write about them.
 - [x] Comments
 - [x] Difference to Imperative Language
 - [x] QuickCheck
-- [ ] Tuples
-- [ ] Pairs
-- [ ] Pattern Matching
+- [x] Tuples
+- [x] Pairs
+- [x] Pattern Matching
 - [x] Guards
-- [x] Ranges
 - [x] Recursion
+- [x] List Comprehension
 - [x] Higher Order Functions
   - [ ] Curried Functions
   - [x] Map
@@ -50,7 +50,6 @@ Checked things stay here until I write about them.
 - [x] Function Application with $
 - [ ] Data & Type System
   - [ ] Defining a New Data Type, Data Abstraction
-  - [x] Most Common Data Types
   - [ ] Type Parameters
   - [ ] Type Synonyms
   - [ ] Type Classes
@@ -59,10 +58,6 @@ Checked things stay here until I write about them.
 - [ ] Algorithms
   - [ ] Quicksort
 - [x] Data Structures
-  - [x] Lists
-  - [x] List Functions (head, concatenate,...)
-  - [x] List Comprehension
-  - [x] Infinite Lists
   - [x] Tree
 - [ ] Input / Output
 - [ ] Monads
@@ -116,5 +111,9 @@ Checked things stay here until I write about them.
 
 ## Learned
 
-Since I haven't written any articles yet,
-all things I've learned are still in the section above.
+#### Haskell
+
+- [x] [Lists](/haskell-understanding-lists)
+  - [x] [Infinite Lists](/haskell-understanding-lists/#infinite-lists)
+  - [x] [List Functions (head, concatenate,...)](haskell-understanding-lists/#list-operations)
+  - [x] [Ranges](/haskell-understanding-lists/#ranges)
