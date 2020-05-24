@@ -293,6 +293,11 @@ $dark-primary: $tag;
     background-color: lighten($background, 2%);
   }
 
+  th:last-child,
+  td:last-child {
+    border-right: 0px;
+  }
+
   pre code {
     background: #3f4447;
   }
