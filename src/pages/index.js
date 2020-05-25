@@ -32,7 +32,7 @@ export default class Index extends Component {
                 {`...welcome to my personal notepad. I like to `}
                 <Link to="/blog/">write</Link>{` `}
                 {`about functional programming,
-                Swift development and other cool stuff. I work off my creativity
+                data structures and other cool stuff. I work off my creativity
                 on `}
                 <Link to="/projects/">side-projects</Link>
                 .
