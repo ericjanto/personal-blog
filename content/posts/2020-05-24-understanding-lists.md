@@ -57,9 +57,11 @@ emptyList = []
 We stated that all elements have to be of the **same type**. Consider this example:
 
 ```haskell
-someNumbers = [1,2,3,42,42,1]       -- valid
+ -- valid:
+someNumbers = [1,2,3,42,42,1]
 
-invalidList = [1,"sneaky string",5] -- not valid, the compiler will shout at you
+-- not valid, the compiler will shout at you:
+invalidList = [1,"sneaky string",5]
 ```
 
 In this case, we tried to store both integers and a string in `invalidList`. Since they are not of the same type, the compiler will complain.
