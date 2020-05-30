@@ -282,3 +282,19 @@ dd {
 [type='checkbox'] {
   margin-right: 1rem;
 }
+
+// Toggle to fix: font-size, margin of details aligned with summary,
+// on hover like hover on article
+
+summary,
+details {
+  font: $font-style $font-variant $font-weight $font-size $line-height $font-family;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+
+  }
+}
