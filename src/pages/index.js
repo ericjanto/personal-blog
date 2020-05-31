@@ -29,7 +29,7 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hi there...`} </h1>
               <p>
-                {`...welcome to my personal notepad. I like to `}
+                {`...welcome to my personal notepad. I `}
                 <Link to="/blog/">write</Link>{` `}
                 {`about functional programming,
                 data structures and other cool stuff. I work off my creativity
