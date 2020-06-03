@@ -10,11 +10,10 @@ This includes both topics from **Computer Science** and **Artificial Intelligenc
 
 ## Classes at Uni
 
-- [x] First Semester
+- [x] First Year
   - [x] Introduction to Computation (Logic & Haskell)
   - [x] Introduction to Linear Algebra
   - [x] Topics in Popular Music
-- [x] Second Semester
   - [x] Object-Orientated Programming (Java)
   - [x] Calculus and Its Applications
   - [x] Foundation French Language 2
