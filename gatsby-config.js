@@ -50,7 +50,6 @@ module.exports = {
               maxWidth: 850,
             },
           },
-          'gatsby-remark-prismjs',
           {
             resolve: `gatsby-remark-table-of-contents`,
             options: {
@@ -60,6 +59,7 @@ module.exports = {
               toHeading: 6
             },
           },
+          'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           {
             resolve: `gatsby-remark-autolink-headers`,

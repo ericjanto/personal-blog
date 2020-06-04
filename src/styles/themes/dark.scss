@@ -513,4 +513,22 @@ $dark-primary: $tag;
   path {
     stroke: $attribute;
   }
+
+  // Table of Contents
+
+  .toc {
+    ul li {
+      color: rgba(255,255,255,0.6);
+    }
+
+    a {
+      color: rgba(255,255,255,0.6);
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.14) 100%);
+
+      &:hover {
+        background: rgba(255,255,255,0.08)!important;
+        color: rgba(255,255,255,0.6)!important;
+      }
+    }
+  }
 }
