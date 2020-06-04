@@ -531,4 +531,20 @@ $dark-primary: $tag;
       }
     }
   }
+
+  // graphviz
+
+  .post svg {
+    border-radius: 5px;
+    border: 2px solid lighten(#3F80FF,5%);
+    background: lighten(#3F80FF,25%);
+  }
+
+  .graph > polygon {
+    fill: lighten(#3F80FF,25%);
+  }
+
+  .graph path {
+    stroke: #000000;
+  }
 }
