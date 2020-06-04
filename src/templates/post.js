@@ -9,6 +9,8 @@ import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 import eric from '../../content/images/portrait.png'
 
+import 'katex/dist/katex.min.css'
+
 // eslint-disable-next-line no-lone-blocks
 {/* import UserInfo from '../components/UserInfo' */}
 

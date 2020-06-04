@@ -342,3 +342,13 @@ details {
     outline: none;
   }
 } */
+
+// math equation katex
+
+.katex {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+
+  background: lighten(#5183f5,33%);
+}
