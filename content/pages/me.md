@@ -53,5 +53,5 @@ Pieces I'm learning at the moment:
 - **IDE:**  [Xcode](https://developer.apple.com/xcode/), [IntelliJ IDEA](https://www.jetbrains.com/de-de/idea/)
 - **Static site generator:** [Gatsby](https://gatsbyjs.org)
 - **Syntax highlighting:** [PrismJS](http://prismjs.com/)
-- **Code theme:** [New Moon](https://taniarascia.github.io/new-moon) with bits of Notion's code theme
+- **Code theme:** [New Moon](https://taniarascia.github.io/new-moon) with bits of [Notion's code theme](https://www.notion.so/Code-blocks-69df2788f65345bbbe18596cfa1750fe)
 - **Organisation:** [Notion](https://www.notion.so/?r=0970c1810c2f45918f297f8aefc85041)
