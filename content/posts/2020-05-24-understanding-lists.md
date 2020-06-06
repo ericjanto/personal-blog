@@ -224,4 +224,4 @@ Comments are ignored by the compiler. -}
 
 ---
 
-Any questions, critiques or comments? Feel free to [write me an email](mailto:jantoeric@gmail.com), I'd be happy to hear from you.
+Any questions, critiques or comments? Feel free to [contact me](/contact/), I'd be happy to hear from you.
