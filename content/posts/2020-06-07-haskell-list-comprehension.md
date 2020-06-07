@@ -44,11 +44,11 @@ ghci> [x*10 | x <- [1..5]]
 [10,20,30,40,50]
 ```
 
-Look's rather confusing, right? It's not too bad if we look at this example part for part
-
-Everything after the pipe `|` is the **Generator**.
+Look's rather confusing, right? It's not too bad if we look at this example part for part.
 
 ### Generators
+
+Everything after the pipe `|` is the **Generator**.
 
 A Generator:
 1. *Generates* the set of values we can work with.
