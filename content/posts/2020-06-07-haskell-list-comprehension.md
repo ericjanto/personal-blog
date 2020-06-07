@@ -14,7 +14,17 @@ tags:
   - 'functional programming'
 ---
 
-List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the beginning.
+List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the 
+beginning.
+
+#### Table of Contents
+
+```toc
+exclude: Table of Contents
+tight: false,
+from-heading: 2
+to-heading: 3
+```
 
 #### Prerequisites
 
