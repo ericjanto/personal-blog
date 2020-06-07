@@ -37,6 +37,10 @@ I couldn't find a more concise and better definition than the one by Miran Lipov
 
 > List comprehensions are a way to filter, transform, and combine lists.
 
+### Fundamental Understanding
+
+Our [prof](https://en.wikipedia.org/wiki/Philip_Wadler) liked to describe the process of list comprehensions as "swoosh", meaning that we can imagine list comprehension as something that manipulates *all* list elements *at the same time*. In contrast, recursion was described as "ticky ticky ticky", something which manipulates a list item successively – I know, some weird first year teaching techniques. But they really helped me to understand those processes, so no blame at this point.
+
 Let's dive right into an example:
 
 ```haskell
@@ -60,10 +64,6 @@ Everything before the pipe determines the *output* of the list comprehension. It
 In our example, we **generate** a set of values from the list `1..5` . We bind each element of the list to `x`. In the expression (before `|`) we defined that every element (`x`) should be multiplied by `10`. Therefore, our resulting list is `[10,20,30,40,50]`.
 
 If you didn't completely understand what I was talking about, don't worry! Just re-read the important paragraphs and each time it should make a bit more sense.
-
-### Fundamental Understanding
-
-Our [prof](https://en.wikipedia.org/wiki/Philip_Wadler) liked to describe the process of list comprehensions as "swoosh", meaning that we can imagine list comprehension as something that manipulates *all* list elements *at the same time*. In contrast, recursion was described as "ticky ticky ticky", something which manipulates a list item successively – I know, some weird first year teaching techniques. But they really helped me to understand those processes, so no blame at this point.
 
 ### Predicates
 
