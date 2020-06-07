@@ -10,6 +10,7 @@ categories:
 tags:
   - 'haskell'
   - 'data structures'
+  - 'list'
   - 'functional programming'
 ---
 
@@ -219,7 +220,7 @@ Comments are ignored by the compiler. -}
 ### Further Reading
 
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 7-14`
-<!-- - [List Comprehension](/haskell-list-comprehension) -->
+- [How to Use List Comprehension in Haskell](/haskell-list-comprehension/)
 <!-- - [Recursion](/haskell-recursion) -->
 
 ---
