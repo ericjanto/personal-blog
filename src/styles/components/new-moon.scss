@@ -5,13 +5,6 @@ code {
   font-size: 13px;
 }
 
-a code {
-  border-bottom: 2px solid $primary-color !important;
-  &:hover {
-    color: white !important;
-  }
-}
-
 pre.language-terminal code.language-terminal {
   position: relative;
   padding: 1rem;
