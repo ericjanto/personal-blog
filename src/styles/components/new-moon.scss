@@ -5,6 +5,12 @@ code {
   font-size: 13px;
 }
 
+a code {
+  &:hover {
+    color: white !important;
+  }
+}
+
 pre.language-terminal code.language-terminal {
   position: relative;
   padding: 1rem;
