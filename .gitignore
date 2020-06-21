@@ -60,3 +60,6 @@ public/
 
 # Bundle stats
 bundle-stats.json
+
+# NVM
+.bash_profile
