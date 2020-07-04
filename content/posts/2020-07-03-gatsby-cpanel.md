@@ -29,7 +29,7 @@ However, I was forced to use cPanel as a hosting platform for a new project. Whi
 
 I tried to set up continuos deployment system which [should be possible](https://blog.cpanel.com/git-version-control-soon-with-automatic-deployment/). I tried it for a few hours and gave up after running into too many problems (please [conact](/contact/) me if you have a simple step-by-step guide and wanna help me out in that regard).
 
-## Withouth Git – Newbie Version
+## Without Git – Newbie Version
 
 If you're totally new to using Git and you don't want to spend some time learning the basics yet, this way works perfectly fine for you.
 
@@ -74,7 +74,7 @@ This should create a new `public` directory in your project directory. In there 
 
 Then run `gatsby serve` to check whether everything is alright with the website.
 
-```terminal
+```bash
 $ gatsby serve
 ⠀
 You can now view ericjanto.com in the browser.
@@ -85,7 +85,7 @@ You can now view ericjanto.com in the browser.
 On macOS, you can terminate the serve process by typing `^C` (control + c).
 If everything looks alright, go to cPanel and log in.
 
-Go to the file manager and look for the `public_html` directory. Usually, it has the web icon 🌐 in front of the name.
+Go to the file manager and look for the `public_html` directory. Usually, it has the web icon (🌐) in front of the name.
 
 Delete everything in there (if you don't need if for the new website) and click on `Upload`. Upload the entire content of the `public` directory (the one created with the `gatsby build` command). Make sure that the files are directly in the `public_html` directory, not in a new subdirectory.
 
