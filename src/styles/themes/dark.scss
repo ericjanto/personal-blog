@@ -375,6 +375,10 @@ $dark-primary: $tag;
     }
   }
 
+  .container-extended {
+    border-top: 1px solid #282c2f;
+  }
+
   #{$forms} {
     color: $foreground;
     border: 2px solid #444;
