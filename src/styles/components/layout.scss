@@ -385,7 +385,6 @@
         .each {
           padding: 0.75rem 1rem;
           margin: 0 -1rem;
-          border-bottom: 1px solid lighten($border-color, 12%);
 
           &:hover {
             border: 1px solid $light;

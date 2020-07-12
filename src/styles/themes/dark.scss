@@ -255,6 +255,10 @@ $dark-primary: $tag;
   .projects {
     .each {
       border-bottom: 1px solid $dark-border;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
     }
     h2 {
       color: $foreground;

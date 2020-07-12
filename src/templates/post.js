@@ -6,8 +6,7 @@ import Layout from '../layout'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import { formatDate, editOnGithub } from '../utils/global'
-import eric from '../../content/images/portrait.png'
+import { formatDate } from '../utils/global'
 
 import 'katex/dist/katex.min.css'
 
@@ -50,18 +49,7 @@ export default class PostTemplate extends Component {
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <Link to="/me/">
-                  <img src={eric} className="avatar-small" alt="Eric" />
-                </Link>
-                <time className="date">{date}</time>/
-                <a
-                  className="twitter-link"
-                  href={twitterShare}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Share
-                </a>
+                <time className="date">{date}</time>
               </div>
               <PostTags tags={post.tags} />
             </div>
@@ -69,7 +57,6 @@ export default class PostTemplate extends Component {
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        {/* <UserInfo config={config} /> */}
       </Layout>
     )
   }

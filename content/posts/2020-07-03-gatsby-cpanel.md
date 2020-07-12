@@ -128,6 +128,4 @@ Choose a repo name and click on `Create`. Make sure that your `public_html` fold
 
 ---
 
-That should be it! Enjoy your website, hosted and deployed to cPanel.
-
-I hope I never have to work with cPanel again.
+That should be it! Enjoy your website, generated with Gatsby, hosted and deployed to cPanel.
