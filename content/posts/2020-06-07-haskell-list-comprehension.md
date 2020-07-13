@@ -17,7 +17,7 @@ beginning.
 - [Understanding Lists in Haskell](/haskell-understanding-lists/)
 - Optional: Basic understanding of set theory
 
-## List Comprehension – "Swooooosh"
+## List Comprehension
 
 I couldn't find a more concise and better definition than the one by Miran Lipovača: 
 
