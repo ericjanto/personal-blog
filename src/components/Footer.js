@@ -1,21 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
+import CV from '../../content/files/cv.pdf'
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <footer className="footer container-extended">
-        <div className="left-side">
-          <Link to="/contact/">Contact</Link>
-          <a href="https://www.ericjanto.com/rss.xml" target="_blank" rel="noopener noreferrer">
-            RSS
+export default function Footer() {
+  return (
+    <footer className="footer container">
+      <section className="flex">
+      <nav className="footer-links">
+          <Link to="/me">About</Link>
+          <a
+            href={CV}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CV
           </a>
-        </div>
-        <div className="right-side">
-          <Link to="/me/">About</Link>
-          <Link to="/cv/">CV</Link>
-        </div>
-      </footer>
-    )
-  }
+        </nav>
+        <nav className="footer-links">
+          <Link to="/contact">Contact</Link>
+          <Link to="/rss.xml">RSS feed</Link>
+        </nav>
+      </section>
+    </footer>
+  )
 }

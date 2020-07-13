@@ -2,14 +2,11 @@
 date: 2020-07-03
 title: 'Deploying Your Gatsby Site to cPanel'
 template: post
-thumbnail: '../images/gatsby.png'
 slug: deploy-gatsby-cpanel
-categories:
-  - Coding
 tags:
   - 'gatsby'
   - 'cPanel'
-  - 'web development'
+  - 'server'
 ---
 
 Gatsby is a static site generator. This means, for instance, that you can write some parts of your website using Markdown. Gatsby then transforms it, using some fancy magic, into a single HTML file and some static assets. The benefit is that almost every hosting platform supports plain HTML and more importantly, that Gatsby sites are usually really fast and secure.

@@ -1,25 +1,29 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
-import Layout from '../layout'
-import ProjectListing from '../components/ProjectListing'
+
+import Layout from '../components/Layout'
+import Projects from '../components/Projects'
 import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import projects from '../../data/projectsAll'
+import config from '../utils/config'
 
-export default class Index extends Component {
-  render() {
+import projects from '../data/projects'
 
-    return (
-      <Layout>
-        <Helmet title={`Projects – ${config.siteTitle}`} />
-        <SEO />
-        <div className="container front-page">
-          <section className="section">
-            <h2>My Projects</h2>
-            <ProjectListing projects={projects} />
-          </section>
-        </div>
-      </Layout>
-    )
-  }
+export default function BlogProjects() {
+
+  const Section = ({ title, children, ...props }) => (
+    <section {...props}>
+      <h2>{title}</h2>
+      {children}
+    </section>
+  )
+
+  return (
+    <Layout>
+      <Helmet title={config.siteTitle} />
+      <SEO />
+      <Section title="Projects">
+        <Projects data={projects} />
+      </Section>
+    </Layout>
+  )
 }

@@ -1,76 +1,56 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import Layout from '../layout'
-import PostTags from '../components/PostTags'
+
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import { formatDate } from '../utils/global'
 
-import 'katex/dist/katex.min.css'
+import config from '../utils/config'
 
-// eslint-disable-next-line no-lone-blocks
-{/* import UserInfo from '../components/UserInfo' */}
+export default function PostTemplate({ data, pageContext, ...props }) {
+  const post = data.markdownRemark
+  const { previous, next } = pageContext
+  const { thumbnail } = post.frontmatter
 
-export default class PostTemplate extends Component {
-  render() {
-    const { slug } = this.props.pageContext
-    const postNode = this.props.data.markdownRemark
-    const post = postNode.frontmatter
-    let thumbnail
-
-    if (!post.id) {
-      post.id = slug
-    }
-
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID
-    }
-
-    if (post.thumbnail) {
-      thumbnail = post.thumbnail.childImageSharp.fixed
-    }
-
-    const date = formatDate(post.date)
-    const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
-      config.siteUrl
-    }/${post.slug}/&via=JantoEric`
-
-    return (
-      <Layout>
-        <Helmet>
-          <title>{`${post.title} – ${config.siteTitle}`}</title>
-        </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
-        <article className="single container">
-          <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
-            {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
-            <div className="flex">
-              <h1>{post.title}</h1>
-              <div className="post-meta">
-                <time className="date">{date}</time>
-              </div>
-              <PostTags tags={post.tags} />
-            </div>
+  return (
+    <Layout>
+      <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
+      <SEO postPath={post.fields.slug} postNode={post} postSEO />
+      <section className="grid post">
+        <article>
+          <header className="article-header medium">
+            {thumbnail && (
+              <Img
+                fixed={thumbnail.childImageSharp.fixed}
+                className="post-thumbnail"
+              />
+            )}
+            <h1>{post.frontmatter.title}</h1>
           </header>
-
-          <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
-      </Layout>
-    )
-  }
+        <Sidebar post={post} {...props} />
+      </section>
+      <Suggested previous={previous} next={next} />
+    </Layout>
+  )
 }
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      timeToRead
       excerpt
+      fields {
+        slug
+      }
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
+        tags
         thumbnail {
           childImageSharp {
             fixed(width: 150, height: 150) {
@@ -78,15 +58,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        slug
-        date
-        categories
-        tags
-        template
-      }
-      fields {
-        slug
-        date
       }
     }
   }

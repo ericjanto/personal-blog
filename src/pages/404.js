@@ -1,15 +1,18 @@
-import React, { Component } from 'react'
-import ThemeContext from '../context/ThemeContext'
-import Layout from '../layout'
+import React from 'react'
+import Helmet from 'react-helmet'
+
+import Layout from '../components/Layout'
 import SEO from '../components/SEO'
-import {NotFoundBox} from '../components/NotFoundBox';
 
+import config from '../utils/config'
 
-const NotFoundPage = () => (
-  <Layout simple>
-    <SEO title="404: Not found" />
-    <NotFoundBox />
-  </Layout>
-);
-
-export default NotFoundPage;
+export default function FourOhFour() {
+  return (
+    <Layout>
+      <Helmet title={`404 | ${config.siteTitle}`} />
+      <SEO />
+      <h1>404</h1>
+      <p>The page you're looking for doesn't exist.</p>
+    </Layout>
+  )
+}

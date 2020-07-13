@@ -2,36 +2,22 @@
 date: 2020-06-07
 title: 'How to Use List Comprehension in Haskell'
 template: post
-thumbnail: '../thumbnails/haskell.png'
 slug: haskell-list-comprehension
-categories:
-  - Coding
-  - Basics
 tags:
   - 'haskell'
-  - 'list'
-  - 'data structures'
-  - 'functional programming'
+  - 'data-structures'
+  - 'basics'
 ---
 
 List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the 
 beginning.
-
-#### Table of Contents
-
-```toc
-exclude: Table of Contents
-tight: false,
-from-heading: 2
-to-heading: 3
-```
 
 #### Prerequisites
 
 - [Understanding Lists in Haskell](/haskell-understanding-lists/)
 - Optional: Basic understanding of set theory
 
-## List Comprehension – "Swooooosh"
+## List Comprehension
 
 I couldn't find a more concise and better definition than the one by Miran Lipovača: 
 

@@ -2,16 +2,11 @@
 date: 2020-05-24
 title: 'Understanding Lists in Haskell'
 template: post
-thumbnail: '../thumbnails/haskell.png'
 slug: haskell-understanding-lists
-categories:
-  - Coding
-  - Basics
 tags:
   - 'haskell'
-  - 'data structures'
-  - 'list'
-  - 'functional programming'
+  - 'data-structures'
+  - 'basics'
 ---
 
 *This article is directed at Haskell beginners. If you're already experienced, you may want to
