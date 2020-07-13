@@ -115,6 +115,10 @@ ol li ol {
   margin-right: 0.5rem;
 }
 
+hr {
+  
+}
+
 blockquote {
   margin: 1.5rem 0;
   padding: 1rem;
@@ -275,6 +279,14 @@ aside a.link:hover {
 
 .aside-content {
   border-top: 2px solid var(--light-background);
+}
+
+.visible {
+  display: initial;
+}
+
+.invisible {
+  display: none;
 }
 
 @media screen and (min-width: 1000px) {
@@ -946,7 +958,7 @@ a.tag-new-year:hover {
   color: white;
 }
 
-a.tag-fundamentals,
+a.tag-basics,
 a.tag-game,
 a.tag-testing,
 a.tag-security {
@@ -954,7 +966,7 @@ a.tag-security {
   color: #111;
 }
 
-a.tag-fundamentals:hover,
+a.tag-basics:hover,
 a.tag-game:hover,
 a.tag-testing:hover,
 a.tag-security:hover {
@@ -974,20 +986,14 @@ a.tag-automation:hover {
   color: white;
 }
 
-a.tag-wordpress,
-a.tag-projects,
-a.tag-reference,
-a.tag-notes,
-a.tag-jQuery {
+a.tag-project,
+a.tag-notes {
   background: #e3fafc;
   color: #0c8599;
 }
 
-a.tag-wordpress:hover,
-a.tag-projects:hover,
-a.tag-reference:hover,
-a.tag-notes:hover,
-a.tag-jQuery:hover {
+a.tag-project:hover,
+a.tag-notes:hover {
   background: #1098ad;
   color: white;
 }

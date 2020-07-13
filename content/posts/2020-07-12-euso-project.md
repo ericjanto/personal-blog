@@ -1,6 +1,6 @@
 ---
 date: 2020-07-12
-title: 'Project Wrap-Up: Gatsby Website for the Edinburgh University String Orchestra'
+title: 'A Gatsby Website for the Edinburgh University String Orchestra'
 template: post
 slug: euso-project
 tags:

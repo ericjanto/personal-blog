@@ -1,11 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import SearchForm from '../components/SearchForm'
-
 import { slugify } from '../utils/helpers'
 
-export default function Sidebar({ post, ...props }) {
+export default function Sidebar({ post }) {
   const { tags } = post.frontmatter
 
   return (
@@ -27,11 +24,6 @@ export default function Sidebar({ post, ...props }) {
                 </Link>
               ))}
           </div>
-        </section>
-        
-        <section>
-          <h3>Search</h3>
-          <SearchForm {...props} />
         </section>
       </div>
     </aside>

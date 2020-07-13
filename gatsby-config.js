@@ -1,15 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tania Rascia',
+    title: 'Eric Janto',
     author: {
-      name: 'Tania Rascia',
+      name: 'Eric Janto',
     },
     pathPrefix: '/',
-    siteUrl: 'https://www.taniarascia.com',
+    siteUrl: 'https://www.ericjanto.com',
     description:
-      'Software engineer and open source creator. This is my digital garden.',
-    feedUrl: 'https://www.taniarascia.com/rss.xml',
-    logo: 'https://www.taniarascia.com/logo.png',
+      'I write about computer science and other stuff.',
+    feedUrl: 'https://www.ericjanto.com/rss.xml',
   },
   plugins: [
     // ===================================================================================
