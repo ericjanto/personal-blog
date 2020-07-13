@@ -2,7 +2,6 @@
 date: 2020-07-03
 title: 'Deploying Your Gatsby Site to cPanel'
 template: post
-thumbnail: '../images/gatsby.png'
 slug: deploy-gatsby-cpanel
 tags:
   - 'gatsby'

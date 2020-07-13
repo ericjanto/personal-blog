@@ -2,7 +2,6 @@
 date: 2020-06-07
 title: 'How to Use List Comprehension in Haskell'
 template: post
-thumbnail: '../thumbnails/haskell.png'
 slug: haskell-list-comprehension
 tags:
   - 'haskell'

@@ -2,7 +2,6 @@
 date: 2020-05-24
 title: 'Understanding Lists in Haskell'
 template: post
-thumbnail: '../thumbnails/haskell.png'
 slug: haskell-understanding-lists
 tags:
   - 'haskell'

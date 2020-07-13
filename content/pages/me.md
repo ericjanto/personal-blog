@@ -8,3 +8,7 @@ I'm Eric.
 
 
 Naah that's not all, more information is coming soon:)
+
+- bucket list
+- music
+- education
