@@ -9,12 +9,10 @@ tags:
   - 'project'
 ---
 
-![screenshot of new EUSO website](../images/euso-new.png)
-
 - [Website](https://string.eusa.ed.ac.uk/)
 - [Source](https://github.com/Edinburgh-University-String-Orchestra/euso-website)
 
----
+![screenshot of new EUSO website](../images/euso-new.png)
 
 Joining the Edinburgh University String Orchestra was probably one of the best decisions I made since I moved to Edinburgh. The orchestra is famous for its welcoming and friendly atmosphere – this I can only confirm.
 
