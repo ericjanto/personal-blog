@@ -4,8 +4,6 @@ title: 'Project Wrap-Up: Gatsby Website for the Edinburgh University String Orch
 template: post
 thumbnail: '../thumbnails/euso.png'
 slug: euso-project
-categories:
-  - Coding
 tags:
   - 'project showcase'
   - 'gatsby'

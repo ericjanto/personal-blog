@@ -4,8 +4,6 @@ title: 'Deploying Your Gatsby Site to cPanel'
 template: post
 thumbnail: '../images/gatsby.png'
 slug: deploy-gatsby-cpanel
-categories:
-  - Coding
 tags:
   - 'gatsby'
   - 'cPanel'

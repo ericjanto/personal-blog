@@ -4,8 +4,6 @@ title: 'Starting This Blog – Ohh Boy...'
 template: post
 thumbnail: '../thumbnails/blog.png'
 slug: starting-this-blog
-categories:
-  - Personal
 tags:
   - 'blogging'
   - 'college'

@@ -4,9 +4,6 @@ title: 'Understanding Lists in Haskell'
 template: post
 thumbnail: '../thumbnails/haskell.png'
 slug: haskell-understanding-lists
-categories:
-  - Coding
-  - Basics
 tags:
   - 'haskell'
   - 'data structures'

@@ -4,9 +4,6 @@ title: 'How to Use List Comprehension in Haskell'
 template: post
 thumbnail: '../thumbnails/haskell.png'
 slug: haskell-list-comprehension
-categories:
-  - Coding
-  - Basics
 tags:
   - 'haskell'
   - 'list'
