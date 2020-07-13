@@ -6,7 +6,6 @@ thumbnail: '../thumbnails/haskell.png'
 slug: haskell-list-comprehension
 tags:
   - 'haskell'
-  - 'list'
   - 'data structures'
   - 'functional programming'
 ---

@@ -7,7 +7,6 @@ slug: haskell-understanding-lists
 tags:
   - 'haskell'
   - 'data structures'
-  - 'list'
   - 'functional programming'
 ---
 

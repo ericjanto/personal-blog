@@ -5,10 +5,9 @@ template: post
 thumbnail: '../thumbnails/euso.png'
 slug: euso-project
 tags:
-  - 'project showcase'
   - 'gatsby'
   - 'react'
-  - 'web development'
+  - 'project'
 ---
 
 ![screenshot of new EUSO website](../images/euso-new-website.png)

@@ -1,17 +1,17 @@
 ---
 date: 2020-05-10
-title: 'Starting This Blog – Ohh Boy...'
+title: 'Starting This Blog'
 template: post
 thumbnail: '../thumbnails/blog.png'
 slug: starting-this-blog
 tags:
-  - 'blogging'
-  - 'college'
+  - 'blog'
   - 'student life'
+  - 'notes'
 ---
 
-... not another blog!\
-Well, I couldn't agree more with you. Surely, there are enough blogs around the web,
+Not another blog!\
+That's what I thought initially. Surely, there are enough blogs around the web,
 covering every single topic one can think of. You know what? I don't care. This blog
 isn't even meant to be read by any people. There is a variety of different reasons why
 I started it.

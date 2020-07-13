@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import patreon from '../../content/thumbnails/patreon-light.png'
-import rss from '../../content/thumbnails/rss.png'
-
 import SearchForm from '../components/SearchForm'
 
 import { slugify } from '../utils/helpers'
