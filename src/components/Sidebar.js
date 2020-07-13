@@ -12,13 +12,6 @@ export default function Sidebar({ post, ...props }) {
     <aside>
       <div className="aside-content">
         <section>
-          <p>
-            I'm Tania, a software engineer and open-source creator. This website
-            is a compendium of things I've learned while writing code for fun
-            and profit.
-          </p>
-        </section>
-        <section>
           <h3>Published</h3>
           <time>{post.frontmatter.date}</time>
           <h3>Tags</h3>

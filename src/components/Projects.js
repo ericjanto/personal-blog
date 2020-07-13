@@ -9,8 +9,6 @@ export default function Projects({ data }) {
             href={node.path || node.source}
             key={node.path || node.source}
             className="row"
-            target="_blank"
-            rel="noreferrer"
           >
             <div className="cell simple">{node.icon}</div>
             <div className="cell simple">{node.title}</div>

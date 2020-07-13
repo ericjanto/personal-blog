@@ -19,9 +19,6 @@ export default function BlogIndex({ data, ...props }) {
       <SEO customDescription="Articles, tutorials, snippets, musings, and everything else." />
       <section>
         <h1>Blog</h1>
-        <p className="subtitle">
-          Articles, tutorials, snippets, musings, and everything else.
-        </p>
         <Search posts={simplifiedPosts} {...props} />
       </section>
     </Layout>

@@ -22,7 +22,6 @@ export default function SearchForm({ posts, location, navigate }) {
           setQuery(e.target.value)
         }}
       />
-      <button>🔍</button>
     </form>
   )
 }

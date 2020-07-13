@@ -35,7 +35,7 @@ export default function BlogIndex({ data, ...props }) {
           <p>
             This is my personal notepad. I <Link to="/blog">write</Link> about functional programming,
             data structures and other cool stuff. I work off my creativity on
-            <Link to="/guides"> side-projects</Link>.
+            <Link to="/projects"> side-projects</Link>.
           </p>
         </div>
       </section>
