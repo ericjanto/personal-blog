@@ -1,8 +1,7 @@
 export default {
-  siteTitle: 'Tania Rascia',
-  siteUrl: 'https://www.taniarascia.com',
-  siteLogo: '/logo.png',
+  siteTitle: 'Eric Janto',
+  siteUrl: 'https://www.ericjanto.com',
   description:
-    'Software engineer and open source creator. This is my digital garden.',
-  userTwitter: 'taniarascia',
+    'I write about computer science and other stuff.',
+  userTwitter: 'JantoEric',
 }

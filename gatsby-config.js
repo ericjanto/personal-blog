@@ -20,10 +20,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Tania Rascia',
-        short_name: 'Tania Rascia',
+        name: 'Eric Janto',
+        short_name: 'Eric Janto',
         description:
-          'Software engineer and open source creator. This is my digital garden.',
+          'I write about computer science and other stuff.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#5183f5',
@@ -85,7 +85,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tania Rascia | RSS Feed',
+            title: 'Eric Janto | RSS Feed',
           },
         ],
       },

@@ -5,8 +5,8 @@ template: post
 thumbnail: '../thumbnails/blog.png'
 slug: starting-this-blog
 tags:
-  - 'blog'
-  - 'student life'
+  - 'student-life'
+  - 'productivity'
   - 'notes'
 ---
 

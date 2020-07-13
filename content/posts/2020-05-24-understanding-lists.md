@@ -5,8 +5,8 @@ template: post
 slug: haskell-understanding-lists
 tags:
   - 'haskell'
-  - 'data structures'
-  - 'functional programming'
+  - 'data-structures'
+  - 'basics'
 ---
 
 *This article is directed at Haskell beginners. If you're already experienced, you may want to

@@ -17,7 +17,7 @@ export default function Footer() {
           </a>
         </nav>
         <nav className="footer-links">
-          <Link to="/rss.xml">Contact</Link>
+          <Link to="/contact">Contact</Link>
           <Link to="/rss.xml">RSS feed</Link>
         </nav>
       </section>
