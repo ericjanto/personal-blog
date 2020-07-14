@@ -30,7 +30,7 @@ export default function Sidebar({ post }) {
               This is a live article. As such, it gets regular updates within
               the next few weeks.
             </p>
-            <p>Last update: {live}</p>
+            <time>Last update: {live}</time><br />
             <Link to="/live-articles">The idea behind live articles</Link>
           </div>
           <h3>Tags</h3>
