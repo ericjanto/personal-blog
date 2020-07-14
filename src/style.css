@@ -984,12 +984,12 @@ a.tag-basics:hover {
   color: white;
 }
 
-a.tag-node {
+a.tag-live-article {
   background: #fff5f5;
   color: #e03131;
 }
 
-a.tag-node {
+a.tag-live-article:hover {
   background: #f03e3e;
   color: white;
 }
