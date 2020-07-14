@@ -6,6 +6,7 @@ export default function Sidebar({ post }) {
   const { tags } = post.frontmatter
   const project = post.frontmatter.path
   const source = post.frontmatter.source
+  const live = post.frontmatter.live
 
   return (
     <aside>
@@ -27,6 +28,12 @@ export default function Sidebar({ post }) {
           </div>
           <h3>Published</h3>
           <time>{post.frontmatter.date}</time>
+          <div className={live ? 'visible' : 'invisible' }>
+            <h3>Live Article</h3>
+            <p>This is a live article. As such, you can track it's progress and updates in realtime.</p>
+            <p>Last update: {live}</p>
+            <Link to="/live-articles">More about live articles</Link>
+          </div>
           <h3>Tags</h3>
           <div className="cell tags">
             {tags &&

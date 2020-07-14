@@ -50,6 +50,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        live(formatString: "MMMM DD, YYYY")
         tags
         path
         source
