@@ -11,7 +11,7 @@ tags:
 
 *This article itself is a live article hehe*
 
-### Draft 14th July 2020
+### Draft 15th July 2020
 
 Today, I had this idea: articles on my website which aren't complete yet.
 
