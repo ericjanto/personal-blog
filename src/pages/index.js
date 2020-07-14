@@ -30,10 +30,10 @@ export default function BlogIndex({ data, ...props }) {
       <section className="lead">
         <div>
           <h1>
-            Hi!
+            Hey friends,
           </h1>
           <p>
-            This is my personal notepad. I <Link to="/blog">write</Link> about functional programming,
+            I'm <Link to="/me">Eric</Link> and this is my personal notepad. I <Link to="/blog">write</Link> about functional programming,
             data structures and other cool stuff. I work off my creativity on
             <Link to="/projects"> side-projects</Link>.
           </p>
