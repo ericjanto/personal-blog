@@ -58,8 +58,9 @@ pre[class*='language-'] {
   padding: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
   overflow: auto;
 }
 
@@ -72,7 +73,6 @@ pre[class*='language-'] {
     padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0.3rem;
   }
 }
 

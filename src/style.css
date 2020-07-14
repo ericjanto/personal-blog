@@ -109,8 +109,13 @@ ol li ol {
   margin-bottom: 0;
 }
 
-.task-list-item [type='checkbox'] {
+.task-list-item {
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 0.3rem;
   margin-right: 0.5rem;
+  position: relative;
+  list-style-type: none;
 }
 
 hr {
@@ -917,12 +922,14 @@ mark {
   background: #ffec99;
 }
 
-a.tag-student-life {
+a.tag-student-life,
+a.tag-quick-tip {
   background: #fff3bf;
   color: black;
 }
 
-a.tag-student-life:hover {
+a.tag-student-life:hover,
+a.tag-quick-tip:hover {
   background: #ffd43b;
   color: black;
 }

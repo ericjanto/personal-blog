@@ -39,7 +39,7 @@ export default function BlogIndex({ data, ...props }) {
           </p>
         </div>
       </section>
-      <Section title="Latest">
+      <Section title="Recent Posts">
         <Posts data={simplifiedLatest} tags />
       </Section>
       <Section title="Projects">
