@@ -9,7 +9,6 @@ import config from '../utils/config'
 import projects from '../data/projects'
 
 export default function BlogProjects() {
-
   const Section = ({ title, children, ...props }) => (
     <section {...props}>
       <h2>{title}</h2>

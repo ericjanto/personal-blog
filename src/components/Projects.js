@@ -12,7 +12,9 @@ export default function Projects({ data }) {
           >
             <div className="cell simple">{node.icon}</div>
             <div className="cell simple">{node.title}</div>
-            <div className="cell simple light description">{node.description}</div>
+            <div className="cell simple light description">
+              {node.description}
+            </div>
           </a>
         )
       })}

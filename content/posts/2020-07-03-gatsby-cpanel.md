@@ -16,13 +16,14 @@ When I first used Gatsby to build this website, I was amazed about how easy the 
 However, I was forced to use cPanel as a hosting platform for a new project. While it is certainly possible to deploy your Gatsby project on cPanel within a few minutes, I struggled very much with it, having never done it before. This article covers a simple step-by-step explanation on what exactly to do.
 
 #### Objectives
-  - Publish a Gatsby site using cPanel
-  - Integrate a GitHub repo
+
+- Publish a Gatsby site using cPanel
+- Integrate a GitHub repo
 
 #### What this is not
 
-  - Setup for continuous deployment
-  - Setup of a domain with cPanel
+- Setup for continuous deployment
+- Setup of a domain with cPanel
 
 I tried to set up continuos deployment system which [should be possible](https://blog.cpanel.com/git-version-control-soon-with-automatic-deployment/). I tried it for a few hours and gave up after running into too many problems (please [conact](/contact/) me if you have a simple step-by-step guide and wanna help me out in that regard).
 
@@ -88,7 +89,6 @@ Delete everything in there (if you don't need if for the new website) and click 
 
 That's it. If you've already linked a domain to your cPanel profile, the website should now be online.
 
-
 ## Using GitHub
 
 While the way described above works perfectly fine, it gets a bit tedious to download and upload the entire `public` folder every time you change some detail on your website. An easy workaround is to use a GitHub repository.
@@ -121,7 +121,7 @@ Once you've set up your repository and everything is on GitHub, go to the cPanel
 Then choose a path where your repository should be stored. It doesn't really matter, you can choose any path.
 I chose `/home/userName/repositories` as it makes it easier to find it should I ever need to.
 
-Choose a repo name and click on `Create`. Make sure that your `public_html` folder is empty, go back to the Git control panel in cPanel and click on the `Manage` button next to your repository name. Then go to `Pull or Deploy`, click on `Update from Remote` and then `Deploy HEAD Commit`. 
+Choose a repo name and click on `Create`. Make sure that your `public_html` folder is empty, go back to the Git control panel in cPanel and click on the `Manage` button next to your repository name. Then go to `Pull or Deploy`, click on `Update from Remote` and then `Deploy HEAD Commit`.
 
 ---
 

@@ -9,7 +9,7 @@ tags:
   - 'basics'
 ---
 
-List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the 
+List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the
 beginning.
 
 #### Prerequisites
@@ -19,13 +19,13 @@ beginning.
 
 ## List Comprehension
 
-I couldn't find a more concise and better definition than the one by Miran Lipovača: 
+I couldn't find a more concise and better definition than the one by Miran Lipovača:
 
 > List comprehensions are a way to filter, transform, and combine lists.
 
 ### Fundamental Understanding
 
-Our [prof](https://en.wikipedia.org/wiki/Philip_Wadler) liked to describe the process of list comprehensions as "swoosh", meaning that we can imagine list comprehension as something that manipulates *all* list elements *at the same time*. In contrast, recursion was described as "ticky ticky ticky", something which manipulates a list item successively – I know, some weird first year teaching techniques. But they really helped me to understand those processes, so no blame at this point.
+Our [prof](https://en.wikipedia.org/wiki/Philip_Wadler) liked to describe the process of list comprehensions as "swoosh", meaning that we can imagine list comprehension as something that manipulates _all_ list elements _at the same time_. In contrast, recursion was described as "ticky ticky ticky", something which manipulates a list item successively – I know, some weird first year teaching techniques. But they really helped me to understand those processes, so no blame at this point.
 
 Let's dive right into an example:
 
@@ -41,11 +41,12 @@ Look's rather confusing, right? It's not too bad if we look at this example part
 Everything after the pipe `|` is the **Generator**.
 
 A Generator:
-1. *Generates* the set of values we can work with.
-2. *Binds* each element from that set of values to `x` .
-3. We *draw* our elements from that set (`<-` is pronounced "drawn from").
 
-Everything before the pipe determines the *output* of the list comprehension. It's basically what we want to do with the list elements.
+1. _Generates_ the set of values we can work with.
+2. _Binds_ each element from that set of values to `x` .
+3. We _draw_ our elements from that set (`<-` is pronounced "drawn from").
+
+Everything before the pipe determines the _output_ of the list comprehension. It's basically what we want to do with the list elements.
 
 In our example, we **generate** a set of values from the list `1..5` . We bind each element of the list to `x`. In the expression (before `|`) we defined that every element (`x`) should be multiplied by `10`. Therefore, our resulting list is `[10,20,30,40,50]`.
 
@@ -53,7 +54,7 @@ If you didn't completely understand what I was talking about, don't worry! Just 
 
 ### Predicates
 
-If we do not want to draw all elements from a list, we can add a condition, a *predicate*. A predicate is a function which takes an element and returns a boolean value.
+If we do not want to draw all elements from a list, we can add a condition, a _predicate_. A predicate is a function which takes an element and returns a boolean value.
 
 Continuing with our first example, let's say we only want to bind numbers to `x` which are strictly greater than `2`:
 
@@ -70,7 +71,7 @@ So concluding the structure of a list comprehension, this might help memorise ev
 [ Output | Generator, predicate 1, predicate 2, ... ]
 ```
 
-Using predicates to get exactly the elements of a list you want is called *filtering*.
+Using predicates to get exactly the elements of a list you want is called _filtering_.
 
 We can also have multiple generators to draw values from several lists:
 
@@ -89,10 +90,10 @@ We first **generate** a set of values from some list. The set can be filtered us
 
 ### Off-Road Knowledge
 
-
-- `_` is an undefined variable, a *wildcard variable*. We can use it when we don't care about the value which is assigned to `_`
+- `_` is an undefined variable, a _wildcard variable_. We can use it when we don't care about the value which is assigned to `_`
 
 - It's always a good exercise to define library functions on your own
+
 ```haskell
 length' :: [a] -> int
 length' ls = sum[1 | _ <- ls]
@@ -100,6 +101,7 @@ length' ls = sum[1 | _ <- ls]
 
 - Infix functions are functions notated with a \` around them, apart from infix operators such as `+` or `*`
 - Infix functions are syntactic sugar, both prefix and infix functions can be written the other way
+
 ```haskell
 λ> zip [1..] "ABCD" == [1..] `zip` "ABCD"
 True

@@ -35,4 +35,3 @@ This method works also with functions you've defined in an own .hs-file. You can
 ---
 
 Tip: If you're interested in prime number algorithms, check out the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
-

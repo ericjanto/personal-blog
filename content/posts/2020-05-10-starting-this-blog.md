@@ -21,7 +21,7 @@ I started it.
 Before I started planning this blog out, I asked myself:
 
 > "Yo, do you really want to invest hours of your life starting
-this blog? Why don't you just watch Netflix?"
+> this blog? Why don't you just watch Netflix?"
 
 Since I'm quite pragmatic in making such decisions, I divided my reasons into
 two categories: **Purpose** and **Goals**.
@@ -37,7 +37,7 @@ two categories: **Purpose** and **Goals**.
 ### Goals
 
 - Create a library of knowledge such that I can come back here, should I forget
-something (screw that [forgetting-curve](https://en.wikipedia.org/wiki/Forgetting_curve))
+  something (screw that [forgetting-curve](https://en.wikipedia.org/wiki/Forgetting_curve))
 - Inspire people to study computer science (it's great)
 - Motivate myself to study more CS topics in depth ([learning in public](/learn)-concept)
 
@@ -49,13 +49,9 @@ something (screw that [forgetting-curve](https://en.wikipedia.org/wiki/Forgettin
 ### Topics I'll Be Writing About
 
 - Student life
-- Computer Science
-	- Everything my [degree](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=view&code=GG47) covers
-	- Everything that interests me
-	- Swift development since that's what I'm going for atm
+- Computer Science - Everything my [degree](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=view&code=GG47) covers - Everything that interests me - Swift development since that's what I'm going for atm
 - Artificial Intelligence
 - In general topics on my [learn page](/learn)
-
 
 ## Inspiration
 

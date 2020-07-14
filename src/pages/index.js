@@ -29,12 +29,11 @@ export default function BlogIndex({ data, ...props }) {
       <SEO />
       <section className="lead">
         <div>
-          <h1>
-            Hey friends,
-          </h1>
+          <h1>Hey friends,</h1>
           <p>
-            I'm <Link to="/me">Eric</Link> and this is my personal notepad. I <Link to="/blog">write</Link> about functional programming,
-            data structures and other cool stuff. I work off my creativity on
+            I'm <Link to="/me">Eric</Link> and this is my personal notepad. I{' '}
+            <Link to="/blog">write</Link> about functional programming, data
+            structures and other cool stuff. I work off my creativity on
             <Link to="/projects"> side-projects</Link>.
           </p>
         </div>

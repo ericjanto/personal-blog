@@ -6,13 +6,9 @@ export default function Footer() {
   return (
     <footer className="footer container">
       <section className="flex">
-      <nav className="footer-links">
+        <nav className="footer-links">
           <Link to="/me">About</Link>
-          <a
-            href={CV}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={CV} target="_blank" rel="noopener noreferrer">
             CV
           </a>
         </nav>

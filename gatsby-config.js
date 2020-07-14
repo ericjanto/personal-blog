@@ -6,8 +6,7 @@ module.exports = {
     },
     pathPrefix: '/',
     siteUrl: 'https://www.ericjanto.com',
-    description:
-      'I write about computer science and other stuff.',
+    description: 'I write about computer science and other stuff.',
     feedUrl: 'https://www.ericjanto.com/rss.xml',
   },
   plugins: [
@@ -22,8 +21,7 @@ module.exports = {
       options: {
         name: 'Eric Janto',
         short_name: 'Eric Janto',
-        description:
-          'I write about computer science and other stuff.',
+        description: 'I write about computer science and other stuff.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#5183f5',

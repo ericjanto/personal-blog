@@ -9,9 +9,8 @@ tags:
   - 'basics'
 ---
 
-*This article is directed at Haskell beginners. If you're already experienced, you might want to
-check out my [other Haskell articles](/tags/haskell).*
-
+_This article is directed at Haskell beginners. If you're already experienced, you might want to
+check out my [other Haskell articles](/tags/haskell)._
 
 When you think about lists in general, you probably think about the grocery list
 you've written last week. Or about a list of your New Year's resolutions.
@@ -22,7 +21,7 @@ Both lists have something in common: they store some data.
 In Haskell, lists are widely used.
 We have some fancy way to define exactly what a list is:
 
->A list is a homogeneous data structure which can store multiple elements.
+> A list is a homogeneous data structure which can store multiple elements.
 
 Phew, sounds a bit overcomplicated, doesn't it? Let's decompose the definition.
 
@@ -37,7 +36,7 @@ Given this definition, there is one more thing we have to learn about lists: syn
 
 1. Elements are always inside of square brackets `[]`
 2. All elements are separated by a comma `,`
-3. We can assign the list to a name via `=` 
+3. We can assign the list to a name via `=`
 
 ```haskell
 someList = [2,3]
@@ -72,7 +71,7 @@ ghci> a
 [[1,2],[2,3,4,5]]
 ```
 
->**Note:** Lists contained in a list can be of different lengths but have to contain the same type of elements.
+> **Note:** Lists contained in a list can be of different lengths but have to contain the same type of elements.
 
 Lists can even contain functions:
 
@@ -84,7 +83,7 @@ funlist :: Foldable t => [t Int -> Int]
 
 The functions stored as an element must have the same type signature, meaning that they are allowed to operate on the same types.
 
-*(Don't worry about it yet if you're just starting and don't fully understand the code above. You won't have to store functions in a list for a while.)*
+_(Don't worry about it yet if you're just starting and don't fully understand the code above. You won't have to store functions in a list for a while.)_
 
 That's pretty much everything you need to know about lists to get started. When we want to put that into practice, we should know about list operations which come 'built-in' with Haskell.
 They come handy when we want to manipulate lists.
@@ -139,7 +138,7 @@ Knowing and using them can save you lots of time.
 
 ### Basics
 
-Ranges are used to make lists composed of elements that can be *enumerated*, meaning that the elements have some kind of order. For example, such elements can be numbers `1,2,3...` or characters `'a','b','c',...`.
+Ranges are used to make lists composed of elements that can be _enumerated_, meaning that the elements have some kind of order. For example, such elements can be numbers `1,2,3...` or characters `'a','b','c',...`.
 
 To list all numbers from `1` to `10` we would usually go like this: `[1,2,3,4,5,6,7,8,9,10]`. Luckily, there is a much simpler way: `[1..10]` . There is no semantic difference between those two lists:
 
@@ -169,9 +168,10 @@ Steps are useful when we only want every third element. Or every fifth, or ... y
 ghci> [2,4..20]
 [2,4,6,8,10,12,14,16,18,20]
 ```
+
 To count down in a list, it's not sufficient to write `[20..1]`.
 
->To make a list with all numbers from 20 down to 1 you have to type `[20,19..1]` . 
+> To make a list with all numbers from 20 down to 1 you have to type `[20,19..1]` .
 
 ### Infinite Lists
 
@@ -179,12 +179,12 @@ It's also possible to have infinite lists (crazy, right?):
 
 - When not defining an upper limit, the list will be infinite
 - For instance `[1..]` or `[1,4..]`
-- Because Haskell is *lazy*, it will only evaluate as many elements as we need for our computations (there it is, the 'once in a lifetime'-moment where being lazy is actually useful)
+- Because Haskell is _lazy_, it will only evaluate as many elements as we need for our computations (there it is, the 'once in a lifetime'-moment where being lazy is actually useful)
 - Useful functions to work with infinite lists
-    - [cycle](http://zvon.org/other/haskell/Outputprelude/cycle_f.html)
-    - [repeat](http://zvon.org/other/haskell/Outputprelude/repeat_f.html)
-    - [replicate](http://zvon.org/other/haskell/Outputprelude/replicate_f.html)
-    - [iterate](http://zvon.org/other/haskell/Outputprelude/iterate_f.html)
+  - [cycle](http://zvon.org/other/haskell/Outputprelude/cycle_f.html)
+  - [repeat](http://zvon.org/other/haskell/Outputprelude/repeat_f.html)
+  - [replicate](http://zvon.org/other/haskell/Outputprelude/replicate_f.html)
+  - [iterate](http://zvon.org/other/haskell/Outputprelude/iterate_f.html)
 
 ## Conclusion
 
@@ -194,18 +194,21 @@ That's pretty much everything you need to know to get started with lists in Hask
 
 ### Off-Road Knowledge
 
-- `'`  is a valid character for function or definition names. However, it's good practice to use it only to denote a slightly modified version of a function.
+- `'` is a valid character for function or definition names. However, it's good practice to use it only to denote a slightly modified version of a function.
+
 ```haskell
 it'sMe = "Eric" -- valid but not good practice
 ```
 
 - A string is just a list of characters.
+
 ```haskell
 ghci> ['h','i'] == "hi"
 True
 ```
 
 - There are two types of comments in Haskell.
+
 ```haskell
 {- This is a multiple line comment.
 Comments are ignored by the compiler. -}

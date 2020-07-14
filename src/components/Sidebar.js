@@ -14,23 +14,22 @@ export default function Sidebar({ post }) {
         <section>
           <h3>Published</h3>
           <time>{post.frontmatter.date}</time>
-          <div className={project ? 'visible' : 'invisible' }>
+          <div className={project ? 'visible' : 'invisible'}>
             <h3>Project Info</h3>
-            <a
-            href={project}
-            target="_blank"
-            rel="noopener noreferrer"
-            >Link to Project</a>
+            <a href={project} target="_blank" rel="noopener noreferrer">
+              Link to Project
+            </a>
             <br />
-            <a
-            href={source}
-            target="_blank"
-            rel="noopener noreferrer"
-            >View Source</a>
+            <a href={source} target="_blank" rel="noopener noreferrer">
+              View Source
+            </a>
           </div>
-          <div className={live ? 'visible' : 'invisible' }>
+          <div className={live ? 'visible' : 'invisible'}>
             <h3>Live Article</h3>
-            <p>This is a live article. As such, it gets regular updates within the next few weeks.</p>
+            <p>
+              This is a live article. As such, it gets regular updates within
+              the next few weeks.
+            </p>
             <p>Last update: {live}</p>
             <Link to="/live-articles">The idea behind live articles</Link>
           </div>
