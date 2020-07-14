@@ -9,7 +9,7 @@ I also play lots of music and hike up Arthur's seat from time to time.
 
 ### Education
 
-Naah that's too boring for this page, here is only personal information. Have a look at my [CV](../files/cv.pdf) if you're interested in my educational background.
+Naah that's too boring for this page, here is only personal information. Have a look at my [CV](/static/cv-2f09e8449bd4dab4d3549d491119ef71.pdf) if you're interested in my educational background.
 
 ### Music
 
