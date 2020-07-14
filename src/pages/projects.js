@@ -18,7 +18,7 @@ export default function BlogProjects() {
 
   return (
     <Layout>
-      <Helmet title={config.siteTitle} />
+      <Helmet title={`Projects | ${config.siteTitle}`} />
       <SEO />
       <Section title="Projects">
         <Projects data={projects} />
