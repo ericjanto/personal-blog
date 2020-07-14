@@ -12,6 +12,8 @@ export default function Sidebar({ post }) {
     <aside>
       <div className="aside-content">
         <section>
+          <h3>Published</h3>
+          <time>{post.frontmatter.date}</time>
           <div className={project ? 'visible' : 'invisible' }>
             <h3>Project Info</h3>
             <a
@@ -26,8 +28,6 @@ export default function Sidebar({ post }) {
             rel="noopener noreferrer"
             >View Source</a>
           </div>
-          <h3>Published</h3>
-          <time>{post.frontmatter.date}</time>
           <div className={live ? 'visible' : 'invisible' }>
             <h3>Live Article</h3>
             <p>This is a live article. As such, you can track it's progress and updates in realtime.</p>

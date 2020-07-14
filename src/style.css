@@ -285,7 +285,7 @@ aside a.link:hover {
   border-top: 2px solid var(--light-background);
 }
 
-.aside-content h3 {
+.aside-content .visible > h3 {
   margin-top: 3rem;
 }
 
@@ -304,7 +304,7 @@ aside a.link:hover {
     padding-left: 2rem;
   }
   .aside-content section {
-    margin-top: 0.25 rem;
+    margin-top: 0.25rem;
   }
 }
 
