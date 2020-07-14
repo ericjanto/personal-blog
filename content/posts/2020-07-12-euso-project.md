@@ -3,14 +3,13 @@ date: 2020-07-12
 title: 'A Gatsby Website for the Edinburgh University String Orchestra'
 template: post
 slug: euso-project
+path: https://string.eusa.ed.ac.uk/
+source: https://github.com/Edinburgh-University-String-Orchestra/euso-website
 tags:
   - 'gatsby'
   - 'react'
   - 'project'
 ---
-
-- [Website](https://string.eusa.ed.ac.uk/)
-- [Source](https://github.com/Edinburgh-University-String-Orchestra/euso-website)
 
 ![screenshot of new EUSO website](../images/euso-new.png)
 

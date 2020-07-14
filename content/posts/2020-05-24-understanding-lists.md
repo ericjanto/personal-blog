@@ -9,7 +9,7 @@ tags:
   - 'basics'
 ---
 
-*This article is directed at Haskell beginners. If you're already experienced, you may want to
+*This article is directed at Haskell beginners. If you're already experienced, you might want to
 check out my [other Haskell articles](/tags/haskell).*
 
 
