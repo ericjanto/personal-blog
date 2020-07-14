@@ -141,6 +141,7 @@ module.exports = {
               offsetY: `30`,
             },
           },
+          'gatsby-remark-graphviz',
           'gatsby-remark-prismjs',
         ],
       },
