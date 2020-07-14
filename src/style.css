@@ -285,6 +285,10 @@ aside a.link:hover {
   border-top: 2px solid var(--light-background);
 }
 
+.aside-content h3 {
+  margin-top: 3rem;
+}
+
 .visible {
   display: initial;
 }
@@ -300,7 +304,7 @@ aside a.link:hover {
     padding-left: 2rem;
   }
   .aside-content section {
-    margin-top: 0.25rem;
+    margin-top: 0.25 rem;
   }
 }
 
@@ -881,6 +885,18 @@ time,
 .meta {
   color: var(--medium-font-color);
   font-size: 1rem;
+}
+
+/* Graphs */
+
+svg {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.anchor svg {
+  display: initial;
+  margin: 0;
 }
 
 /* Tags */
