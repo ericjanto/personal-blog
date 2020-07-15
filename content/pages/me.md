@@ -5,7 +5,7 @@ template: page
 ---
 
 These days I spend most of my time studying AI & Computer Science in Edinburgh.
-I also play lots of music and hike up Arthur's seat from time to time.
+I also play lots of music, and hike up Arthur's seat from time to time.
 
 ### Education
 
@@ -18,7 +18,7 @@ I play the piano and the violin, the latter in two orchestras:
 - [Edinburgh University String Orchestra](https://string.eusa.ed.ac.uk/)
 - [Edinburgh University Chamber Orchestra](https://www.eusa.ed.ac.uk/activities/societies/society/euco/)
 
-I had the amazing opportunity to play a first violin in the renown [Staatsphilharmonie Rheinland-Pfalz](https://www.staatsphilharmonie.de/de/programm/14-07-2020). There is a [news article](https://www.metropolnews.info/mp296437/ludwigshafen-deutsche-staatsphilharmonie-kooperiert-mit-musikschulen) about it.
+I had the amazing opportunity to play the first violin in the renown [Staatsphilharmonie Rheinland-Pfalz](https://www.staatsphilharmonie.de/de/programm/14-07-2020). There is a [news article](https://www.metropolnews.info/mp296437/ludwigshafen-deutsche-staatsphilharmonie-kooperiert-mit-musikschulen) about it.
 
 Here are some pieces I'm practicing at the moment:
 
@@ -37,4 +37,4 @@ Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we h
 - [ ] See whales in real life (and maybe go diving with them)
 - [ ] Get a cat
 
-Oh, I also like hammocks and reading.
+Oh, I also like hammocks and [reading](/books/).

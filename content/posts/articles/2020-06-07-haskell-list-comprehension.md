@@ -113,7 +113,3 @@ True
 
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 15-18`
 <!-- [Understanding Recursion in Haskell](/haskell-understanding-recursion/) -->
-
----
-
-Any questions, critiques or comments? Feel free to [contact me](/contact/), I'd be happy to hear from you.

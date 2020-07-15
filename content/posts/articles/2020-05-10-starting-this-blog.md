@@ -2,8 +2,10 @@
 date: 2020-05-10
 title: 'Starting This Blog'
 template: post
-thumbnail: '../thumbnails/blog.png'
+thumbnail: '../../thumbnails/blog.png'
 slug: starting-this-blog
+categories:
+  - 'Dummy'
 tags:
   - 'student-life'
   - 'productivity'
