@@ -220,7 +220,3 @@ Comments are ignored by the compiler. -}
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 7-14`
 - [How to Use List Comprehension in Haskell](/haskell-list-comprehension/)
 <!-- - [Recursion](/haskell-recursion) -->
-
----
-
-Any questions, critiques or comments? Feel free to [contact me](/contact/), I'd be happy to hear from you.

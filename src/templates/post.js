@@ -25,7 +25,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
             {thumbnail && (
               <Img
                 fixed={thumbnail.childImageSharp.fixed}
-                className="post-thumbnail"
+                className={post.frontmatter.categories ? `guide-thumbnail` : `post-thumbnail`}
               />
             )}
             <h1>{post.frontmatter.title}</h1>
@@ -53,10 +53,12 @@ export const pageQuery = graphql`
         live(formatString: "MMMM DD, YYYY")
         tags
         path
+        author
+        categories
         source
         thumbnail {
           childImageSharp {
-            fixed(width: 150, height: 150) {
+            fixed(width: 75, height: 75) {
               ...GatsbyImageSharpFixed
             }
           }

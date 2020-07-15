@@ -460,6 +460,10 @@ main {
   justify-content: space-between;
 }
 
+.navbar a {
+  white-space: pre;
+}
+
 .navbar a,
 .footer a {
   border-radius: 0.3rem;
@@ -712,6 +716,87 @@ tbody tr:nth-child(even) {
   color: var(--light-font-color);
 }
 
+/* j */
+
+.grid.guide {
+  grid-gap: 1rem;
+  grid-auto-rows: 1fr;
+  margin-top: 3rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.grid.guide a {
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 13px rgba(100, 110, 140, 0.1),
+    0 2px 4px rgba(100, 110, 140, 0.15);
+  border-bottom: none;
+}
+
+.grid.guide p {
+  display: none;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: var(--light-font-color);
+}
+
+.grid.guide .gatsby-image-wrapper {
+  height: 190px !important;
+  width: 125px !important;
+  margin-right: 1.5rem;
+  border-radius: 0.1rem;
+}
+
+.grid.guide a:hover {
+  transform: translate3D(0, -1px, 0);
+  box-shadow: 0 8px 22px rgba(100, 110, 140, 0.2),
+    0 5px 18px rgba(100, 110, 140, 0.25);
+}
+
+.grid.guide h2 {
+  margin: 0;
+  font-size: 1rem;
+  flex: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .grid.guide {
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid.guide p {
+    display: initial;
+  }
+  .grid.guide a {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  .grid.guide h2 {
+    text-align: center;
+    margin: 1rem 0 0;
+    flex: none;
+  }
+  .grid.guide .gatsby-image-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .grid.guide {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.guide-thumbnail {
+  display: none !important;
+}
+
 /* Post */
 
 .grid.post {
@@ -723,7 +808,6 @@ tbody tr:nth-child(even) {
 .article-header {
   display: flex;
   flex-direction: column;
-
   margin-bottom: 2.5rem;
 }
 
@@ -1006,12 +1090,14 @@ a.tag-project:hover {
   color: white;
 }
 
-a.tag-server {
+a.tag-server,
+a.tag-book {
   background: #e7f5ff;
   color: #1971c2;
 }
 
-a.tag-server:hover {
+a.tag-server:hover,
+a.tag-book:hover {
   background: #1c7ed6;
   color: white;
 }

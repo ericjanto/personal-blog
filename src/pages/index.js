@@ -38,7 +38,7 @@ export default function BlogIndex({ data, ...props }) {
           </p>
         </div>
       </section>
-      <Section title="Recent Posts">
+      <Section title="Recent">
         <Posts data={simplifiedLatest} tags />
       </Section>
       <Section title="Projects">
@@ -53,7 +53,7 @@ export const pageQuery = graphql`
     latest: allMarkdownRemark(
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      filter: { frontmatter: { template: { eq: "post" }, categories: { ne: "Books" } } }
     ) {
       edges {
         node {

@@ -5,6 +5,7 @@ export function getSimplifiedPosts(posts, options = {}) {
     slug: post.node.fields.slug,
     tags: post.node.frontmatter.tags,
     title: post.node.frontmatter.title,
+    author: post.node.frontmatter.author,
     ...(options.thumbnails && {
       thumbnail: post.node.frontmatter.thumbnail.childImageSharp.fixed,
     }),

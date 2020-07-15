@@ -7,6 +7,7 @@ export default function Sidebar({ post }) {
   const project = post.frontmatter.path
   const source = post.frontmatter.source
   const live = post.frontmatter.live
+  const author = post.frontmatter.author
 
   return (
     <aside>
@@ -14,6 +15,10 @@ export default function Sidebar({ post }) {
         <section>
           <h3>Published</h3>
           <time>{post.frontmatter.date}</time>
+          <div className={author ? 'visible' : 'invisible'}>
+            <h3>Author</h3>
+            <p>{author}</p>
+          </div>
           <div className={project ? 'visible' : 'invisible'}>
             <h3>Project Info</h3>
             <a href={project} target="_blank" rel="noopener noreferrer">
@@ -27,7 +32,7 @@ export default function Sidebar({ post }) {
           <div className={live ? 'visible' : 'invisible'}>
             <h3>Live Article</h3>
             <p>
-              This is a live article. As such, it gets regular updates within
+              This is a live article. As such, it will be regularly updated within
               the next few weeks.
             </p>
             <time>Last update: {live}</time><br />
