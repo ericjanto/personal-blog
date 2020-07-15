@@ -139,6 +139,15 @@ module.exports = {
               offsetY: `30`,
             },
           },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: 'Table of Contents',
+              tight: false,
+              fromHeading: 1,
+              toHeading: 6,
+            },
+          },
           'gatsby-remark-graphviz',
           'gatsby-remark-prismjs',
         ],

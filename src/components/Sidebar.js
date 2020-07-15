@@ -32,14 +32,19 @@ export default function Sidebar({ post }) {
           <div className={live ? 'visible' : 'invisible'}>
             <h3>Live Article</h3>
             <p>
-              This is a live article. As such, it will be regularly updated within
-              the next few weeks.
+              <mark>This is a live article.</mark> As such, it will be regularly
+              updated within the next few weeks.
             </p>
-            <time>Last update: {live}</time><br />
+            <time>Last update: {live}</time>
+            <br />
             <Link to="/live-articles">The idea behind live articles</Link>
           </div>
           <h3>Feedback</h3>
-          <p>Any questions, critiques or comments? Feel free to <Link to="/contact/">contact me</Link>, I'd be happy to hear from you.</p>
+          <p>
+            Any questions, critiques or comments? Feel free to{' '}
+            <Link to="/contact/">contact me</Link>, I'd be happy to hear from
+            you.
+          </p>
           <h3>Tags</h3>
           <div className="cell tags">
             {tags &&

@@ -25,7 +25,11 @@ export default function PostTemplate({ data, pageContext, ...props }) {
             {thumbnail && (
               <Img
                 fixed={thumbnail.childImageSharp.fixed}
-                className={post.frontmatter.categories ? `guide-thumbnail` : `post-thumbnail`}
+                className={
+                  post.frontmatter.categories
+                    ? `guide-thumbnail`
+                    : `post-thumbnail`
+                }
               />
             )}
             <h1>{post.frontmatter.title}</h1>
