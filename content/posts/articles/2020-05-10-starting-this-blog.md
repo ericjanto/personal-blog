@@ -1,6 +1,7 @@
 ---
 date: 2020-05-10
 title: 'Starting This Blog'
+author: 'Eric'
 template: post
 thumbnail: '../../thumbnails/blog.png'
 slug: starting-this-blog
