@@ -11,7 +11,7 @@ tags:
   - 'project'
 ---
 
-![screenshot of new EUSO website](../images/euso-new.png)
+![screenshot of new EUSO website](../../images/euso-new.png)
 
 Joining the Edinburgh University String Orchestra was probably one of the best decisions I made since I moved to Edinburgh. The orchestra is famous for its welcoming and friendly atmosphere – this I can only confirm.
 
@@ -24,7 +24,7 @@ These were the three main reasons why I wanted to build an entirely new website:
 - I didn't like the design, it was a bit clunky and looked too much like a 2005 website (see image below).
 - It required a huge effort to make edits: each subpage had an own HTML file (which wasn't the worst thing) AND an own CSS file (yep). So if I wanted to change a simple style thing or some content which was on every single subpage (like a concert announcement), I had to change about 10 files. A good example of why [loose coupling](https://en.wikipedia.org/wiki/Loose_coupling) is important.
 
-![old webdesign (ugly)](../images/euso-old.png)
+![old webdesign (ugly)](../../images/euso-old.png)
 
 ## Phase 1: Planning
 
