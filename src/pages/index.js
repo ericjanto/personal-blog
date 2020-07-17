@@ -54,7 +54,7 @@ export const pageQuery = graphql`
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        frontmatter: { template: { eq: "post" }, categories: { ne: "Books" } }
+        frontmatter: { template: { eq: "post" } }
       }
     ) {
       edges {

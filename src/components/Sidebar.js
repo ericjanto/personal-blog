@@ -37,7 +37,7 @@ export default function Sidebar({ post }) {
             </p>
             <time>Last update: {live}</time>
             <br />
-            <Link to="/live-articles">The idea behind live articles</Link>
+            <Link to="/live-articles">The Idea Behind Live Articles</Link>
           </div>
           <h3>Feedback</h3>
           <p>
