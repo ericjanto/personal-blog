@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import CV from '../../content/files/cv.pdf'
 
 export default function Footer() {
   return (
@@ -8,9 +7,7 @@ export default function Footer() {
       <section className="flex">
         <nav className="footer-links">
           <Link to="/me">About</Link>
-          <a href={CV} target="_blank" rel="noopener noreferrer">
-            CV
-          </a>
+          <Link to="/cv">CV</Link>
         </nav>
         <nav className="footer-links">
           <Link to="/contact">Contact</Link>
