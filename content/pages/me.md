@@ -31,7 +31,7 @@ Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we h
 - [ ] Witness an Indian marriage
 - [ ] Go to a Mahler's 5th concert
 - [ ] Own a Steinway
-- [ ] Have a date in a Drive-in theatre
+- [ ] Have a date in a drive-in theatre
 - [ ] See whales in real life (and maybe go diving with them)
 - [ ] Get a cat
 
