@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import CV from '../../content/files/cv.pdf'
+import CV from '../../content/files/cv-english.pdf'
 
 export default function Footer() {
   return (
