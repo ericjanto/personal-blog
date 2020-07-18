@@ -86,7 +86,7 @@ I won't go too much into detail since the entire code is [open source](https://g
 Here are some aspects I'm proud of / which are cool:
 
 1. I created a typewriter animation to write out the composers' names whose pieces we are going to play at our next concert. I used [this](https://github.com/ianbjorndilling/react-typewriter) react plugin for it. [Click to see the feature](https://string.eusa.ed.ac.uk/).
-2. I used GraphQL to fetch the committee data from markdown pages. I created a custom sort which put the three main committee roles (President, Secretary, Treasurer), then the rest sorted lexicographically. It's about the details, boys. [Click to see the feature](https://string.eusa.ed.ac.uk/committee/).
+2. I used GraphQL to fetch the committee data from markdown pages. I created a custom sort which put the three main committee roles (President, Secretary, Treasurer) to the top. The rest is sorted lexicographically. It's about the details. [Click to see the feature](https://string.eusa.ed.ac.uk/committee/).
 
 ### Additional Features
 
