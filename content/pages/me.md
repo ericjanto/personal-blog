@@ -35,4 +35,6 @@ Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we h
 - [ ] See whales in real life (and maybe go diving with them)
 - [ ] Get a cat
 
+---
+
 Oh, I also like hammocks and [reading](/books/).
