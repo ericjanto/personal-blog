@@ -121,7 +121,7 @@ Nice-to-have
 - [x] RSS feed
 - [x] Easily editable
 
-**Payments**: I was initially planning on integrating [stripe]() in combination with [ticketsale]() in my codebase which seemed to be quite uncomplicated given [this Gatsby plugin](). After looking at their pricing, I postponed this feature, supposing that it's simply not worth it for us selling tickets online. A sad thing since I was looking forward to working myself into the whole stripe technology.
+**Payments**: I was initially planning on integrating [stripe]() in combination with [ticketsale]() in my codebase which seemed to be quite uncomplicated given [this Gatsby plugin](). After looking at their pricing, I postponed this feature, supposing that it's simply not worth it for us to sell tickets online. A sad thing since I was looking forward to working myself into the whole stripe technology.
 
 **Live-streaming**: Another feature which I decided to postpone for now. YouTube offers great live-streaming technology + it's for free. The only reasons to have live-streams on this website would be:
 
@@ -130,7 +130,7 @@ Nice-to-have
 
 ## Phase 3: Feedback
 
-Once I had my first release ready, I sent it, published on a test-domain, to our committee. The feedback was positive and they even were able to report some minor bugs.
+Once I had my first release ready, I sent it, published on a test-domain, to our committee. The feedback was positive and they were able to report some minor bugs.
 
 After fixing the bugs, I published the website on [https://string.eusa.ed.ac.uk](https://string.eusa.ed.ac.uk/).
 
