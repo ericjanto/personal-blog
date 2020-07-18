@@ -9,7 +9,9 @@ export default function Footer() {
       <section className="flex">
         <nav className="footer-links">
           <Link to="/me">About</Link>
-          <a href={CV} target="_blank" rel="noopener noreferrer">CV</a>
+          <a href={CV} target="_blank" rel="noopener noreferrer">
+            CV
+          </a>
         </nav>
         <nav className="footer-links">
           <Link to="/contact">Contact</Link>
@@ -19,3 +21,6 @@ export default function Footer() {
     </footer>
   )
 }
+
+// To rewrite cv link: add new cv (with new file name than old one) to footer,
+// click on absolute link in localhost, change the static link accordingly.
