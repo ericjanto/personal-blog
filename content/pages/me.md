@@ -18,8 +18,6 @@ I play the piano and the violin, the latter in two orchestras:
 - [Edinburgh University String Orchestra](https://string.eusa.ed.ac.uk/)
 - [Edinburgh University Chamber Orchestra](https://www.eusa.ed.ac.uk/activities/societies/society/euco/)
 
-I had the amazing opportunity to play the first violin in the renown [Staatsphilharmonie Rheinland-Pfalz](https://www.staatsphilharmonie.de/de/programm/14-07-2020). There is a [news article](https://www.metropolnews.info/mp296437/ludwigshafen-deutsche-staatsphilharmonie-kooperiert-mit-musikschulen) about it.
-
 Here are some pieces I'm practicing at the moment:
 
 - En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg.
