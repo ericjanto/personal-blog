@@ -10,8 +10,6 @@ import SEO from '../components/SEO'
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
 
-import projects from '../data/projects'
-
 export default function BlogIndex({ data, ...props }) {
   const latest = data.latest.edges
   const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
@@ -40,9 +38,6 @@ export default function BlogIndex({ data, ...props }) {
       </section>
       <Section title="Recent">
         <Posts data={simplifiedLatest} tags />
-      </Section>
-      <Section title="Projects">
-        <Projects data={projects} />
       </Section>
     </Layout>
   )
