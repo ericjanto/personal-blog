@@ -2,7 +2,7 @@
 date: 2020-07-18
 title: 'The Idea Behind Live Articles'
 template: post
-slug: live-articles-live
+slug: live-articles
 tags:
   - 'productivity'
   - 'notes'
