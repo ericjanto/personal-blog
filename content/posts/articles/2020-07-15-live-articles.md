@@ -2,7 +2,7 @@
 date: 2020-07-18
 title: 'The Idea Behind Live Articles'
 template: post
-slug: live-articles
+slug: live-articles-live
 tags:
   - 'productivity'
   - 'notes'
@@ -32,6 +32,7 @@ But: Live articles should have a certain amount of content to begin with, otherw
 
 ### Downsides
 
-I can't think of a solution where the reader can get notified once the article gets updated. RSS feeds usually only notify a user when there is a totally new blog post. I might have to think of some way so that the reader doesn't have to check back on their own.
+1. The reader might get frustrated reading unfinished articles.
+2. I can't think of a solution where the reader can get notified once the article gets updated. RSS feeds usually only notify a user when there is a totally new blog post. I might have to think of some way so that the reader doesn't have to check back on their own.
 
 But since I'm convinced that this new format would improve the environment I'm working and learning in, I'll give live articles a try.
