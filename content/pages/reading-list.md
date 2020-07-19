@@ -1,0 +1,15 @@
+---
+title: 'Reading List'
+slug: reading-list
+template: page
+---
+
+I'm very thankful for any suggestions, so if you have one please [contact](/contact/) me!
+
+- [ ] Das offene Kunstwerk – Umberto Eco
+- [ ] Siddartha – Hermann Hesse
+- [ ] Native Son – Richard Wright
+
+---
+
+- [ ] [How to Take Smart Notes – Sönke Ahrens](/how-to-take-smart-notes)

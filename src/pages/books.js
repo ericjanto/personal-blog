@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -25,12 +25,17 @@ export default function BlogIndex({ data }) {
         <p className="subtitle">Kind of chaotic reviews.</p>
         <p className="medium">
           Over the past few years, I came to realise that I'll forget most of
-          what I read unless I take notes.
+          what I read unless I take notes. That's why I set up a few rules for my reading behaviour:
+        </p>
+        <p>
+          <ul>
+            <li>Read every day at least 30min.</li>
+            <li>Let reading be the first and last thing you do in a day.</li>
+            <li>Read with a pen in your hand.</li>
+          </ul>
         </p>
         <p className="medium">
-          I used to be a bookworm when I was younger, reading every single day.
-          I hope to get back into the habit of reading by putting my book notes
-          online. This is where I put all notes, thoughts and quotes.
+          I follow along <Link to="/reading-list">this reading list</Link>. Below is where I put all notes, thoughts and quotes.
         </p>
         <Books data={simplifiedPosts} />
       </section>
