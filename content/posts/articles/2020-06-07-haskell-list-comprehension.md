@@ -9,7 +9,7 @@ tags:
   - 'basics'
 ---
 
-List Comprehensions are one of my favourite features of Haskell. Just as [recursion](http://learnyouahaskell.com/recursion), list comprehension is a basic technique and should be learned right in the
+List Comprehensions are one of my favourite features of Haskell. Just as [recursion](/haskell-recursion/), list comprehension is a basic technique and should be learned right in the
 beginning.
 
 #### Prerequisites
@@ -111,5 +111,5 @@ True
 
 ### Further Reading
 
+- [Understanding Recursion in Haskell](/haskell-recursion/)
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 15-18`
-<!-- [Understanding Recursion in Haskell](/haskell-understanding-recursion/) -->
