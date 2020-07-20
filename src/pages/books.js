@@ -30,7 +30,7 @@ export default function BlogIndex({ data }) {
         <p>
           <ul>
             <li>Read every day at least 30min.</li>
-            <li>Let reading be the first and last thing you do in a day.</li>
+            <li>Let reading be the first thing you do in a day.</li>
             <li>Read with a pen in your hand.</li>
           </ul>
         </p>

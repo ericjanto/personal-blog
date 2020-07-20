@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import CV from '../../content/files/cv-english.pdf'
+import CV from '../../content/files/cv.pdf'
 
 export default function Footer() {
   return (
@@ -22,5 +22,5 @@ export default function Footer() {
   )
 }
 
-// To rewrite cv link: add new cv (with new file name than old one) to footer,
-// click on absolute link in localhost, change the static link accordingly.
+// To rewrite cv link: add new cv (with other file name than old one) to footer,
+// click on absolute link in localhost, change the static link in redirects file accordingly.

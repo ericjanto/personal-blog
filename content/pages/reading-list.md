@@ -9,6 +9,7 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 - [ ] Das offene Kunstwerk – Umberto Eco
 - [ ] Siddartha – Hermann Hesse
 - [ ] Native Son – Richard Wright
+- [ ] The Old Man and the Sea – Ernest Hemingway
 
 ---
 

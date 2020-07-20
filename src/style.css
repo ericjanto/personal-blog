@@ -156,7 +156,6 @@ blockquote.quotation {
   border-radius: 0;
   border: none;
   border-left: 12px solid var(--border);
-  padding-bottom: 2rem;
 }
 
 blockquote.quotation p {
@@ -487,7 +486,7 @@ main {
 }
 
 .navbar a.brand {
-  font-size: 1.1rem;
+  font-size: 1.01rem;
   font-weight: 600;
   color: var(--font-color);
   white-space: nowrap;
@@ -568,7 +567,6 @@ table {
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
-  display: block;
 }
 
 th {
@@ -678,6 +676,7 @@ tbody tr:nth-child(even) {
   }
 
   .row .cell {
+    font-size: 1.2rem;
     padding: 0.75rem 0;
   }
   .row .cell time {
