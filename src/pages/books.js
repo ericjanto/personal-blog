@@ -25,7 +25,8 @@ export default function BlogIndex({ data }) {
         <p className="subtitle">Kind of chaotic reviews.</p>
         <p className="medium">
           Over the past few years, I came to realise that I'll forget most of
-          what I read unless I take notes. That's why I set up a few rules for my reading behaviour:
+          what I read unless I take notes. That's why I set up a few rules for
+          my reading behaviour:
         </p>
         <p>
           <ul>
@@ -35,7 +36,18 @@ export default function BlogIndex({ data }) {
           </ul>
         </p>
         <p className="medium">
-          I follow along <Link to="/reading-list">this reading list</Link>. Below is where I put all notes, thoughts and quotes.
+          This list of links might be of interest for you:
+          <br />
+          <br />
+          <ul>
+            <li>
+              <Link to="/reading-list">Reading List</Link>
+            </li>
+            <li>
+              <Link to="/style-guide">Reference Style Guide</Link>
+            </li>
+          </ul>
+          Below is where I put all notes, thoughts and quotes.
         </p>
         <Books data={simplifiedPosts} />
       </section>

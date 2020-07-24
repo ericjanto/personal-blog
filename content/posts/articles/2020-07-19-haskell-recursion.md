@@ -171,8 +171,9 @@ Here, we check in our first condition for the nullity of the function's paramete
 Should the list be non-empty, we define variables for the head and tail of the list so that we can refer to them. The last line shows the actual computation which allows the function to return squared list elements.
 
 > **Note**
->- `let ... in` enables local binding which is only valid in the scope of the section after `in`
->- once we leave that part, the compiler doesn't know what `x` and `xs` is; they are only in scope of `in` and nowhere else
+>
+> - `let ... in` enables local binding which is only valid in the scope of the section after `in`
+> - once we leave that part, the compiler doesn't know what `x` and `xs` is; they are only in scope of `in` and nowhere else
 
 #### Guards
 
@@ -200,7 +201,7 @@ I understand that this can be a bit overwhelming at the beginning. There are man
 
 A good rule of thumb is to look out which version of a function the most **concise** and **readable** version is. I prefer to use pattern matching since it allows very short but expressive definitions.
 
-There are, of course, other cases where you might want to go for a longer and more complicated function if it was more *efficient*. But that shouldn't be the case with recursive functions in Haskell since all different syntax versions are more or less similar in terms of efficiency.
+There are, of course, other cases where you might want to go for a longer and more complicated function if it was more _efficient_. But that shouldn't be the case with recursive functions in Haskell since all different syntax versions are more or less similar in terms of efficiency.
 
 You can test this yourself by following my [guide](/haskell-efficiency/) on how to test your Haskell processes for efficiency.
 
@@ -256,7 +257,7 @@ enumFromRec m = m : enumFromRec (m+1)
 -- use-case: same as [m..] for any Integer m
 ```
 
-Since Haskell is lazy, it only evaluates something if it must. 
+Since Haskell is lazy, it only evaluates something if it must.
 
 #### 2. Paeno Axioms
 

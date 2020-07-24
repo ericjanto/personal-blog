@@ -13,4 +13,4 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 
 ---
 
-- [ ] [How to Take Smart Notes – Sönke Ahrens](/how-to-take-smart-notes)
+- [x] [How to Take Smart Notes – Sönke Ahrens](/how-to-take-smart-notes)

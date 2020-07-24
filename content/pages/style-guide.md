@@ -11,9 +11,9 @@ The reader can then look up the source in the reference list at the end of the a
 
 Depending on the context, some information can be omitted. For example, if I always referred to the same book, it would be sufficient to only use page numbers as reference.
 
-Since I don't have paper versions of all of my books, I tend to use Apples Books application on macOS for reading ebooks. This comes with the complication of fluid page numbers: Depending on the window size, the page numbers change. For consistent page references, my page numbers refer to the book opened in *actual size mode* (`cmd + O`).
+Since I don't have paper versions of all of my books, I tend to use Apples Books application on macOS for reading ebooks. This comes with the complication of fluid page numbers: Depending on the window size, the page numbers change. For consistent page references, my page numbers refer to the book opened in _actual size mode_ (`cmd + O`).
 
 #### References
 
 - Lab, Purdue Writing. n.d. “CMOS Author Date Sample Paper // Purdue Writing Lab.”
-Purdue Writing   Lab. Accessed July 24, 2020. https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/cmos_author_date_sample_paper.html.
+  Purdue Writing Lab. Accessed July 24, 2020. https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/cmos_author_date_sample_paper.html.
