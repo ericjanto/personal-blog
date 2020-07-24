@@ -429,11 +429,11 @@ a.anchor:hover {
   border-bottom: none;
 }
 
-a code {
-  border-bottom: 2px solid var(--link-color);
+a code[class*='language-'] {
+  color: var(--link-color) !important;
 }
 
-a code:hover {
+a code[class*='language-']:hover {
   background: var(--link-color) !important;
   color: white !important;
 }
