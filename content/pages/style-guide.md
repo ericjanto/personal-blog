@@ -11,7 +11,7 @@ The reader can then look up the source in the reference list at the end of the a
 
 Depending on the context, some information can be omitted. For example, if I always referred to the same book, it would be sufficient to only use page numbers as reference.
 
-Since I don't have paper versions of all of my books, I tend to use Apples Books application on macOS for reading ebooks. This comes with the complication of fluid page numbers: Depending on the window size, the page numbers change. For consistent page references, my page numbers refer to the book opened in _actual size mode_ (`cmd + O`).
+Since I don't have paper versions of all of my books, I tend to use Apples Books application on macOS for reading ebooks. This comes with the complication of fluid page numbers: Depending on the window size, the page numbers change. For consistent page references, my page numbers refer to the book opened in _actual size mode_ (`cmd + 0`).
 
 #### References
 
