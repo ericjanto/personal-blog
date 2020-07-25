@@ -16,7 +16,7 @@ export default function Sidebar({ post }) {
           <h3>Published</h3>
           <time>{post.frontmatter.date}</time>
           <div className={author ? 'visible' : 'invisible'}>
-            <h3>Author</h3>
+            <h3>Book Author</h3>
             <p>{author}</p>
           </div>
           <div className={project ? 'visible' : 'invisible'}>

@@ -136,7 +136,7 @@ After fixing the bugs, I published the website on [https://string.eusa.ed.ac.uk]
 
 ## Personal Outcome
 
-These are the top 3 things I've learned:
+These are the top 3 + 1 things I've learned:
 
 1. Progress takes time. I've been working on the website at least 6h a day for more than 3 weeks.
 2. I've learned to resist the temptation of publishing something too early. It's hard but it's worth it waiting a few more days to give your project that last finish.
