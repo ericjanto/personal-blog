@@ -464,6 +464,10 @@ main {
   white-space: pre;
 }
 
+.navbar a:not(:first-of-type) {
+  margin-left: 0.5rem;
+}
+
 .navbar a,
 .footer a {
   border-radius: 0.3rem;
@@ -474,9 +478,16 @@ main {
 }
 
 .navbar a:hover,
+.navbar a[aria-current='page'],
+.navbar a[aria-current='page']:hover,
 .footer a:hover {
   background: var(--light-background);
   color: var(--font-color);
+}
+
+.navbar .brand[aria-current="page"] {
+  background: inherit;
+  color: normal;
 }
 
 .navbar a:first-of-type {
