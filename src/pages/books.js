@@ -36,6 +36,17 @@ export default function BlogIndex({ data }) {
           </ul>
         </p>
         <p className="medium">
+          <blockquote className="quotation">
+            <p>
+              "Reading with a pen in your hand is the small-scale equivalent of
+              a lecture."
+            </p>
+            <p>
+              <cite>
+                – <a>Sönke Ahrens</a>, <em>How to Take Smart Notes</em>
+              </cite>
+            </p>
+          </blockquote>
           This list of links might be of interest for you:
           <br />
           <br />

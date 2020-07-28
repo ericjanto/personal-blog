@@ -485,7 +485,7 @@ main {
   color: var(--font-color);
 }
 
-.navbar .brand[aria-current="page"] {
+.navbar .brand[aria-current='page'] {
   background: inherit;
   color: normal;
 }
