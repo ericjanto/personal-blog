@@ -47,7 +47,7 @@ export default function BlogIndex({ data }) {
               </cite>
             </p>
           </blockquote>
-          This list of links might be of interest for you:
+          These links might be of interest for you:
           <br />
           <br />
           <ul>
