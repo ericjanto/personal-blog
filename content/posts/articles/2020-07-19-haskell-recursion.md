@@ -25,7 +25,7 @@ I've learned to love it.
 
 ## A Further Guide to Lists
 
-In order to understand recursion properly, we need to know a bit more about lists. If you feel already confident with using lists you can skip to [this part](/haskell-understanding-recursion/#an-introduction-to-recursion).
+In order to understand recursion properly, we need to know a bit more about lists. If you feel already confident with using lists you can skip to [this part](/haskell-recursion/#an-introduction-to-recursion).
 
 In Haskell, a list can be constructed using only the cons operator `:` and the empty list `[]` as a base case.
 
