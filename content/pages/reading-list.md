@@ -6,6 +6,7 @@ template: page
 
 I'm very thankful for any suggestions, so if you have one please [contact](/contact/) me!
 
+- [ ] Fear and Loathing in Las Vegas
 - [ ] Das offene Kunstwerk – Umberto Eco
 - [ ] Getting Things Done – David Allen
 - [ ] Siddartha – Hermann Hesse
