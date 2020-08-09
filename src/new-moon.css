@@ -4,6 +4,8 @@
  Source: https://github.com/taniarascia/new-moon
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
 :root {
   --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
   --code-font-color: #b3b9c5;
@@ -33,7 +35,7 @@ pre[class*='language-'] {
   -webkit-font-smoothing: subpixel-antialiased;
   color: var(--code-font-color);
   font-family: var(--code-font-family);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 
   text-align: left;
   white-space: pre-wrap;
@@ -67,7 +69,7 @@ pre[class*='language-'] {
 @media screen and (min-width: 800px) {
   code[class*='language-'],
   pre[class*='language-'] {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   pre[class*='language-'] {
     padding: 1.5rem;

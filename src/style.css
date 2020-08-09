@@ -288,6 +288,10 @@ aside a.link:hover {
   margin-top: 3rem;
 }
 
+.aside-content h3 {
+  border-bottom: 1.5px solid var(--light-background)
+}
+
 .visible {
   display: initial;
 }
@@ -665,6 +669,11 @@ tbody tr:nth-child(even) {
   display: block;
   margin-bottom: 1rem;
   border-bottom: none;
+}
+
+.aside-content .tags {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .row .cell {
