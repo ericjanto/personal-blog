@@ -1058,12 +1058,14 @@ a.tag-quick-tip:hover {
   color: black;
 }
 
-a.tag-cPanel {
+a.tag-cPanel,
+a.tag-tools {
   background: #fff4e6;
   color: #e8590c;
 }
 
-a.tag-cPanel:hover {
+a.tag-cPanel:hover,
+a.tag-tools:hover {
   background: #fd7e14;
   color: white;
 }
@@ -1111,13 +1113,15 @@ a.tag-project:hover {
 }
 
 a.tag-server,
-a.tag-book {
+a.tag-book,
+a.tag-personal {
   background: #e7f5ff;
   color: #1971c2;
 }
 
 a.tag-server:hover,
-a.tag-book:hover {
+a.tag-book:hover,
+a.tag-personal:hover {
   background: #1c7ed6;
   color: white;
 }
