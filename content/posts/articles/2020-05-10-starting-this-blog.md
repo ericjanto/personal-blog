@@ -13,7 +13,7 @@ tags:
   - 'notes'
 ---
 
-Not another blog!\
+Not another blog!
 That's what I thought initially. Surely, there are enough blogs around the web,
 covering every single topic one can think of. You know what? I don't care. This blog
 isn't even meant to be read by any people. There is a variety of different reasons why
@@ -42,7 +42,7 @@ two categories: **Purpose** and **Goals**.
 - Create a library of knowledge such that I can come back here, should I forget
   something (screw that [forgetting-curve](https://en.wikipedia.org/wiki/Forgetting_curve))
 - Inspire people to study computer science (it's great)
-- Motivate myself to study more CS topics in depth ([learning in public](/learn)-concept)
+- Motivate myself to study more CS topics in depth ("learning in public"-concept)
 
 ## What Can You Expect?
 
@@ -52,9 +52,11 @@ two categories: **Purpose** and **Goals**.
 ### Topics I'll Be Writing About
 
 - Student life
-- Computer Science - Everything my [degree](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=view&code=GG47) covers - Everything that interests me - Swift development since that's what I'm going for atm
+- Computer Science
+- Everything my [degree](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=view&code=GG47) covers
+- Everything that interests me
+- Swift development since that's what I'm going for atm
 - Artificial Intelligence
-- In general topics on my [learn page](/learn)
 
 ## Inspiration
 
