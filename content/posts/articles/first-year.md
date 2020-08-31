@@ -1,5 +1,5 @@
 ---
-date: 2020-08-30
+date: 2020-08-31
 title: 'First Year'
 template: post
 slug: first-year
@@ -66,7 +66,7 @@ In terms of academic content, my first semester was not really challenging. Just
 Here's a summary of my courses:
 
 #### Introduction to Linear Algebra
-- Learned: vectors, matrices & Gaussian elimination, span, subspaces, eigenvalues, orthogonal diagonalization, ...
+- Learned: vectors, matrices & Gaussian elimination, span, subspaces, eigenvalues, orthogonal diagonalization, etc.
 - Half of the course was already covered in my advanced maths course at school
 - Well taught but very time-consuming (4 tests/exercise papers each week, counting for 20% of the final mark)
 - The only course which was still quite challenging, not in the understanding of content but in the sheer amount of knowledge they required us to consume and learn… in the 4th week of lectures I'd have forgotten most of the 1st week's content -> that's why I'm trying out a spaced repetition system next year
@@ -111,7 +111,7 @@ Unfortunately, that was about the time when COVID-19 began so all of my exams we
 - Grammar-wise too easy; I should have chosen French 3, but still learned a lot because there was much speaking in French involved
 
 ## Lockdown
-In March, I decided to fly back to Germany to stay during with my family lockdown. While for many people, the pandemic and lockdown, unfortunately, brought with it many difficult and lamentable implications , that period was the most productive and self-improving time I've ever had in my entire life. I finished the required coursework and the final project for OOP and then started working on personal projects. During that time, I
+In March, I decided to fly back to Germany to stay with my family during lockdown. While for many people, the pandemic and lockdown, unfortunately, brought with it many difficult and lamentable implications , that period was the most productive and self-improving time I've ever had in my entire life. I finished the required coursework and the final project for OOP and then started working on personal projects. During that time, I
 
 - [started this blog](/starting-this-blog/),
 - joined a software team in Munich to help improve the [BreakOut Project](https://break-out.org),
@@ -149,7 +149,7 @@ The best thing, though, might be the community and atmosphere of the city. I fel
 
 ![27 Elliot's](../../images/first-year-02726.jpg)
 
-The thing is that you'll never experience the true nature if you're only a tourist. You'd have to live here, be a student here.
+The thing is that you'll never experience the true nature of Edinburgh if you're only a tourist. You'd have to live here, be a student here.
 Walking up Arthur's Seat is nice, but walking up Arthur's Seat with some of your best friends is wonderful.
 
 
