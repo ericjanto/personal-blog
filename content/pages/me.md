@@ -21,8 +21,8 @@ I play the piano and the violin, the latter in two orchestras:
 Here are some pieces I'm practicing at the moment:
 
 - Fuga, Sonata I, Bach
-- En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg.
-- Ballade No. 4, Chopin.
+- En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg
+- Ballade No. 4, Chopin
 
 ### Spoon List
 
