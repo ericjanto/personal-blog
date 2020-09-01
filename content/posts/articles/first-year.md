@@ -111,7 +111,7 @@ Unfortunately, that was about the time when COVID-19 began so all of my exams we
 - Grammar-wise too easy; I should have chosen French 3, but still learned a lot because there was much speaking in French involved
 
 ## Lockdown
-In March, I decided to fly back to Germany to stay with my family during lockdown. While for many people, the pandemic and lockdown, unfortunately, brought with it many difficult and lamentable implications , that period was the most productive and self-improving time I've ever had in my entire life. I finished the required coursework and the final project for OOP and then started working on personal projects. During that time, I
+In March, I decided to fly back to Germany to stay with my family during lockdown. While for many people, the pandemic and lockdown, unfortunately, brought with it many difficult and lamentable implications, that period was the most productive and self-improving time I've ever had in my entire life. I finished the required coursework and the final project for OOP and then started working on personal projects. During that time, I
 
 - [started this blog](/starting-this-blog/),
 - joined a software team in Munich to help improve the [BreakOut Project](https://break-out.org),
