@@ -85,7 +85,7 @@ If everything looks alright, go to cPanel and log in.
 
 Go to the file manager and look for the `public_html` directory. Usually, it has the web icon (🌐) in front of the name.
 
-Delete everything in there (if you don't need if for the new website) and click on `Upload`. Upload the entire content of the `public` directory (the one created with the `gatsby build` command). Make sure that the files are directly in the `public_html` directory, not in a new subdirectory.
+Delete everything in there (if you don't need it for the new website) and click on `Upload`. Upload the entire content of the `public` directory (the one created with the `gatsby build` command). Make sure that the files are directly in the `public_html` directory, not in a new subdirectory.
 
 That's it. If you've already linked a domain to your cPanel profile, the website should now be online.
 
