@@ -107,7 +107,7 @@ deployment:
     - /bin/cp -R public/* $DEPLOYPATH
 ```
 
-Make sure to replace `userName` in the deploypath with your actual username.
+Make sure to replace `userName` in the deploypath with your cPanel username.
 
 But what's going on here?
 
