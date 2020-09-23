@@ -112,7 +112,7 @@ Make sure to replace `userName` in the deploypath with your cPanel username.
 But what's going on here?
 
 1. We specify the path to the directory where cPanel where should put the GitHub repository files. We want this to be `public_html`.
-2. We specify which files to deploy. In our case, we only want the build files, i.e. files in the `public` folder, to be deployed. This is what `-R public/*` is for. It say "take all folders and files in `public`.
+2. We specify which files to deploy. In our case, we only want the build files, i.e. files in the `public` folder, to be deployed. This is what `-R public/*` is for. It says "take all folders and files in `public`.
 
 Now run `gatsby build` to create the `public` folder and push it to your repo. You can use `gatsby serve` to check the build files.
 
