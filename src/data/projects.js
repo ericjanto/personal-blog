@@ -22,4 +22,11 @@ export default [
     description:
       'A minimalist Gatsby website for the Edinburgh University String Orchestra • full stack dev.',
   },
+  {
+    icon: '🎷',
+    title: 'EUJO Website',
+    path: 'https://eujo.eusa.ed.ac.uk/history/',
+    description:
+      'The official website for the Edinburgh University Jazz Orchestra • full stack dev.',
+  },
 ]
