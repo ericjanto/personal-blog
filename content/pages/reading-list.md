@@ -14,6 +14,9 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 - [ ] The Old Man and the Sea – Ernest Hemingway
 - [ ] Atomic Habbits – James Clear
 - [ ] The Antidote: Happiness for People Who Can't Stand Positive Thinking – Oliver Burkeman
+- [ ] The Secret History – Donna Tartt
+- [ ] Never Let Me Go – Kazuo Ishiguro
+- [ ] Lolita – Vladimir Nabokov
 
 ---
 
