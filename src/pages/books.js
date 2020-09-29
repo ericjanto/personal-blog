@@ -54,9 +54,6 @@ export default function BlogIndex({ data }) {
             <li>
               <Link to="/reading-list">Reading List</Link>
             </li>
-            <li>
-              <Link to="/style-guide">Reference Style Guide</Link>
-            </li>
           </ul>
           Below is where I put all notes, thoughts and quotes.
         </p>
