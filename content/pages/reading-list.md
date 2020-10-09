@@ -15,12 +15,12 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 
 ### Fiction
 
+- [ ] A Thousand Splendid Suns – Khaled Hosseini
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson
 - [ ] Native Son – Richard Wright
 - [ ] Siddartha – Hermann Hesse
 - [ ] The Old Man and the Sea – Ernest Hemingway
 - [ ] The Secret History – Donna Tartt
-- [ ] Never Let Me Go – Kazuo Ishiguro
 - [ ] Lolita – Vladimir Nabokov
 
 ---
@@ -31,6 +31,7 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 
 ### Fiction
 
+- [x] **Never Let Me Go – Kazuo Ishiguro** • 9th October 2020
 - [x] **Water Music – T.C. Boyle** • 27th September 2020
 
 
