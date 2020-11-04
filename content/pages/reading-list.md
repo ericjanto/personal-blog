@@ -31,6 +31,7 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 
 ### Fiction
 
+- [x] **Charlie and the Chocolate Factory – Roald Dahl** • 3rd November 2020
 - [x] **A Thousand Splendid Suns – Khaled Hosseini** • 29th October 2020
 - [x] **Never Let Me Go – Kazuo Ishiguro** • 9th October 2020
 - [x] **Water Music – T.C. Boyle** • 27th September 2020
