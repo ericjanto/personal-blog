@@ -4,7 +4,7 @@ slug: reading-list
 template: page
 ---
 
-I'm very thankful for any suggestions, so if you have one please [contact](/contact/) me!
+I'm always open to new book recommendations. If you happen to have one, feel free to [contact](/contact/) me.
 
 ### Non-Fiction
 
@@ -35,5 +35,3 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 - [x] **A Thousand Splendid Suns – Khaled Hosseini** • 29th October 2020
 - [x] **Never Let Me Go – Kazuo Ishiguro** • 9th October 2020
 - [x] **Water Music – T.C. Boyle** • 27th September 2020
-
-
