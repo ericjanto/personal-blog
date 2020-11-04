@@ -15,7 +15,7 @@ I'm very thankful for any suggestions, so if you have one please [contact](/cont
 
 ### Fiction
 
-- [ ] Charlie and the Chocolate Factory
+- [ ] Brave New World – Aldous Huxley
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson
 - [ ] Native Son – Richard Wright
 - [ ] Siddartha – Hermann Hesse
