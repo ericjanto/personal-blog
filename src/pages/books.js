@@ -22,40 +22,35 @@ export default function BlogIndex({ data }) {
       <SEO />
       <section>
         <h1>Book Notes</h1>
-        <p className="subtitle">Kind of chaotic reviews.</p>
+        <p className="subtitle">Notes, Summaries, and Thoughts</p>
         <p className="medium">
-          Over the past few years, I came to realise that I'll forget most of
-          what I read unless I take notes. That's why I set up a few rules for
-          my reading behaviour:
-        </p>
-        <p>
-          <ul>
-            <li>Read every day at least 30min.</li>
-            <li>Let reading be the first thing you do in a day.</li>
-            <li>Read with a pen in your hand.</li>
-          </ul>
+          Below you can find my book notes. I always try to follow{` `}
+          <a href="https://www.nateliason.com/" target="_blank">Nat Eliason</a>'s approach:
         </p>
         <p className="medium">
           <blockquote className="quotation">
             <p>
-              "Reading with a pen in your hand is the small-scale equivalent of
-              a lecture."
+              "The notes and summaries are meant to be concise, reminding me of
+              high-level concepts and not trying to recreate the whole book. You
+              can use them to remind yourself of something you read or to decide
+              on something new to read."
             </p>
             <p>
               <cite>
-                – <a>Sönke Ahrens</a>, <em>How to Take Smart Notes</em>
+                – <a href="https://www.nateliason.com/" target="_blank">Nat Eliason</a><em></em>
               </cite>
             </p>
           </blockquote>
-          These links might be of interest for you:
-          <br />
-          <br />
+        <p>
+        Here are a few basic rules if you want to get into the habit of reading yourself:
           <ul>
-            <li>
-              <Link to="/reading-list">Reading List</Link>
-            </li>
+            <li>Read every day at least 30min.</li>
+            <li>Let reading be the first or last thing you do in a day.</li>
+            <li>Follow a{` `}<Link to="/reading-list">reading list</Link>.</li>
           </ul>
-          Below is where I put all notes, thoughts and quotes.
+        </p>
+          <br />
+          <br />
         </p>
         <Books data={simplifiedPosts} />
       </section>
