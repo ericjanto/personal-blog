@@ -4,7 +4,7 @@ slug: contact
 template: page
 ---
 
-Critiques, ideas, comments? Feel free to write an email!
+Critiques, ideas, comments? Feel free to send me an email!
 
 - **Email**: [jantoeric@gmail.com](mailto:jantoeric@gmail.com)
 - **GitHub**: [ericjanto](https://github.com/ericjanto/)
