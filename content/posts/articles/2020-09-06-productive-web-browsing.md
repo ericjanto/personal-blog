@@ -8,7 +8,7 @@ tags:
   - 'productivity'
 ---
 
-It was not until my Bluetooth mouse stopped working that I wanted to be able to use and navigate through Chrome only using my keyboard. After a few weeks, I noticed that it made my daily web browsing experience much more efficient and productive. This is a quick tutorial on how to web browse mouse-less on a Mac.
+It was not until my Bluetooth mouse stopped to work that I wanted to be able to use and navigate through Chrome only using my keyboard. After a few weeks, I noticed that it made my daily web browsing experience much more efficient and productive. This is a quick tutorial on how to web browse mouse-less on a Mac.
 
 ### System Navigation
 
