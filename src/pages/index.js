@@ -31,7 +31,7 @@ export default function BlogIndex({ data, ...props }) {
           <p>
             I'm <Link to="/me">Eric</Link> and this is my personal notepad. I{' '}
             <Link to="/blog">write</Link> about computer science, life,
-            and various other stuff. I work off my creativity on{' '}
+            and various other things. I work off my creativity on{' '}
             <Link to="/projects">side projects</Link>.
           </p>
         </div>

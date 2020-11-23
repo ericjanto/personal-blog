@@ -13,7 +13,7 @@ Gatsby is a static site generator. This means, for instance, that you can write 
 
 When I first used Gatsby to build this website, I was amazed about how easy the deployment with Netlify was. After the development process, I got this whole blog online within a few minutes.
 
-However, I was forced to use cPanel as a hosting platform for a new project. While it is certainly possible to deploy your Gatsby project on cPanel within a few minutes, I struggled very much with it, having never done it before. This article covers a simple step-by-step explanation on what exactly to do.
+However, I was forced to use cPanel as hosting platform for a new project. While it is certainly possible to deploy your Gatsby project on cPanel within a few minutes, I struggled very much with it, having never done it before. This article covers a simple step-by-step explanation on what exactly to do.
 
 #### Objectives
 
