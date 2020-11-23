@@ -11,9 +11,9 @@ export default function Nav() {
           </Link>
         </div>
         <div>
-          <Link to="/blog">Blog</Link>
+          <Link to="/blog">Articles</Link>
+          <Link to="/books">Notes</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/books">Book Notes</Link>
         </div>
       </div>
     </nav>

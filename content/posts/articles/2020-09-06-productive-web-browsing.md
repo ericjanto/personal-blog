@@ -40,7 +40,7 @@ These shortcuts allow me to use Chrome's most important functions. Nonetheless, 
 
 ### Web / Content Navigation
 
-That's where [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) comes in handy. In contrast to the shortcuts above, this browser extension allows navigating through website content itself rather than the Chrome application. You can also navigate through Chrome, e.g. open new tabs, but that's not what I use Vimium for.
+This is where [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) comes in handy. In contrast to the shortcuts above, this browser extension allows navigating through website content itself rather than the Chrome application. You can also navigate through Chrome, e.g. open new tabs, but that's not what I use Vimium for.
 
 I use Vimium only for the following functions:
  

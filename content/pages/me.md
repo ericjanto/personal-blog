@@ -4,7 +4,7 @@ slug: me
 template: page
 ---
 
-These days I spend most of my time studying AI & Computer Science in Edinburgh.
+These days, I spend most of my time studying AI & Computer Science in Edinburgh.
 I also play lots of music, and hike up Arthur's seat from time to time.
 
 ### Education
@@ -26,7 +26,7 @@ Here are some pieces I'm practicing at the moment:
 
 ### Spoon List
 
-Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we have this weird idiom 'den Löffel abgeben' which means literally 'to give away the spoon'. It's an analogy to 'to kick the bucket' and we say that when someone dies. So my spoon list contains all the things I want to get done before I give away my spoon.
+Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we have this weird idiom 'den Löffel abgeben' which translates to 'to give away the spoon'. We say that when someone dies. So my spoon list contains all the things I want to get done before I give away my spoon.
 
 - [ ] Walk along the 'Before Sunset' route in Vienna
 - [ ] Witness an Indian marriage
