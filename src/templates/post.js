@@ -10,6 +10,8 @@ import SEO from '../components/SEO'
 
 import config from '../utils/config'
 
+require(`katex/dist/katex.min.css`)
+
 export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
   const { previous, next } = pageContext

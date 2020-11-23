@@ -148,7 +148,21 @@ module.exports = {
               toHeading: 6,
             },
           },
-          'gatsby-remark-graphviz',
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },
+          {
+            resolve: 'gatsby-remark-graph',
+            options: {
+              // this is the language in your code-block that triggers mermaid parsing
+              language: 'mermaid', // default
+              theme: 'default' // could also be dark, forest, or neutral
+            }
+          },
           'gatsby-remark-prismjs',
         ],
       },

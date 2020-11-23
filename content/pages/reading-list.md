@@ -4,10 +4,13 @@ slug: reading-list
 template: page
 ---
 
-I'm always open to new book recommendations. If you happen to have one, feel free to [contact](/contact/) me.
+The purpose of a reading list is not to have a rigid reading plan.
+It's rather a first reference point if you happen to be in the situation that you don't have any idea what to read
+next.
 
 ### Non-Fiction
 
+- [ ] Play It Again – Alan Rusbridger
 - [ ] The Open Work – Umberto Eco
 - [ ] Getting Things Done – David Allen
 - [ ] Atomic Habbits – James Clear
@@ -15,7 +18,6 @@ I'm always open to new book recommendations. If you happen to have one, feel fre
 
 ### Fiction
 
-- [ ] Brave New World – Aldous Huxley
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson
 - [ ] Native Son – Richard Wright
 - [ ] Siddartha – Hermann Hesse
@@ -31,7 +33,10 @@ I'm always open to new book recommendations. If you happen to have one, feel fre
 
 ### Fiction
 
+- [x] **Brave New World – Aldous Huxley** • 20th November 2020
 - [x] **Charlie and the Chocolate Factory – Roald Dahl** • 3rd November 2020
 - [x] **A Thousand Splendid Suns – Khaled Hosseini** • 29th October 2020
 - [x] **Never Let Me Go – Kazuo Ishiguro** • 9th October 2020
 - [x] **Water Music – T.C. Boyle** • 27th September 2020
+
+I'm always open to new book recommendations, feel free to [contact](/contact/) me.
