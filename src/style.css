@@ -60,6 +60,25 @@ section > h2 {
   }
 }
 
+a.section-button {
+  display: inline-block;
+  font-weight: 500;
+  background: var(--light-background);
+  color: var(--dark-font-color);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 0.3rem;
+  border-width: 0 !important;
+  white-space: nowrap;
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+a.section-button:hover {
+  background: #868e96;
+  color: white;
+}
+
 .container {
   max-width: 1000px;
   margin-left: auto;
