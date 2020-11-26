@@ -1,5 +1,5 @@
 ---
-date: 2020-11-31
+date: 2020-11-26
 title: 'Understanding Graph Algorithms I: Graph Theory & Representations'
 template: post
 slug: understanding-graph-algorithms-i
