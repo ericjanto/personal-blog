@@ -9,7 +9,7 @@ tags:
   - 'data-structures'
 ---
 
-Graphs have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. Since graph algorithms are an essential part of a standard computer science degree curriculum, I decided to write down and explain the basics to understanding the topic better myself. Here's what I'm going to cover in this article:
+Graphs have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. Since graph algorithms are an essential part of a standard computer science degree curriculum, I decided to write down and explain the basics to understand the topic better myself. Here's what I'm going to cover in this article:
 
 ```toc
 exclude: [Prerequisites, Goals]
