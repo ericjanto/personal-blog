@@ -1192,3 +1192,16 @@ a.tag-notes:hover {
   background: #ae3ec9;
   color: white;
 }
+
+/* katex */
+
+.katex-display {
+  overflow-y: scroll !important;
+}
+
+
+/* graphs: mermaid */
+.mermaid {
+  max-width: 100%;
+  overflow-y: scroll;
+}
