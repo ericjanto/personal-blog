@@ -138,7 +138,7 @@ There are two popular approaches:
 
 ## Adjacency Matrices
 
-Let's assume we have some graph $G$ with $n$ vertices. We can name these vertices $0,...,n-1$. Then, the adjacency matrix of $G$ is an $n\times n$ matrix, that is a matrix which has $n$ rows and $n$ columns. Let's call that matrix $A$.
+Let's assume we have some graph $G$ with $n$ vertices. We can name these vertices $0,...,n-1$. Then, the adjacency matrix of $G$ is an $n\times n$ matrix, that is, a matrix which has $n$ rows and $n$ columns. Let's call that matrix $A$.
 
 $a_{i,j}$is an entry of $A$, where $i$ indicates the row and $j$ indicates the column. $a_{ij}$is $1$ if there is an edge which goes from vertex $i$ to vertex $j$. Otherwise, $a_{ij}$ is zero.
 
@@ -162,7 +162,7 @@ For instance, $a_{4,4}=1$ since $D$ is the 4th vertex and has an edge pointing t
 
 Let's take $G$ with its $n$ vertices again. We come up with an array with $n$ entries, one for each vertex. Each entry contains a list of all vertices to which the respective node has outgoing edges too. So an entry is a list of vertices *adjacent* to the node for which the entry is.
 
-![Image of an Adjacency List. Source: https://commons.wikimedia.org/wiki/File:Adjacencylist_array_of_linkedlists_directedgraph.svg](../images/adjacency-list.png)
+![Image of an Adjacency List. Source: https://commons.wikimedia.org/wiki/File:Adjacencylist_array_of_linkedlists_directedgraph.svg](../../images/adjacency-list.png)
 
 This adjacency list represents a graph $G=(V,E)$, where
 $$
