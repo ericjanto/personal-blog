@@ -1078,12 +1078,14 @@ a.tag-quick-tip:hover {
 }
 
 a.tag-cPanel,
+a.tag-graphs,
 a.tag-tools {
   background: #fff4e6;
   color: #e8590c;
 }
 
 a.tag-cPanel:hover,
+a.tag-graphs:hover,
 a.tag-tools:hover {
   background: #fd7e14;
   color: white;
@@ -1158,12 +1160,14 @@ a.tag-haskell:hover {
 }
 
 a.tag-data-structures,
+a.tag-algorithms,
 a.tag-react {
   background: #edf2ff;
   color: #3b5bdb;
 }
 
 a.tag-data-structures:hover,
+a.tag-algorithms:hover,
 a.tag-react:hover {
   background: #4263eb;
   color: white;

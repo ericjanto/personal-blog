@@ -4,8 +4,8 @@ title: 'Understanding Graph Algorithms I: Graph Theory & Representations'
 template: post
 slug: understanding-graph-algorithms-i
 tags:
-  - 'graphs'
   - 'algorithms'
+  - 'graphs'
   - 'data-structures'
 ---
 
