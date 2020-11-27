@@ -1199,10 +1199,6 @@ a.tag-notes:hover {
   overflow-x: scroll !important;
 }
 
-.katex {
-  overflow-y: visible !important;
-}
-
 /* graphs: mermaid */
 .mermaid {
   max-width: 100%;
