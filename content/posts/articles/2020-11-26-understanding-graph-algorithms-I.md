@@ -160,7 +160,7 @@ For instance, $a_{4,4}=1$ since $D$ is the 4th vertex and has an edge pointing t
 
 ## Adjacency Lists
 
-Let's take $G$ with its $n$ vertices again. We come up with an array with $n$ entries, one for each vertex. Each entry contains a list of all vertices to which the respective node has outgoing edges too. So an entry is a list of vertices *adjacent* to the node for which the entry is.
+Let's take $G$ with its $n$ vertices again. We come up with an array with $n$ entries, one for each vertex. Each entry contains an *unordered* list of all vertices to which the respective node has outgoing edges too. So an entry is a list of vertices *adjacent* to the node for which the entry is.
 
 ![Image of an Adjacency List. Source: https://commons.wikimedia.org/wiki/File:Adjacencylist_array_of_linkedlists_directedgraph.svg](../../images/adjacency-list.png)
 
@@ -179,8 +179,8 @@ I'll just throw this table at your head; explanations (and a bit of additional i
 
 | Efficiency Criterium                                  | Adjacency Matrix | Adjacency List    |
 |-------------------------------------------------------|------------------|-------------------|
-| Space Efficiency                                      | $\Theta (n^2)$   | $\Theta (n+m)$    |
-| Time to check if $w$ is adjacent</br>to $v$ (adjacency check) | $\Theta (1)$     | $\Theta (out(v))$ |
+| Space                                                 | $\Theta (n^2)$   | $\Theta (n+m)$    |
+| Time to check if $w$ is adjacent</br>to $v$ (adjacency check)  | $\Theta (1)$     | $\Theta (out(v))$ |
 | Time to visit all $w$ adjacent</br>to $v$ (adjacency visits)   | $\Theta (n)$     | $\Theta (out(v))$ |
 | Time to visit all edges (visit-all)                   | $\Theta (n^2)$   | $\Theta (n+m)$    |
 
