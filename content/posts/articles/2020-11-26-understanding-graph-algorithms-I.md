@@ -52,7 +52,7 @@ $$
 
 Ok, what are we saying here? We have a graph $G$ which is defined by a set $V$ of vertices and a set $E$ of edges. We also have some additional information: $E$ is a subset of the [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) $V\times V$. So by this definition, an edge is just an ordered pair of vertices.
 
-In the example above (graph $F$), $(a,b)$ would be an element of $E$ since there is a line between $a$ and $b$. Similarly, $(a,d)\notin E$.
+In the example above, $(a,b)$ would be an element of $E$ since there is a line between $a$ and $b$. Similarly, $(a,d)\notin E$.
 
 $V$ and $E$ are sets, so we can write the following:
 
