@@ -12,7 +12,7 @@ export default function FourOhFour() {
       <Helmet title={`404 | ${config.siteTitle}`} />
       <SEO />
       <h1>404</h1>
-      <p>The page you're looking for doesn't exist.</p>
+      <p>The page you're looking for doesn't exist. :(</p>
     </Layout>
   )
 }
