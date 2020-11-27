@@ -140,7 +140,7 @@ There are two popular approaches:
 
 Let's assume we have some graph $G$ with $n$ vertices. We can name these vertices $0,...,n-1$. Then, the adjacency matrix of $G$ is an $n\times n$ matrix, that is, a matrix which has $n$ rows and $n$ columns. Let's call that matrix $A$.
 
-$a_{i,j}$is an entry of $A$, where $i$ indicates the row and $j$ indicates the column. $a_{ij}$is $1$ if there is an edge which goes from vertex $i$ to vertex $j$. Otherwise, $a_{ij}$ is zero.
+$a_{ij}$ is an entry of $A$, where $i$ indicates the row and $j$ indicates the column. $a_{ij}$ is $1$ if there is an edge which goes from vertex $i$ to vertex $j$. Otherwise, $a_{ij}$ is zero.
 
 
 
@@ -192,7 +192,7 @@ Adjacency matrices have a major advantage that they are very easy to implement. 
 
 **Good for Undirected-Check**
 
-It's easy to check whether a graph is undirected or not. If it's an undirected graph, the *corresponding adjacency matrix is symmetric* around the diagonal. If you don't know why that is the case, I'd advise you to draw an undirected graph and write down the adjacency matrix.
+It's easy to check whether a graph is undirected or not. If it's an undirected graph, the *corresponding adjacency matrix is symmetric* around the diagonal. If you don't know why this is the case, I'd advise you to draw an undirected graph and write down the adjacency matrix.
 
 **Good for Adjacency-Check**
 
