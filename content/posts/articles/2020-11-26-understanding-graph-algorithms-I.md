@@ -40,7 +40,7 @@ graph LR
   B --> D((D))
   D --> D
 ```
-Here, we have a graph with 3 vertices ($A$, $B$, and $C$) and 3 edges (the lines between the vertices). Later, we'll refer to this graph again, so let's call it $F$.
+Here, we have a graph with 4 vertices ($A$, $B$, $C$, and $D$) and 4 edges (the lines between the vertices). Later, we'll refer to this graph again, so let's call it $F$.
 
 ## Definition of a Graph
 
