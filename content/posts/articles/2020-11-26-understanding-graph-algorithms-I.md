@@ -9,7 +9,7 @@ tags:
   - 'data-structures'
 ---
 
-Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. Since these algorithms are an essential part of a standard computer science degree curriculum, I decided to write down and explain the basics to understand the topic better myself. Here's what I'm going to cover in this article:
+Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself. Here's what I'm going to cover in this article:
 
 ```toc
 exclude: [Prerequisites, Goals]
@@ -27,7 +27,7 @@ to-heading: 2
 ## Goals
 
 - Understand graph theory
-- Build a foundation of knowledge for **Understanding Graph Algorithms II: Traversal Algorithms** (not published yet)
+- Build foundations for **Understanding Graph Algorithms II: Traversal Algorithms** (not published yet)
 
 # A Bit of Graph Theory
 
@@ -40,7 +40,7 @@ graph LR
   B --> D((D))
   D --> D
 ```
-Here, we have a graph with 4 vertices ($A$, $B$, $C$, and $D$) and 4 edges (the lines between the vertices). Later, we'll refer to this graph again, so let's call it $F$.
+Here, we have a graph with 4 vertices ($A$, $B$, $C$, and $D$) and 4 edges (the lines between the vertices). If we were really picky, we'd say that there aren't 4 lines but 4 *arrows*. But we'll get to that later. We'll refer to this graph again, so let's call it $F$.
 
 ## Definition of a Graph
 
@@ -88,10 +88,10 @@ graph LR
 
 ## Directed and Undirected Graphs
 
-We have two different types of graphs, directed and undirected graphs. <mark>A graph is undirected if, and only if, all of its edges are undirected.</mark> Otherwise it is directed.
+We have two different types of graphs, directed and undirected graphs. <mark>A graph is undirected if, and only if, all of its edges are undirected.</mark> Otherwise it's directed.
 So if a graph has some edge $(a,b)$ (that is, going from vertex $a$ to vertex $b$), it needs to have an edge $(b,a)$ too in order to be undirected. And that must be true for all edges $e\in E$.
 
-From a mathematical perspective, it's also fairly easy to distinguish between these two types. To this end, we note that $E$ is a *binary relation* as it is a subset of a Cartesian product. Let's also recall the definition of a *symmetric* relation:
+From a mathematical perspective, it's fairly easy to distinguish between these two types. To this end, we note that $E$ is a *binary relation* as it is a subset of a Cartesian product. Let's also recall the definition of a *symmetric* relation:
 
 > Let $R$  be a relation on a set $A$.
 A relation $R$ is **symmetric** if, and only if, for every $x,y\in A$, if $xRy$ then $yRx$.
