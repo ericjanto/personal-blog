@@ -171,6 +171,8 @@ One year later, I'm surprised to find myself in this beautiful city studying som
 
 ---
 
+*Thanks to Anoukia Nistor for reading a draft of this article.*
+
 ![Forth Bridge](../../images/first-year-02510.jpg)
 
 ![Royal Border Bridge](../../images/first-year-02536.jpg)
