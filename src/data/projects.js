@@ -1,5 +1,12 @@
 export default [
   {
+    icon: '✏️',
+    title: 'Roam Publisher',
+    path: 'https://notes.ericjanto.com/',
+    description:
+      'Coming soon.',
+  },
+  {
     icon: '😷',
     title: 'Corona-Warn-App',
     path: 'https://www.coronawarn.app/',
@@ -11,7 +18,14 @@ export default [
     title: 'BreakOut',
     path: 'https://break-out.org',
     description:
-      'In 36 hours. In teams of two. Without money. As far as possible. For a good cause • iOS dev.',
+      'In teams of two. Without money. As far as possible. For a good cause • fintech team.',
+  },
+  {
+    icon: '🌐',
+    title: 'Personal Website',
+    path: 'https://github.com/ericjanto/personal-blog',
+    description:
+      'My personal website, created with Gatsby, react, and node.js • full stak dev.',
   },
   {
     icon: '🎶',
