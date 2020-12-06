@@ -103,7 +103,7 @@ Unfortunately, that was about the time when COVID-19 began so all of my exams we
 #### Object-Oriented Programming
 - Learned: conditionals & loops, data structures (arrays, lists, hash maps, sets, ...), stack & heap, classes, objects, instances, static functions, inheritance, abstract classes, interfaces, VSC
 - Very well-taught, professor young and motivated
-- No exam but a [final project]([https://github.com/ericjanto/Library-Database-Project](https://github.com/ericjanto/Library-Database-Project)), which makes much more sense to me (I learn more from it in the long run)
+- No exam but a [final project](https://github.com/ericjanto/goodreads-csv-cli), which makes much more sense to me (I learn more from it in the long run)
 
 #### French 2 (Elective)
 - Chose this course because I wanted to maintain my French skills to leave a door open to study in France at some future time (not decided yet)
