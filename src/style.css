@@ -43,6 +43,7 @@ body {
 }
 
 article {
+  max-width: 825px;
   min-width: 0;
 }
 
@@ -55,6 +56,11 @@ section > h2 {
 }
 
 @media screen and (min-width: 800px) {
+  article {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+  }
   section {
     margin: 3rem 0;
   }
@@ -274,43 +280,6 @@ h5 {
   }
 }
 
-/* Sidebar */
-
-aside {
-  min-width: 260px;
-}
-
-aside p,
-aside ul,
-aside a {
-  font-size: 0.9rem;
-}
-
-aside ul {
-  padding-left: 1rem;
-}
-
-aside h3 {
-  font-size: 1.2rem;
-}
-
-aside a.link:hover {
-  border-bottom: 0;
-  background: var(--light-background);
-}
-
-.aside-content {
-  border-top: 2px solid var(--light-background);
-}
-
-.aside-content .visible > h3 {
-  margin-top: 3rem;
-}
-
-.aside-content h3 {
-  border-bottom: 1.5px solid var(--light-background)
-}
-
 .visible {
   display: initial;
 }
@@ -319,15 +288,30 @@ aside a.link:hover {
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
-  .aside-content {
-    border-top: 0;
-    border-left: 2px solid var(--light-background);
-    padding-left: 2rem;
-  }
-  .aside-content section {
-    margin-top: 0.25rem;
-  }
+/* Post Meta */
+.post-meta {
+  margin-top: 1rem;
+  padding: 0;
+  color: var(--light-font-color);
+  font-size: 0.9rem;
+}
+
+.post-meta a {
+  color: var(--font-color);
+  border-width: 0;
+}
+
+.post-meta time {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.post-meta .tags {
+  margin-top: 0.5rem;
+}
+
+.post-meta .tags a {
+  text-decoration: none;
 }
 
 .avatar {
@@ -862,7 +846,7 @@ tbody tr:nth-child(even) {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .grid.post {
     grid-gap: 3rem;
     grid-template-columns: 3fr 1fr;
@@ -871,7 +855,7 @@ tbody tr:nth-child(even) {
   .article-header h1 {
     font-size: 2.75rem;
   }
-}
+} */
 
 .post-thumbnail {
   display: block !important;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
 import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
+import { slugify } from '../utils/helpers'
 
 import config from '../utils/config'
 
@@ -34,11 +35,31 @@ export default function PostTemplate({ data, pageContext, ...props }) {
                 }
               />
             )}
-            <h1>{post.frontmatter.title}</h1>
+            <div>
+              <h1>{post.frontmatter.title}</h1>
+              <div className="post-meta">
+                <div>
+                  By <Link to="/me">Eric Janto</Link> on{' '}
+                  <time>{post.frontmatter.date}</time>
+                </div>
+                {/* {post.frontmatter.tags && (
+                  <div className="tags">
+                    {post.frontmatter.tags.map((tag) => (
+                      <Link
+                        key={tag}
+                        to={`/tags/${slugify(tag)}`}
+                        className={`tag-${tag}`}
+                      >
+                        {tag}
+                      </Link>
+                    ))}
+                  </div>
+                )} */}
+              </div>
+            </div>
           </header>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
-        <Sidebar post={post} {...props} />
       </section>
       <Suggested previous={previous} next={next} />
     </Layout>
