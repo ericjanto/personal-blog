@@ -10,7 +10,6 @@ next.
 
 ### Non-Fiction
 
-- [ ] Play It Again – Alan Rusbridger
 - [ ] The Open Work – Umberto Eco
 - [ ] Getting Things Done – David Allen
 - [ ] Atomic Habbits – James Clear
@@ -29,6 +28,7 @@ next.
 
 ### Non-Fiction
 
+- [x] **Play It Again – Alan Rusbridger** • 10th December 2020
 - [x] [How to Take Smart Notes – Sönke Ahrens](/how-to-take-smart-notes-live) • 14th July 2020
 
 ### Fiction
