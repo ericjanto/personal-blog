@@ -17,6 +17,8 @@ next.
 
 ### Fiction
 
+- [ ] No Longer Human – Osamu Dazai
+- [ ] Goodnight Punpun – Inio Asano
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson
 - [ ] Native Son – Richard Wright
 - [ ] Siddartha – Hermann Hesse
