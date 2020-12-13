@@ -25,7 +25,7 @@ export default [
     title: 'Personal Website',
     path: 'https://github.com/ericjanto/personal-blog',
     description:
-      'My personal website, created with Gatsby, react, and node.js • full stak dev.',
+      'My personal website, created with Gatsby, react, and node.js • full stack dev.',
   },
   {
     icon: '🎶',
