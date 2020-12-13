@@ -158,7 +158,7 @@ A =
 \end{pmatrix}
 $$
 
-For instance, $a_{4,4}=1$ since $D$ is the 4th vertex and has an edge pointing to itself.
+For instance, if our indexing is zero-based, $a_{3,3}=1$ since $D$ is the 3rd vertex and has an edge pointing to itself.
 
 ## Adjacency Lists
 
