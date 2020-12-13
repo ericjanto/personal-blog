@@ -29,7 +29,7 @@ export const pageQuery = graphql`
   query BlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      filter: { frontmatter: { template: { eq: "post" }, categories: {ne: "Books"} } }
     ) {
       edges {
         node {

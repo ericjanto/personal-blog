@@ -8,6 +8,9 @@ The purpose of a reading list is not to have a rigid reading plan.
 It's rather a first reference point if you happen to be in the situation that you don't have any idea what to read
 next.
 
+- [still to read](/reading-list/#non-fiction)
+- [already read](/reading-list/#non-fiction-1)
+
 ### Non-Fiction
 
 - [ ] The Open Work – Umberto Eco

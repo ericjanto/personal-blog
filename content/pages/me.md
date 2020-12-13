@@ -24,6 +24,8 @@ Here are some pieces I'm practicing at the moment:
 - En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg
 - Ballade No. 4, Chopin
 
+These are the songs or pieces I've been listening to the most lately: [On Repeat (Spotify)](https://open.spotify.com/playlist/37i9dQZF1EpihlA9BnKwgw?si=DPSDZrdBR1eBdU7-rdnX4w)
+
 ### Spoon List
 
 Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we have this weird idiom 'den Löffel abgeben' which translates to 'to give away the spoon'. We say that when someone dies. So my spoon list contains all the things I want to get done before I give away my spoon.
@@ -38,4 +40,4 @@ Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we h
 
 ---
 
-Oh, I also like hammocks and [reading](/books/).
+Oh, I also like hammocks and [reading](/reading-list/).

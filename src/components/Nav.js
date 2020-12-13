@@ -12,7 +12,7 @@ export default function Nav() {
         </div>
         <div>
           <Link to="/blog">Articles</Link>
-          <Link to="/books">Notes</Link>
+          {/* <Link to="/books">Notes</Link> */}
           <Link to="/projects">Projects</Link>
         </div>
       </div>
