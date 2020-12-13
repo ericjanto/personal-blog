@@ -33,7 +33,7 @@ to-heading: 2
 
 # A Bit of Graph Theory
 
-Let's start from scratch. What is a graph? A graph is basically just a structure which consists of a bunch of nodes, formally called *vertices*, and a bunch of lines which connect the vertices, called *edges*.
+Let's start from scratch. What is a graph? A graph is basically just a structure which consists of a bunch of nodes, formally called _vertices_, and a bunch of lines which connect the vertices, called _edges_.
 
 ```mermaid
 graph LR
@@ -42,7 +42,8 @@ graph LR
   B --> D((D))
   D --> D
 ```
-Here, we have a graph with 4 vertices ($A$, $B$, $C$, and $D$) and 4 edges (the lines between the vertices). If we were really picky, we'd say that there aren't 4 lines but 4 *arrows*. But we'll get to that later. We'll refer to this graph again, so let's call it $F$.
+
+Here, we have a graph with 4 vertices ($A$, $B$, $C$, and $D$) and 4 edges (the lines between the vertices). If we were really picky, we'd say that there aren't 4 lines but 4 _arrows_. But we'll get to that later. We'll refer to this graph again, so let's call it $F$.
 
 ## Definition of a Graph
 
@@ -65,17 +66,17 @@ $V$ and $E$ are sets, so we can write the following:
 
 We've seen the visualisation of a graph above. Vertices are represented by labelled circles, and edges are visualised using lines to connect the vertices. Note that we have two different kinds of edges:
 
-- **directed edge**: represented by an arrow, also called *arch*
+- **directed edge**: represented by an arrow, also called _arch_
 - **undirected edge**: represented by a plain line
 
-We use *directed* edges when we have an edge going from some vertex $u$ to some vertex $v$ but not vice versa:
+We use _directed_ edges when we have an edge going from some vertex $u$ to some vertex $v$ but not vice versa:
 
 ```mermaid
 graph LR
   A((A)) --> B((B))
 ```
 
-We use *undirected* edges when we have an edge going from $u$ to $v$ and another edge going from $v$ to $u$:
+We use _undirected_ edges when we have an edge going from $u$ to $v$ and another edge going from $v$ to $u$:
 
 ```mermaid
 graph LR
@@ -93,19 +94,19 @@ graph LR
 We have two different types of graphs, directed and undirected graphs. <mark>A graph is undirected if, and only if, all of its edges are undirected.</mark> Otherwise it's directed.
 So if a graph has some edge $(a,b)$ (that is, going from vertex $a$ to vertex $b$), it needs to have an edge $(b,a)$ too in order to be undirected. And that must be true for all edges $e\in E$.
 
-From a mathematical perspective, it's fairly easy to distinguish between these two types. To this end, we note that $E$ is a *binary relation* as it is a subset of a Cartesian product. Let's also recall the definition of a *symmetric* relation:
+From a mathematical perspective, it's fairly easy to distinguish between these two types. To this end, we note that $E$ is a _binary relation_ as it is a subset of a Cartesian product. Let's also recall the definition of a _symmetric_ relation:
 
-> Let $R$  be a relation on a set $A$.
-A relation $R$ is **symmetric** if, and only if, for every $x,y\in A$, if $xRy$ then $yRx$.
+> Let $R$ be a relation on a set $A$.
+> A relation $R$ is **symmetric** if, and only if, for every $x,y\in A$, if $xRy$ then $yRx$.
 
 This is just another way of saying that for all pairs $(x,y)$ in $R$, there must also be a complementing pair $(y,x)$. A graph $G=(V,E)$ is undirected if, and only if, $E$ is symmetric.
 
 ### More Notation for Directed Graphs
 
-For directed graphs, we have a bit of additional notation. If we pick some random vertex $v$, where $v\in V$, we can write $in(v)$. This denotes the *in-degree* of $v$, that is, the number of incoming edges into $v$.</br>
-In a similar manner, we also have $out(v)$, denoting the number of *outgoing* edges from $v$.
+For directed graphs, we have a bit of additional notation. If we pick some random vertex $v$, where $v\in V$, we can write $in(v)$. This denotes the _in-degree_ of $v$, that is, the number of incoming edges into $v$.</br>
+In a similar manner, we also have $out(v)$, denoting the number of _outgoing_ edges from $v$.
 
-A vertex which has only edges going in but no edges going out is also called a *sink* *node*.
+A vertex which has only edges going in but no edges going out is also called a _sink_ _node_.
 
 ```mermaid
 graph TB
@@ -116,12 +117,12 @@ graph TB
 
 ## More Graph Properties: Planar and Connected
 
-A graph is *planar* if it is possible to draw the graph (formally, to embed the graph in the plane) so that no edges cross each other.
+A graph is _planar_ if it is possible to draw the graph (formally, to embed the graph in the plane) so that no edges cross each other.
 
-A graph is *connected* if you start from any vertex and there always exists a path to any other vertex.
+A graph is _connected_ if you start from any vertex and there always exists a path to any other vertex.
 
 ```mermaid
-graph LR 
+graph LR
   C((C)) --> D((D))
   A((A)) --- B((B))
   B --- C
@@ -144,8 +145,6 @@ Let's assume we have some graph $G$ with $n$ vertices. We can name these vertice
 
 $a_{ij}$ is an entry of $A$, where $i$ indicates the row and $j$ indicates the column. $a_{ij}$ is $1$ if there is an edge which goes from vertex $i$ to vertex $j$. Otherwise, $a_{ij}$ is zero.
 
-
-
 For our graph $F$, this would be $A$, assuming that the vertices are ordered in lexicographical order:
 
 $$
@@ -162,15 +161,18 @@ For instance, if our indexing is zero-based, $a_{3,3}=1$ since $D$ is the 3rd ve
 
 ## Adjacency Lists
 
-Let's take $G$ with its $n$ vertices again. We come up with an array with $n$ entries, one for each vertex. Each entry contains a list of all vertices to which the respective node has outgoing edges too. So an entry is a list of vertices *adjacent* to the node for which the entry is.
+Let's take $G$ with its $n$ vertices again. We come up with an array with $n$ entries, one for each vertex. Each entry contains a list of all vertices to which the respective node has outgoing edges too. So an entry is a list of vertices _adjacent_ to the node for which the entry is.
 
 ![Image of an Adjacency List. Source: https://commons.wikimedia.org/wiki/File:Adjacencylist_array_of_linkedlists_directedgraph.svg](../../images/adjacency-list.png)
 
 This adjacency list represents a graph $G=(V,E)$, where
+
 $$
 V=\{a,b,c,d,e\}\\
 $$
+
 and
+
 $$
 E=\{(a,b),(a,d),(a,e),(b,c),(c,d),(d,a)\}.
 $$
@@ -179,12 +181,12 @@ $$
 
 I'll just throw this table at your head; explanations (and a bit of additional information) will follow:
 
-| Efficiency Criterium                                  | Adjacency Matrix | Adjacency List    |
-|-------------------------------------------------------|------------------|-------------------|
-| Space Efficiency                                      | $\Theta (n^2)$   | $\Theta (n+m)$    |
+| Efficiency Criterium                                          | Adjacency Matrix | Adjacency List    |
+| ------------------------------------------------------------- | ---------------- | ----------------- |
+| Space Efficiency                                              | $\Theta (n^2)$   | $\Theta (n+m)$    |
 | Time to check if $w$ is adjacent</br>to $v$ (adjacency check) | $\Theta (1)$     | $\Theta (out(v))$ |
-| Time to visit all $w$ adjacent</br>to $v$ (adjacency visits)   | $\Theta (n)$     | $\Theta (out(v))$ |
-| Time to visit all edges (visit-all)                   | $\Theta (n^2)$   | $\Theta (n+m)$    |
+| Time to visit all $w$ adjacent</br>to $v$ (adjacency visits)  | $\Theta (n)$     | $\Theta (out(v))$ |
+| Time to visit all edges (visit-all)                           | $\Theta (n^2)$   | $\Theta (n+m)$    |
 
 ### Advantages of Adjacency Matrices
 
@@ -194,7 +196,7 @@ Adjacency matrices have a major advantage that they are very easy to implement. 
 
 **Good for Undirected-Check**
 
-It's easy to check whether a graph is undirected or not. If it's an undirected graph, the *corresponding adjacency matrix is symmetric* around the diagonal. If you don't know why this is the case, I'd advise you to draw an undirected graph and write down the adjacency matrix.
+It's easy to check whether a graph is undirected or not. If it's an undirected graph, the _corresponding adjacency matrix is symmetric_ around the diagonal. If you don't know why this is the case, I'd advise you to draw an undirected graph and write down the adjacency matrix.
 
 **Good for Adjacency-Check**
 
@@ -238,11 +240,11 @@ Worst-case running-time of $\theta(n+m)$.
 
 ### Disadvantages of Adjacency Lists
 
-**Slow Adjacency Check** *(is $w$ a neighbour of $v$?)*
+**Slow Adjacency Check** _(is $w$ a neighbour of $v$?)_
 
 Since each of the entries of the adjacency list is an unordered list of neighbours, we need to go through the list until we find $w$ (or we don't, then the check evaluates to `False`).
 
-In the worst case, we need to go through the *entire* list. Recall that the length of that list is denoted by $out(v)$. So we have a worst-case running-time of $\theta(out(v))$.
+In the worst case, we need to go through the _entire_ list. Recall that the length of that list is denoted by $out(v)$. So we have a worst-case running-time of $\theta(out(v))$.
 
 ### TL;DR
 
@@ -250,17 +252,17 @@ Use adjacency lists unless the adjacency check plays a major role in your algori
 
 # Additional Bits
 
-*Stuff that is good to know but may not be used in my article series about graphs.*
+_Stuff that is good to know but may not be used in my article series about graphs._
 
-## Sparse and  Dense Graphs
+## Sparse and Dense Graphs
 
 Recall that $n$ is the number of vertices of a graph. Then, the maximum number of edges is $n^2$. This is easy to understand: if we start with the first vertex $0$, we can have at most $n$ edges going out from $0$, including an edge to itself (yup, that's definitely possible). For vertex $1$, we can also have at most $n$ edges going out from the vertex. And so on, up until vertex $n$. So the maximum number of edges is $n + n +...+n$, with $n$ summands. Hence, at most $n^2$ edges.
 
-Recall that $m$ is the number of edges of a graph $G$. If $m$ is close to $n^2$, we say that $G$ is a *dense* graph. You can think of this property like this: a dense graph is a graph which has proportionally many edges, it is well connected.
+Recall that $m$ is the number of edges of a graph $G$. If $m$ is close to $n^2$, we say that $G$ is a _dense_ graph. You can think of this property like this: a dense graph is a graph which has proportionally many edges, it is well connected.
 
-If $m$ is much smaller than $n^2$, we call $G$ a *sparse* graph.
+If $m$ is much smaller than $n^2$, we call $G$ a _sparse_ graph.
 
-There is no exact definition *how much* smaller or *how close* to $n^2$ $m$ should be, these terms are usually used when we're talking asymptotically about a graph, checking whether it hast *most* or *few* edges. In that context, we'd usually talk about $\theta(m)$ rather than $m$ as an exact number.
+There is no exact definition _how much_ smaller or _how close_ to $n^2$ $m$ should be, these terms are usually used when we're talking asymptotically about a graph, checking whether it hast _most_ or _few_ edges. In that context, we'd usually talk about $\theta(m)$ rather than $m$ as an exact number.
 
 ## The Corollary of Kuratowski's Theorem
 
@@ -279,6 +281,6 @@ We can use this to:
 
 - Cryan, Mary. ´Graphs I: graphs, Breadth-first search, Depth-first search.´ Class Lecture, University of Edinburgh, November 14, 2020.
 - Cormen, Thomas H., Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Third Edition. Cambridge, UNITED STATES: MIT Press, 2009. [http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142](http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142).
-    - Section 22.1
+  - Section 22.1
 - [Radcliﬀe, Mary. ‘Math 228: Kuratowski’s Theorem’, n.d., 9.](https://www.math.cmu.edu/~mradclif/teaching/228F16/Kuratowski.pdf)
 - ‘Cartesian Product’. In Wikipedia, 12 November 2020. [https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067](https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067.)
