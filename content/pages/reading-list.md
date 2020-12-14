@@ -34,7 +34,7 @@ next.
 ### Non-Fiction
 
 - [x] **Play It Again – Alan Rusbridger** • 10th December 2020
-- [x] [How to Take Smart Notes – Sönke Ahrens](/how-to-take-smart-notes-live) • 14th July 2020
+- [x] **How to Take Smart Notes – Sönke Ahrens** • 14th July 2020
 
 ### Fiction
 
