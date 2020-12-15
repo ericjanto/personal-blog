@@ -20,6 +20,7 @@ next.
 
 ### Fiction
 
+- [ ] I Will Judge You by Your Bookshelf
 - [ ] No Longer Human – Osamu Dazai
 - [ ] Goodnight Punpun – Inio Asano
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson

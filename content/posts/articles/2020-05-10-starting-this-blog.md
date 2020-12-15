@@ -47,7 +47,7 @@ two categories: **Purpose** and **Goals**.
 ## What Can You Expect?
 
 - Articles in tutorial form
-- To be published in a biweekly manner
+- To be published in a biweekly to monthly manner
 
 ### Topics I'll Be Writing About
 
