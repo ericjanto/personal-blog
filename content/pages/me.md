@@ -24,7 +24,7 @@ Here are some pieces I'm practicing at the moment:
 - En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg
 - Ballade No. 4, Chopin
 
-These are the songs or pieces I've been listening to the most lately: [On Repeat (Spotify)](https://open.spotify.com/playlist/37i9dQZF1EpihlA9BnKwgw?si=DPSDZrdBR1eBdU7-rdnX4w)
+These are the songs or pieces I've been listening to the most recently: [On Repeat (Spotify)](https://open.spotify.com/playlist/37i9dQZF1EpihlA9BnKwgw?si=DPSDZrdBR1eBdU7-rdnX4w)
 
 ### Spoon List
 
