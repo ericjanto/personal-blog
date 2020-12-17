@@ -181,7 +181,7 @@ $$
 
 I'll just throw this table at your head; explanations (and a bit of additional information) will follow:
 
-| Efficiency Criterium                                          | Adjacency Matrix | Adjacency List    |
+| Efficiency Criterion                                          | Adjacency Matrix | Adjacency List    |
 | ------------------------------------------------------------- | ---------------- | ----------------- |
 | Space Efficiency                                              | $\Theta (n^2)$   | $\Theta (n+m)$    |
 | Time to check if $w$ is adjacent</br>to $v$ (adjacency check) | $\Theta (1)$     | $\Theta (out(v))$ |
@@ -275,7 +275,7 @@ $$
 We can use this to:
 
 1. Check whether a graph is planar given the number of edges $|E|$ and the number of vertices $|V|$. The graph is planar if the inequality remains true.
-2. Given the information that a graph is planar, we can use the criterium to obtain a quite tight upper bound for the number of edges. Looking at the inequality, that number will asymptotically be the same as the number of vertices for planar graphs.
+2. Given the information that a graph is planar, we can use the criterion to obtain a quite tight upper bound for the number of edges. Looking at the inequality, that number will asymptotically be the same as the number of vertices for planar graphs.
 
 ## References and Further Reading
 
