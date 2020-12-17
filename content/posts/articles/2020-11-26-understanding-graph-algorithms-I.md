@@ -277,10 +277,13 @@ We can use this to:
 1. Check whether a graph is planar given the number of edges $|E|$ and the number of vertices $|V|$. The graph is planar if the inequality remains true.
 2. Given the information that a graph is planar, we can use the criterion to obtain a quite tight upper bound for the number of edges. Looking at the inequality, that number will asymptotically be the same as the number of vertices for planar graphs.
 
-## References and Further Reading
+# References
 
 - Cryan, Mary. ´Graphs I: graphs, Breadth-first search, Depth-first search.´ Class Lecture, University of Edinburgh, November 14, 2020.
-- Cormen, Thomas H., Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Third Edition. Cambridge, UNITED STATES: MIT Press, 2009. [http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142](http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142).
+- Cormen, Thomas H., Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Third Edition. Cambridge, UNITED STATES: MIT Press, 2009.
+  http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142.
   - Section 22.1
-- [Radcliﬀe, Mary. ‘Math 228: Kuratowski’s Theorem’, n.d., 9.](https://www.math.cmu.edu/~mradclif/teaching/228F16/Kuratowski.pdf)
-- ‘Cartesian Product’. In Wikipedia, 12 November 2020. [https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067](https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067.)
+- Radcliﬀe, Mary. ‘Math 228: Kuratowski’s Theorem’, n.d., 9.
+  https://www.math.cmu.edu/~mradclif/teaching/228F16/Kuratowski.pdf.
+- ‘Cartesian Product’. In Wikipedia, 12 November 2020.
+  https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067.
