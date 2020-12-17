@@ -28,7 +28,7 @@ export default [
       'My personal website, created with Gatsby, react, and node.js • full stack dev.',
   },
   {
-    icon: '🎶',
+    icon: '🎻',
     title: 'EUSO Website',
     path: '/euso-project',
     source:
