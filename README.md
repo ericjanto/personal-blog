@@ -10,7 +10,7 @@ My personal website.
 
 ## Author
 
-- [Eric Janto](https://www.ericjanto.netlify.com)
+- [Eric Janto](https://www.ericjanto.com/me)
 
 ## License
 
