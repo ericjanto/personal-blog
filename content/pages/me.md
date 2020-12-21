@@ -5,7 +5,7 @@ template: page
 ---
 
 These days, I spend most of my time studying AI & Computer Science in Edinburgh.
-I also play lots of music, and hike up Arthur's seat from time to time.
+I also play lots of music, like [reading](/reading-list/), and hike up Arthur's seat from time to time.
 
 ### Education
 
@@ -40,4 +40,4 @@ Non-exhausitve. I like to call my bucket list 'spoon list' since in German, we h
 
 ---
 
-Oh, I also like hammocks and [reading](/reading-list/).
+Oh, I also like hammocks.
