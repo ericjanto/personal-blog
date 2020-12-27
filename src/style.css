@@ -895,6 +895,19 @@ tbody tr:nth-child(even) {
   }
 }
 
+/* Article Images */
+
+.gatsby-resp-image-figcaption {
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  font-size: 15px;
+  margin-top: .2em;
+}
+
+.gatsby-resp-image-figure {
+  margin: 0;
+}
+
 /* Search */
 
 .search-form {

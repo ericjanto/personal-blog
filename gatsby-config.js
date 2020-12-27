@@ -124,6 +124,7 @@ module.exports = {
               classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
+              showCaptions: ['title'],
               showLineNumbers: true,
               noInlineHighlight: true,
               prompt: {

@@ -30,7 +30,7 @@ Having spent quite a lot of time playing the violin and the piano, I didn't want
 
 ![Selfie in Practice Room](../../images/first-year-02698.jpg)
 
-I also auditioned for two orchestras and became a first violin in both of them. After that, I could be certain that my musical life would be more or less secured.<br>
+I also auditioned for three orchestras and became a first violin in two of them. After that, I could be certain that my musical life would be more or less secured.<br>
 The real challenge was to integrate practice and rehearsal time into my already time-consuming academic schedule. A good solution was to study in a room which was close to the practice rooms. In my case, that was the *micro lab* in the building of the music faculty. While I'm positive that all the hours I spend in this horrible room with its neon-white hospital lighting and windowless walls caused PTSD, being able to go downstairs to practice the piano whenever I wanted to take a break came in handy.<br>
 During my first year, I learned how stress-relieving making music can be, especially during exam time.
 

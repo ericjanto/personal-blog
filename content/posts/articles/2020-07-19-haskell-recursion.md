@@ -8,7 +8,7 @@ tags:
   - 'basics'
 ---
 
-![Recursion Comic. Source: xkcd.com](../../images/recursion-xkcd.png)
+![Recursion Comic. Source: xkcd.com](../../images/recursion-xkcd.png 'xkcd on recursive patterns')
 
 Recursion has always been a weird and demanding method to me.
 It just seemed odd to me to define something in terms of itself.
