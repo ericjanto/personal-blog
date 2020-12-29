@@ -25,10 +25,11 @@ I'm always open to new book recommendations, feel free to [contact](/contact/) m
 - [ ] Getting Things Done – David Allen
 - [ ] Atomic Habbits – James Clear
 - [ ] The Antidote: Happiness for People Who Can't [...] – Oliver Burkeman
+- [ ] I Will Judge You by Your Bookshelf – Grant Snider
+- [ ] How to Live on 24 Hours a Day – Arnold Bennett
 
 ### Fiction (to-read)
 
-- [ ] I Will Judge You by Your Bookshelf
 - [ ] No Longer Human – Osamu Dazai
 - [ ] Goodnight Punpun – Inio Asano
 - [ ] Fear and Loathing in Las Vegas – Hunter S. Thompson
