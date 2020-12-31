@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Gallery from "react-photo-gallery";
+import Gallery from "../components/GallerySource/Gallery";
 import useDimensions from "react-cool-dimensions";
 
 import { debounce } from "../utils/debounce";
@@ -23,7 +23,7 @@ function DynamicLoadingGallery({ photos }) {
       window.scrollY ||
       window.pageYOffset ||
       document.documentElement.scrollTop;
-    if (window.innerHeight + scrollY >= document.body.offsetHeight - 500) {
+    if (window.innerHeight + scrollY >= document.body.offsetHeight - 900) {
       loadMorePhotos();
     }
   };
