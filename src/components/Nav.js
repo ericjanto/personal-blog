@@ -14,6 +14,7 @@ export default function Nav() {
           <Link to="/blog">Articles</Link>
           {/* <Link to="/books">Notes</Link> */}
           <Link to="/projects">Projects</Link>
+          <Link to="/gallery">Stills</Link>
         </div>
       </div>
     </nav>

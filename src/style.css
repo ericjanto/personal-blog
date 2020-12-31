@@ -1219,3 +1219,9 @@ a.tag-notes:hover {
   overflow-x: scroll;
   overflow-y: visible !important;
 }
+
+/* Gallery */
+.react-photo-gallery--gallery {
+  margin-left: -8px;
+  margin-right: -8px;
+}
