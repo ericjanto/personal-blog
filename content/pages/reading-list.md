@@ -39,6 +39,7 @@ I'm always open to new book recommendations, feel free to [contact](/contact/) m
 - [ ] The Old Man and the Sea – Ernest Hemingway
 - [ ] The Secret History – Donna Tartt
 - [ ] Lolita – Vladimir Nabokov
+- [ ] Night Train to Lisbon – Pascal Mercier (German version)
 
 ---
 
