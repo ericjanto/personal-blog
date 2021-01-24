@@ -52,12 +52,13 @@ I'm always open to new book recommendations, feel free to [contact](/contact/) m
 
 ### Fiction (already read)
 
-| Title                             | Author          | Date of finishing   |
-| --------------------------------- | --------------- | ------------------- |
-| Where the Crawdads Sing           | Delia Owens     | 7th January 2020    |
-| All the Light We Cannot See       | Anthony Doerr   | 21th December 2020  |
-| Brave New World                   | Aldous Huxley   | 20th November 2020  |
-| Charlie and the Chocolate Factory | Roald Dahl      | 3rd November 2020   |
-| A Thousand Splendid Suns          | Khaled Hosseini | 29 October 2020     |
-| Never Let Me Go                   | Kazuo Ishiguro  | 9th October 2020    |
-| Water Music                       | T.C. Boyle      | 27th September 2020 |
+| Title                             | Author            | Date of finishing   |
+| --------------------------------- | ----------------- | ------------------- |
+| The Way of Kings                  | Brandon Sanderson | 24th January 2021   |
+| Where the Crawdads Sing           | Delia Owens       | 7th January 2021    |
+| All the Light We Cannot See       | Anthony Doerr     | 21th December 2020  |
+| Brave New World                   | Aldous Huxley     | 20th November 2020  |
+| Charlie and the Chocolate Factory | Roald Dahl        | 3rd November 2020   |
+| A Thousand Splendid Suns          | Khaled Hosseini   | 29 October 2020     |
+| Never Let Me Go                   | Kazuo Ishiguro    | 9th October 2020    |
+| Water Music                       | T.C. Boyle        | 27th September 2020 |
