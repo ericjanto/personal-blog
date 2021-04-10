@@ -4,6 +4,11 @@ slug: reading-list
 template: page
 ---
 
+*I have moved to [goodreads](https://www.goodreads.com/ericjanto) to maintain my reading list.[^tes]*
+
+[^tes]:
+  This is a footnote
+
 The purpose of a reading list is not to have a rigid reading plan.
 It's rather a first reference point if you happen to be in the situation that you don't have any idea what to read
 next.
