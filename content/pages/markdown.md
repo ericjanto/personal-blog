@@ -217,6 +217,13 @@ primes = filterPrime [2..]
           p : filterPrime [x | x <- xs, x `mod` p /= 0]
 ```
 
+The standard codeblock without any language specified looks like this:
+
+```
+This is a standard codeblock.
+It doesn't support syntax highlighting.
+```
+
 This website supports a custom "codeblock" which simulates the appearance of a macOS terminal window using CSS.
 
 ```terminal
