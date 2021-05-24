@@ -6,20 +6,27 @@ import Layout from '../components/Layout'
 import Search from '../components/Search'
 import SEO from '../components/SEO'
 
+import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
+import CustomBreadcrumb from '../components/CustomBreadcrumb'
+  
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
 
-export default function BlogIndex({ data, ...props }) {
+export default function BlogIndex({ data, pageContext, location, ...props }) {
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: 'Writings',
+  })
 
   return (
     <Layout>
-      <Helmet title={`Blog | ${config.siteTitle}`} />
+      <Helmet title={`Writings | ${config.siteTitle}`} />
       <SEO customDescription="Articles, tutorials, snippets, musings, and everything else." />
+      <CustomBreadcrumb crumbs={crumbs} />
       <section>
-        <h1>Blog</h1>
-        <Search posts={simplifiedPosts} {...props} />
+        <Search posts={simplifiedPosts} location={location} { ...props} />
       </section>
     </Layout>
   )

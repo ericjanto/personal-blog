@@ -13,32 +13,20 @@ export default function BlogIndex({ data, ...props }) {
   const latest = data.latest.edges
   const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
 
-  const Section = ({ title, children, ...props }) => (
-    <section {...props}>
-      <h2>{title}</h2>
-      {children}
-      <Link className="section-button" to="/blog">View All</Link>
-    </section>
+  const Brand = ({ title, ...props }) => (
+    <div className="brand" {...props}>
+      <h4>
+        <Link to="/">{title}</Link>
+      </h4>
+    </div>
   )
 
   return (
     <Layout>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <section className="lead">
-        <div>
-          <h1>Hey friends,</h1>
-          <p>
-            I'm <Link to="/me">Eric</Link> and this is my personal notepad. I{' '}
-            <Link to="/blog">write</Link> about computer science, life,
-            and various other things. I work off my creativity on{' '}
-            <Link to="/projects">side projects</Link>.
-          </p>
-        </div>
-      </section>
-      <Section title="Recent">
-        <Posts data={simplifiedLatest} tags />
-      </Section>
+      <Brand title="Eric Janto">
+      </Brand>
     </Layout>
   )
 }

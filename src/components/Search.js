@@ -31,7 +31,7 @@ export default function Search({ posts, location, navigate }) {
         placeholder="Search all articles..."
         value={query}
         onChange={(e) => {
-          navigate(e.target.value ? `/blog/?search=${e.target.value}` : '')
+          navigate(e.target.value ? `/writings/?search=${e.target.value}` : '')
           setQuery(e.target.value)
         }}
       />

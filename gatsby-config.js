@@ -111,6 +111,37 @@ module.exports = {
     },
 
     // ===================================================================================
+    // FUNCTIONALITIES
+    // ===================================================================================
+
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        defaultCrumb: {
+          location: {
+            pathname: "/",
+          },
+          crumbLabel: "Eric Janto",
+          crumbSeparator: " / ",
+        },
+      }
+    },
+
+    // {
+    //   resolve: `gatsby-plugin-breadcrumb`,
+    //   options: {
+    //     useAutoGen: true,
+    //     autGenHomeLabel: `Eric Janto`,
+    //     exclude: [
+    //       `**/dev-404-page/**`,
+    //       `**/404/**`,
+    //       `**/404.html`,
+    //       `**/offline-plugin-app-shell-fallback/**`
+    //     ],
+    //   }
+    // },
+
+    // ===================================================================================
     // Markdown
     // ===================================================================================
 
