@@ -5,19 +5,24 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
+import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
+import CustomBreadcrumb from '../components/CustomBreadcrumb'
+
 import config from '../utils/config'
 
 export default function PageTemplate({ data }) {
   const post = data.markdownRemark
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: post.frontmatter.title,
+  })
 
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO />
+      <CustomBreadcrumb crumbs={crumbs} />
       <article>
-        <header>
-          <h1>{post.frontmatter.title}</h1>
-        </header>
         <section className="medium">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </section>

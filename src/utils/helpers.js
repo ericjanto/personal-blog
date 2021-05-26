@@ -6,6 +6,7 @@ export function getSimplifiedPosts(posts, options = {}) {
     tags: post.node.frontmatter.tags,
     title: post.node.frontmatter.title,
     author: post.node.frontmatter.author,
+    excerpt: post.node.frontmatter.excerpt,
     ...(options.thumbnails && {
       thumbnail: post.node.frontmatter.thumbnail.childImageSharp.fixed,
     }),
@@ -22,4 +23,23 @@ export function slugify(string) {
       .map((x) => x.toLowerCase())
       .join('-')
   )
+}
+
+export function colourCoder(tags) {
+  const highlightedCategories = ['computer-science', 'life']
+  const prefix = 'colour-category-'
+
+  if (!tags) {
+    return prefix + 'other'
+  }
+
+  for (let t of tags) {
+    for (let hc of highlightedCategories) {
+      if (t === hc) {
+        return prefix + t
+      }
+    }
+  }
+
+  return prefix + 'other'
 }

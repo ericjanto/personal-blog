@@ -10,7 +10,7 @@ export default function SearchForm({ posts, location, navigate }) {
         e.preventDefault()
         if (!query) return
 
-        navigate(query ? `/blog/?search=${query}` : '')
+        navigate(query ? `/writings/?search=${query}` : '')
       }}
     >
       <input

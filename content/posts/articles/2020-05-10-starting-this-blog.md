@@ -1,12 +1,12 @@
 ---
 date: 2020-05-10
 title: 'Starting This Blog'
+excerpt:
+  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 author: 'Eric'
 template: post
 thumbnail: '../../thumbnails/blog.png'
 slug: starting-this-blog
-categories:
-  - 'Dummy'
 tags:
   - 'student-life'
   - 'productivity'

@@ -9,6 +9,9 @@ import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
 import { slugify } from '../utils/helpers'
 
+import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
+import CustomBreadcrumb from '../components/CustomBreadcrumb'
+
 import config from '../utils/config'
 
 require(`katex/dist/katex.min.css`)
@@ -17,11 +20,16 @@ export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
   const { previous, next } = pageContext
   const { thumbnail } = post.frontmatter
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: post.frontmatter.title,
+  })
 
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO postPath={post.fields.slug} postNode={post} postSEO />
+      <CustomBreadcrumb crumbs={crumbs} />
       <section className="grid post">
         <article>
           <header className="article-header medium">
@@ -29,7 +37,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
               <Img
                 fixed={thumbnail.childImageSharp.fixed}
                 className={
-                  post.frontmatter.categories
+                  post.frontmatter.category
                     ? `guide-thumbnail`
                     : `post-thumbnail`
                 }
@@ -78,9 +86,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         tags
-        path
-        categories
-        source
+        category
         thumbnail {
           childImageSharp {
             fixed(width: 75, height: 75) {

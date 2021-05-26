@@ -1,12 +1,14 @@
 ---
 date: 2020-06-07
 title: 'How to Use List Comprehension in Haskell'
+excerpt:
+  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 template: post
 slug: haskell-list-comprehension
 tags:
+  - 'computer-science'
   - 'haskell'
   - 'data-structures'
-  - 'basics'
 ---
 
 List Comprehensions are one of my favourite features of Haskell. Just as [recursion](/haskell-recursion/), list comprehension is a basic technique and should be learned right in the

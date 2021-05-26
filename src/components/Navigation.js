@@ -6,7 +6,7 @@ export default function Nav() {
     <nav className="navigation container">
       <hr className="navline"></hr>
       <div className="grid">
-        <div className="navlinks">
+        <div className="navlinks reversedLink">
           <ul>
             <li>
               <Link to="/notes">Notes</Link>
@@ -19,7 +19,7 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-        <div className="navlinks">
+        <div className="navlinks reversedLink">
           <ul>
             <li>
               <Link to="/me">Me</Link>
@@ -32,7 +32,7 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-        <div className="navlinks">
+        <div className="navlinks reversedLink">
           <ul>
             <li>
               <Link to="/follow">Follow</Link>

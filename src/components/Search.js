@@ -28,7 +28,7 @@ export default function Search({ posts, location, navigate }) {
       <input
         id="search"
         type="search"
-        placeholder="Search all articles..."
+        placeholder="Search..."
         value={query}
         onChange={(e) => {
           navigate(e.target.value ? `/writings/?search=${e.target.value}` : '')
@@ -38,12 +38,12 @@ export default function Search({ posts, location, navigate }) {
       <section>
         {query ? (
           results.length > 0 ? (
-            <Posts data={results} tags />
+            <Posts data={results} />
           ) : (
             <p>Sorry, nothing matched that search.</p>
           )
         ) : (
-          <Posts data={posts} tags />
+          <Posts data={posts} />
         )}
       </section>
     </>

@@ -1,10 +1,13 @@
 ---
 date: 2020-08-31
 title: 'First Year'
+excerpt:
+  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 template: post
 slug: first-year
+category: life
 tags:
-  - 'student-life'
+  - 'life'
   - 'personal'
   - 'notes'
 ---

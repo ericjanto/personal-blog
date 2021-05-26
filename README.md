@@ -4,6 +4,15 @@
 
 My personal website.
 
+## Local Build
+
+- Clone into local repo.
+- Known to work with node version `14.4.0`
+  - Use `nvm use 14` to point to that version
+- *Make sure that `"gatsby-plugin-sharp": "^2.14.4"` in `package.json`
+- Run `yarn install`
+- Run `gatsby develop`
+
 ## Acknowledgements
 
 - Tania Rascia - [Gatsby Theme](https://github.com/taniarascia/taniarascia.com)

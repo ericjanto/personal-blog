@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
@@ -26,6 +26,15 @@ export default function BlogIndex({ data, pageContext, location, ...props }) {
       <SEO customDescription="Articles, tutorials, snippets, musings, and everything else." />
       <CustomBreadcrumb crumbs={crumbs} />
       <section>
+        {`I write about `}
+        <Link to={`/tags/computer-science`} className="colour-category-computer-science">computer science</Link>
+        {`, `}
+        <Link to={`/tags/life`} className="colour-category-life">life</Link>
+        {`, and various `}
+        <Link to={`/tags/other`} className="colour-category-other">other things</Link>
+        {`.`}
+      </section>
+      <section>
         <Search posts={simplifiedPosts} location={location} { ...props} />
       </section>
     </Layout>
@@ -36,7 +45,7 @@ export const pageQuery = graphql`
   query BlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" }, categories: {ne: "Books"} } }
+      filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
         node {
@@ -45,9 +54,11 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             title
             tags
+            excerpt
+            category
           }
         }
       }

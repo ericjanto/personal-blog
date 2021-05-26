@@ -28,11 +28,11 @@ template: page
 
 While the meta data section is generally option, Markdown files for this blog will at least need to have these meta data fields:
 
-| Field Name | Value                                                                                                          |
-| ---------- | -------------------------------------------------------------------------------------------------------------- |
-| title      | Title of your page. Gets parsed as your first h1 header.                                                       |
+| Field Name | Value                                                                                     |
+| ---------- | ----------------------------------------------------------------------------------------- |
+| title      | Title of your page. Gets parsed as your first h1 header.                                  |
 | slug       | Determines what comes after the slash in ericjanto.com/. Should be unique for every page. |
-| template   | Determines which template is used to parse this file. Use article or page.                                     |
+| template   | Determines which template is used to parse this file. Use article or page.                |
 
 If you're using the `post` template, the required fields are these:
 
@@ -42,6 +42,9 @@ date: 2020-05-10
 title: 'Starting This Blog'
 template: post
 slug: starting-this-blog
+excerpt:
+  'blablabla'
+category: life
 tags:
   - 'student-life'
   - 'productivity'
@@ -168,14 +171,14 @@ The above Markdown code parses like this:
 You should never need to space tables out yourself. I wrote the above table like below and used `Opt + Shift + F` to automatically format the table. You may need to have a Markdown prettier extension installed for your text editor of choice to do be able to do so.
 
 ```md
-*Table before formatting*
+_Table before formatting_
 
 | Ice Cream Flavour | Rating (1-10) |
-| -| - |
-| Lemon | 8 |
-| Maracuja | 9 |
-| Lime | 9 |
-| Vanille | 8 |
+| ----------------- | ------------- |
+| Lemon             | 8             |
+| Maracuja          | 9             |
+| Lime              | 9             |
+| Vanille           | 8             |
 ```
 
 ## Quotes
@@ -250,7 +253,7 @@ Another additional feature of this blog is to display an optional filename on to
 <div class="filename">friends.md</div>
 
 ```md
-*I like apples.*
+_I like apples._
 — Anoukia
 ```
 

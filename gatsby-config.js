@@ -49,7 +49,7 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  categories: edge.node.frontmatter.tags,
+                  excerpt: edge.node.frontmatter.excerpt,
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -72,6 +72,7 @@ module.exports = {
                         slug 
                       }
                       frontmatter {
+                        excerpt
                         title
                         date
                         tags
@@ -114,6 +115,7 @@ module.exports = {
     // FUNCTIONALITIES
     // ===================================================================================
 
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
@@ -124,22 +126,15 @@ module.exports = {
           crumbLabel: "Eric Janto",
           crumbSeparator: " / ",
         },
+        exclude: [
+          `**/writings/?search=**`,
+          `**/dev-404-page/**`,
+          `**/404/**`,
+          `**/404.html`,
+          `**/offline-plugin-app-shell-fallback/**`
+        ],
       }
     },
-
-    // {
-    //   resolve: `gatsby-plugin-breadcrumb`,
-    //   options: {
-    //     useAutoGen: true,
-    //     autGenHomeLabel: `Eric Janto`,
-    //     exclude: [
-    //       `**/dev-404-page/**`,
-    //       `**/404/**`,
-    //       `**/404.html`,
-    //       `**/offline-plugin-app-shell-fallback/**`
-    //     ],
-    //   }
-    // },
 
     // ===================================================================================
     // Markdown
@@ -238,6 +233,7 @@ module.exports = {
                   tags
                   slug
                   date(formatString: "MMMM DD, YYYY")
+                  excerpt
                 }
                 rawMarkdownBody
               }
@@ -246,7 +242,7 @@ module.exports = {
         `,
         ref: 'id',
         index: ['title', 'body', 'tags'],
-        store: ['id', 'slug', 'title', 'tags', 'date'],
+        store: ['id', 'slug', 'title', 'tags', 'date', 'excerpt'],
         normalizer: ({ data }) =>
           data.allMarkdownRemark.nodes.map((node) => ({
             id: node.id,
@@ -255,6 +251,7 @@ module.exports = {
             body: node.rawMarkdownBody,
             tags: node.frontmatter.tags,
             date: node.frontmatter.date,
+            excerpt: node.frontmatter.excerpt,
           })),
       },
     },

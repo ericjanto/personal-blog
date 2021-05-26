@@ -6,6 +6,7 @@ const createPages = async ({ graphql, actions }) => {
   const blogPage = path.resolve('./src/templates/post.js')
   const pagePage = path.resolve('./src/templates/page.js')
   const tagPage = path.resolve('./src/templates/tag.js')
+  const otherTagPage = path.resolve('./src/templates/otherTag.js')
 
   const result = await graphql(
     `
@@ -90,6 +91,15 @@ const createPages = async ({ graphql, actions }) => {
         tag,
       },
     })
+  })
+
+  const otherTag = 'other'
+  createPage({
+    path: `/tags/other`,
+    component: otherTagPage,
+    context: {
+      otherTag,
+    },
   })
 }
 

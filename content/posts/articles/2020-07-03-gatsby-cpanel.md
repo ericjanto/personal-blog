@@ -1,9 +1,12 @@
 ---
 date: 2020-07-03
 title: 'Deploying Your Gatsby Site to cPanel'
+excerpt:
+  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 template: post
 slug: deploy-gatsby-cpanel
 tags:
+  - 'computer-science'
   - 'gatsby'
   - 'cPanel'
   - 'server'
@@ -25,7 +28,7 @@ However, I was forced to use cPanel as hosting platform for a new project. While
 - Setup for continuous deployment
 - Setup of a domain with cPanel
 
-I tried to set up continuos deployment system which [should be possible](https://blog.cpanel.com/git-version-control-soon-with-automatic-deployment/). I tried it for a few hours and gave up after running into too many problems (please [conact](/contact/) me if you have a simple step-by-step guide and wanna help me out in that regard).
+I tried to set up continuos deployment system which [should be possible](https://blog.cpanel.com/git-version-control-soon-with-automatic-deployment/). I tried it for a few hours and gave up after running into too many problems (please [contact](/contact/) me if you have a simple step-by-step guide and wanna help me out in that regard).
 
 ## Without Git – Newbie Version
 
