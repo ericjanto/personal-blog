@@ -6,8 +6,7 @@ import Layout from '../components/Layout'
 import Search from '../components/Search'
 import SEO from '../components/SEO'
 
-import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
-import CustomBreadcrumb from '../components/CustomBreadcrumb'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
   
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
@@ -15,17 +14,15 @@ import config from '../utils/config'
 export default function BlogIndex({ data, pageContext, location, ...props }) {
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
-  const { crumbs } = useBreadcrumb({
-    location,
-    crumbLabel: 'Writings',
-  })
+
+  const crumbs = ["Notes", "Writings"]
 
   return (
     <Layout>
       <Helmet title={`Writings | ${config.siteTitle}`} />
       <SEO customDescription="Articles, tutorials, snippets, musings, and everything else." />
-      <CustomBreadcrumb crumbs={crumbs} />
-      <section>
+      <BreadcrumbMenu crumbs={crumbs} />
+      <section className="leadText">
         {`I write about `}
         <Link to={`/tags/computer-science`} className="colour-category-computer-science">computer science</Link>
         {`, `}

@@ -43,3 +43,20 @@ export function colourCoder(tags) {
 
   return prefix + 'other'
 }
+
+export function linkify(string) {
+  const s = JSON.stringify(string)
+  return (
+    s &&
+    s
+      .match(
+        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
+      )
+      .map((x) => (
+        x === "crumb"
+          ? null
+          : x.toLowerCase())
+      )
+      .join('')
+  )
+}

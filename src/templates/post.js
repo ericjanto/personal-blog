@@ -43,33 +43,10 @@ export default function PostTemplate({ data, pageContext, ...props }) {
                 }
               />
             )}
-            <div>
-              <h1>{post.frontmatter.title}</h1>
-              <div className="post-meta">
-                <div>
-                  By <Link to="/me">Eric Janto</Link> on{' '}
-                  <time>{post.frontmatter.date}</time>
-                </div>
-                {/* {post.frontmatter.tags && (
-                  <div className="tags">
-                    {post.frontmatter.tags.map((tag) => (
-                      <Link
-                        key={tag}
-                        to={`/tags/${slugify(tag)}`}
-                        className={`tag-${tag}`}
-                      >
-                        {tag}
-                      </Link>
-                    ))}
-                  </div>
-                )} */}
-              </div>
-            </div>
           </header>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
       </section>
-      <Suggested previous={previous} next={next} />
     </Layout>
   )
 }

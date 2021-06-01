@@ -8,7 +8,7 @@ import Navigation from './Navigation'
 import '../style.css'
 import '../new-moon.css'
 
-export default function Layout({ children, location }) {
+export default function Layout({ children }) {
   return (
     <>
       <Helmet>

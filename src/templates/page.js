@@ -5,23 +5,22 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
-import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
-import CustomBreadcrumb from '../components/CustomBreadcrumb'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
 
 import config from '../utils/config'
 
 export default function PageTemplate({ data }) {
   const post = data.markdownRemark
-  const { crumbs } = useBreadcrumb({
-    location,
-    crumbLabel: post.frontmatter.title,
-  })
+
+  // Maybe resolve the "would need custom page for each page" problem
+  // by passing something to page metadata and accessing it?
+  const crumbs = [""]
 
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO />
-      <CustomBreadcrumb crumbs={crumbs} />
+      <BreadcrumbMenu crumbs={crumbs} />
       <article>
         <section className="medium">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />

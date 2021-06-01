@@ -41,7 +41,7 @@ export default function Nav() {
               <Link to="/newsletter">Newsletter</Link>
             </li>
             <li>
-              <Link to="/rss.xml">RSS</Link>
+              <Link to="/what-is-rss">RSS</Link>
             </li>
           </ul>
         </div>

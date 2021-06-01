@@ -14,7 +14,7 @@ to-heading: 2
 
 ## Meta Data
 
-Markdown supports the use meta data. This is optional information at the beginning of every Markdown file which does not get displayed.
+Markdown supports the use of meta data. This is optional information at the beginning of every Markdown file which does not get displayed.
 
 For example, this page has the following meta data:
 
@@ -44,13 +44,14 @@ template: post
 slug: starting-this-blog
 excerpt:
   'blablabla'
-category: life
 tags:
   - 'student-life'
   - 'productivity'
   - 'notes'
 ---
 ```
+
+If you want to colour-code the article, use the tags `computer-science` or `life`, respectively.
 
 Note that the meta data section is separated from the rest of the document using `---` before and after the section.
 
@@ -128,12 +129,19 @@ Bulleted lists can be indented. I usually only use the first identation level to
 - Bulleted list
   - With indentation
 
+And here's an enumerated list:
+
+1. Enumerated list
+2. Cannot be indented on this website.
+  - Try it.
+
 ```md
 - Bulleted list
   - With indentation
 
 1. Enumerated list
 2. Cannot be indented on this website.
+  - Try it.
 ```
 
 A special type of list is the to-do list:
