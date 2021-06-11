@@ -4,25 +4,21 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
-import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
-import CustomBreadcrumb from '../components/CustomBreadcrumb'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
 
 import config from '../utils/config'
 
 export default function FourOhFour() {
-  const { crumbs } = useBreadcrumb({
-    location,
-    crumbLabel: "ERROR 1203499(0005)B",
-  })
+  const crumbs = ["ERROR 1203499(0005)B"]
   return (
     <Layout>
       <Helmet title={`404 | ${config.siteTitle}`} />
       <SEO />
-      <CustomBreadcrumb crumbs={crumbs} />
+      <BreadcrumbMenu crumbs={crumbs} />
       <section>
         <p>
           Wellp, now you did it. Broke the damn computer. You probably didn’t
-          even do anything major, did you? But see, I’m the dreaded Blue Screen
+          even do anything major, did you? But see, I’m the dreaded Black Screen
           of Death, and I pop up totally randomly, and most times, for no good gah-damn reason.
         </p>
         <p>

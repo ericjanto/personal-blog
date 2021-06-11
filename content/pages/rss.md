@@ -2,6 +2,9 @@
 title: 'RSS'
 slug: what-is-rss
 template: page
+crumbs:
+  - Follow
+  - RSS
 ---
 
 - What's RSS

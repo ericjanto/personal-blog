@@ -2,6 +2,9 @@
 title: About me
 slug: about
 template: page
+crumbs:
+  - Me
+  - About
 ---
 
 These days, I spend most of my time studying AI & Computer Science in Edinburgh.

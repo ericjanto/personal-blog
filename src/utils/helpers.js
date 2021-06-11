@@ -1,3 +1,5 @@
+import { x } from "../../node_modules/joi/lib/index"
+
 export function getSimplifiedPosts(posts, options = {}) {
   return posts.map((post) => ({
     id: post.node.id,
@@ -42,6 +44,37 @@ export function colourCoder(tags) {
   }
 
   return prefix + 'other'
+}
+
+export function categoriser(tags) {
+  const highlightedCategories = ['computer-science', 'life']
+
+  if (!tags) {
+    return 'other'
+  }
+
+  for (let t of tags) {
+    for (let hc of highlightedCategories) {
+      if (t === hc) {
+        return t
+      }
+    }
+  }
+
+  return 'other'
+}
+
+export function catPrettyPrint(tag) {
+  const s = JSON.stringify(tag)
+  const words = s.split("-");
+  console.log(words)
+
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i].replaceAll(/"/g,"")
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+  }
+
+  return words.join(" ")
 }
 
 export function linkify(string) {

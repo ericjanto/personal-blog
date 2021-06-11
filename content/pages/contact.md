@@ -2,6 +2,9 @@
 title: 'Contact'
 slug: contact
 template: page
+crumbs:
+  - Me
+  - Contact
 ---
 
 Critiques, ideas, comments? Feel free to send me an email!

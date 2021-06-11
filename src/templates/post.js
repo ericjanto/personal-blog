@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
@@ -9,8 +9,7 @@ import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
 import { slugify } from '../utils/helpers'
 
-import { useBreadcrumb } from 'gatsby-plugin-breadcrumb'
-import CustomBreadcrumb from '../components/CustomBreadcrumb'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
 
 import config from '../utils/config'
 
@@ -18,18 +17,15 @@ require(`katex/dist/katex.min.css`)
 
 export default function PostTemplate({ data, pageContext, ...props }) {
   const post = data.markdownRemark
-  const { previous, next } = pageContext
+  // const { previous, next } = pageContext
   const { thumbnail } = post.frontmatter
-  const { crumbs } = useBreadcrumb({
-    location,
-    crumbLabel: post.frontmatter.title,
-  })
+  const crumbs = [""]
 
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO postPath={post.fields.slug} postNode={post} postSEO />
-      <CustomBreadcrumb crumbs={crumbs} />
+      <BreadcrumbMenu crumbs={crumbs} page={ post }/>
       <section className="grid post">
         <article>
           <header className="article-header medium">
@@ -44,8 +40,15 @@ export default function PostTemplate({ data, pageContext, ...props }) {
               />
             )}
           </header>
+          <h1>{post.frontmatter.title}</h1>
+          <section>
+            <p>
+              {post.frontmatter.excerpt}
+            </p>
+          </section>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
+        <Sidebar post={post} {...props} />
       </section>
     </Layout>
   )
@@ -61,9 +64,11 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM, YYYY")
         tags
+        excerpt
         category
+        template
         thumbnail {
           childImageSharp {
             fixed(width: 75, height: 75) {

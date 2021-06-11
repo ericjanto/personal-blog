@@ -19,9 +19,15 @@
   --border-color: #ffffff;
 
   --smaller-font-size: 0.9rem;
-  --normal-font-size: 1rem;
+  --normal-font-size: 1.0rem;
   --medium-font-size: 1.1rem;
+  --larger-font-size: 1.2rem;
   --top-font-size: 1.3rem;
+
+  --small-screen: 600px;
+  --normal-screen: 768px;
+  --larger-screen: 992px;
+  --largest-screen: 1200px;
 }
 
 /* Reset */
@@ -120,14 +126,37 @@ p,
 ol,
 ul,
 dl,
-table,
 blockquote {
-  font-size: 1.05rem;
+  font-size: var(--medium-font-size);
   margin: 0 0 1.5rem 0;
 }
 
 ul {
   padding: 0 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  p,
+  ol,
+  ul,
+  dl,
+  blockquote {
+    font-size: var(--top-font-size);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  p,
+  ol,
+  ul,
+  dl,
+  blockquote {
+    font-size: var(--larger-font-size);
+  }
+
+  table {
+    font-size: var(--medium-font-size) !important;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -257,48 +286,48 @@ h4:not(:first-child) {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h2 code {
-  font-size: 1.75rem !important;
+  font-size: 1.5rem !important;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
 }
 
 h3 code {
-  font-size: 1.5rem !important;
+  font-size: 1.35rem !important;
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h2 code {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
 
   h3 {
@@ -379,6 +408,7 @@ a.link img {
 
 .leadText {
   font-size: var(--top-font-size);
+  margin: 1.5rem 0;
 }
 
 .lead {
@@ -646,6 +676,9 @@ main {
 .breadCrumbs {
   font-family: ia-mono;
   font-size: var(--medium-font-size);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .homeBreadcrumb {

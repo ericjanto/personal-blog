@@ -12,15 +12,11 @@ import config from '../utils/config'
 export default function PageTemplate({ data }) {
   const post = data.markdownRemark
 
-  // Maybe resolve the "would need custom page for each page" problem
-  // by passing something to page metadata and accessing it?
-  const crumbs = [""]
-
   return (
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO />
-      <BreadcrumbMenu crumbs={crumbs} />
+      <BreadcrumbMenu page={ post } />
       <article>
         <section className="medium">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -36,6 +32,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
+        crumbs
       }
     }
   }

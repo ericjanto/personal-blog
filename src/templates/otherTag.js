@@ -1,35 +1,28 @@
 import React, { useMemo } from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
-import Posts from '../components/Posts'
+import Search from '../components/Search'
 import SEO from '../components/SEO'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
 
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
+import Posts from '../components/Posts'
 
 export default function TagTemplate({ data }) {
-  const { totalCount } = data.allMarkdownRemark
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
-  const message = totalCount === 1 ? ' post found.' : ' posts found.'
+  const crumbs = ["Notes", "Writings", "Other"]
 
   return (
     <Layout>
       <Helmet title={`Posts tagged: other | ${config.siteTitle}`} />
       <SEO />
+      <BreadcrumbMenu crumbs={crumbs}/>
       <section>
-        <h1>
-          Tag: <u>{`other`}</u>
-        </h1>
-        <p class="subtitle">
-          <span className="count">{totalCount}</span>
-          {message}
-        </p>
-      </section>
-      <section>
-        <Posts data={simplifiedPosts} tags />
+        <Posts data={simplifiedPosts}/>
       </section>
     </Layout>
   )

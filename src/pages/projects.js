@@ -6,20 +6,23 @@ import Projects from '../components/Projects'
 import SEO from '../components/SEO'
 import config from '../utils/config'
 
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
+
 import projects from '../data/projects'
 
 export default function BlogProjects() {
   const Section = ({ title, children, ...props }) => (
     <section {...props}>
-      <h2>{title}</h2>
       {children}
     </section>
   )
+  const crumbs = ["Notes","Projects"]
 
   return (
     <Layout>
       <Helmet title={`Projects | ${config.siteTitle}`} />
       <SEO />
+      <BreadcrumbMenu crumbs={crumbs}/>
       <Section title="Projects">
         <Projects data={projects} />
       </Section>

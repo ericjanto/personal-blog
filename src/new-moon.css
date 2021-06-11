@@ -5,10 +5,11 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import "typography.css";
 
 :root {
-  --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
-  --code-font-color: #b3b9c5;
+  --code-font-family: ia-mono, 'Roboto Mono', Courier New, monospace;
+  --code-font-color: #fafafa;
   --code-background-color: #353535;
   --string: #92d192;
   --variable: #f2777a;
@@ -24,11 +25,12 @@
   --tag: #6ab0f3;
   --error: #f2777a;
   --light-background: #f1f3f5;
+  --link-color: #15beec;
 }
 
-pre[class*='language-'] {
+/* pre[class*='language-'] {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-}
+} */
 
 code[class*='language-'],
 pre[class*='language-'] {
@@ -80,7 +82,9 @@ pre[class*='language-'] {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background-color: var(--code-background-color);
+  /* background-color: #00c3ff3a; */
+  /* border-left: 2px solid var(--link-color);
+  border-radius: 0; */
 }
 
 /* Inline code */
@@ -91,8 +95,8 @@ pre[class*='language-'] {
 
 pre.language-text,
 code.language-text {
-  background: var(--light-background) !important;
-  color: #333 !important;
+  /* background: var(--light-background) !important; */
+  /* color: #333 !important; */
   box-shadow: none;
 }
 
