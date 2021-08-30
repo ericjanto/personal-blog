@@ -2,10 +2,9 @@
 - [x] Category links
 - [x] Breadcrumb verbessern
 - [x] Category sites
-- [ ] Migrate Gatsby
-- [ ] Dependency updater
-- [ ] Pages
-- [x] 404
+- [x] Fix inline-code
+- [ ] Finish page contents
+- [ ] 404
 - [ ] Anchor Title Links
 - [ ] Link Validator
 - [ ] ASCII Art Html comment
@@ -14,6 +13,15 @@
 - [ ] Remove breadcrumb and trailing link remover packages
 - [ ] Remove Mermaid
 - [ ] Fix Errors in Google Chrome Devs
+- [ ] Fix to-do box styles
+- [x] Quotes
+- [ ] Fix terminal style
+- [ ] Fix file style
+
+---
+
+- [ ] Migrate Gatsby
+- [ ] Dependency updater
 
 # ericjanto.com
 

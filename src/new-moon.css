@@ -91,6 +91,7 @@ pre[class*='language-'] {
 :not(pre) > code[class*='language-'] {
   padding: 0.1rem 0.3rem;
   border-radius: 0.3rem;
+  background-color: #00c3ff3a;
 }
 
 pre.language-text,

@@ -194,7 +194,7 @@ _Table before formatting_
 Quotes are useful to let important key aspects of the text stand out.
 
 > Markdown supports custom styling for quotes.
-> They can consist of multiple-line text.
+> They can consist of multiple-line text. [This is a link](/).
 
 ```md
 > Markdown supports custom styling for quotes.
@@ -311,7 +311,7 @@ The square brackets need to be omitted, they are only here because otherwise the
 
 ## Graphs
 
-In [my post about graph algorithms](https://ericjanto.com/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I chose to draw graphs by hand (more fun + less time-consuming anyway).
+In [my post about graph algorithms](/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I chose to draw graphs by hand (more fun + less time-consuming anyway).
 
 [^1]: This is an example of a footnote.
 [^2]: Markdown auto-numbers this very section.

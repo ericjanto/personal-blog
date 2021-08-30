@@ -213,27 +213,11 @@ hr {
 blockquote {
   margin: 1.5rem 0;
   padding: 1rem;
-  background: #fff9db;
-  border-radius: 0.3rem;
-  border: 1px solid #ffe066;
-  border-left: 8px solid #ffe066;
+  border-left: 2px solid var(--link-color);
 }
 
 blockquote p {
   margin: 0;
-}
-
-blockquote a {
-  padding: 1px 4px;
-  border-bottom: 2px solid #ffe066;
-  color: var(--heading-color);
-}
-
-blockquote a:hover {
-  border-radius: 0.3rem;
-  border-bottom: 2px solid #ffe066;
-  background: #ffe066;
-  color: var(--heading-color);
 }
 
 blockquote.quotation {
