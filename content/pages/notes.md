@@ -4,5 +4,4 @@ slug: notes
 template: page
 ---
 
-- [Writings](/writings)
-- [Projects](/projects)
+Notes about my [projects](/projects) and some random [blog posts](/writings).

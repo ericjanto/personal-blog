@@ -3,24 +3,20 @@
 - [x] Breadcrumb verbessern
 - [x] Category sites
 - [x] Fix inline-code
-- [ ] Finish page contents
-- [ ] 404
-- [ ] Anchor Title Links
-- [ ] Link Validator
-- [ ] ASCII Art Html comment
-- [ ] Optional designs
-- [ ] Kommentare löschen
-- [ ] Remove breadcrumb and trailing link remover packages
-- [ ] Remove Mermaid
-- [ ] Fix Errors in Google Chrome Devs
-- [ ] Fix to-do box styles
+- [x] Finish page contents
+- [x] 404
+- [x] Anchor Title Links
+- [x] ASCII Art Html comment
+- [x] Fix to-do box styles
 - [x] Quotes
-- [ ] Fix terminal style
-- [ ] Fix file style
+- [x] Fix terminal style
+- [x] Fix file style
+- [x] Image subtitles
+- [x] Excerpts
 
 ---
 
-- [ ] Migrate Gatsby
+- [ ] Link Validator
 - [ ] Dependency updater
 
 # ericjanto.com

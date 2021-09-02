@@ -4,5 +4,4 @@ slug: follow
 template: page
 ---
 
-- [Newsletter](/newsletter)
-- [RSS](/rss)
+[Newsletter](/newsletter) will be up soon. Follow my [RSS](/rss) feed until then.

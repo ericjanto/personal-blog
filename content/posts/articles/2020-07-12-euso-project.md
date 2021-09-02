@@ -2,7 +2,7 @@
 date: 2020-07-12
 title: 'A Gatsby Website for the Edinburgh University String Orchestra'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  'Project write-up for when I restructured and redesigned the website of the Edinburgh University String Orchestra. I used the Gatsby framework and cPanel to host the website.'
 template: post
 slug: euso-project
 tags:

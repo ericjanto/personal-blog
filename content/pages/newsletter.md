@@ -7,4 +7,4 @@ crumbs:
   - Newsletter
 ---
 
-tinyletters
+Will be up soon, probably via tinyletters.

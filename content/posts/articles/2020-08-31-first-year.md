@@ -2,7 +2,7 @@
 date: 2020-08-31
 title: 'First Year'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  Last September, I moved to Edinburgh to go to uni, equipped with a suitcase, a bag and my violin. It would be the first time that I would be living on my own, away from my family, friends and familiar environment. Here's what I experienced in my first year.
 template: post
 slug: first-year
 category: life
@@ -11,8 +11,6 @@ tags:
   - 'personal'
   - 'notes'
 ---
-
-Last September, I moved to Edinburgh to go to uni, equipped with a suitcase, a bag and my violin. It would be the first time that I would be living on my own, away from my family, friends and familiar environment. Here's what I experienced in my first year.
 
 ```toc
 from-heading: 2

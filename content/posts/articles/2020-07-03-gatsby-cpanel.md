@@ -2,7 +2,7 @@
 date: 2020-07-03
 title: 'Deploying Your Gatsby Site to cPanel'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  While it is certainly possible to deploy your Gatsby project on cPanel within a few minutes, I struggled very much with it, having never done it before. This article covers a simple step-by-step explanation on what exactly to do.
 template: post
 slug: deploy-gatsby-cpanel
 tags:
@@ -100,8 +100,6 @@ The first thing to do is to include a `.cpanel.yml` file in your project directo
 
 You want your `.cpanel.yml` file to look like this for Gatsby projects:
 
-<div class="filename">.cpanel.yml</div>
-
 ```yml
 ---
 deployment:
@@ -125,7 +123,5 @@ Then choose a path where your repository should be stored. It doesn't really mat
 I chose `/home/userName/repositories` as it makes it easier to find it should I ever need to.
 
 Choose a repo name and click on `Create`. Make sure that your `public_html` folder is empty, go back to the Git control panel in cPanel and click on the `Manage` button next to your repository name. Then go to `Pull or Deploy`, click on `Update from Remote` and then `Deploy HEAD Commit`.
-
----
 
 That should be it! Enjoy your website, generated with Gatsby, deployed to and hosted by cPanel.

@@ -235,36 +235,6 @@ This is a standard codeblock.
 It doesn't support syntax highlighting.
 ```
 
-This website supports a custom "codeblock" which simulates the appearance of a macOS terminal window using CSS.
-
-```terminal
-blog:posts eric$ tree
-.
-└── articles
-    ├── 2020-05-10-starting-this-blog.md
-    ├── 2020-05-24-understanding-lists.md
-    ├── 2020-06-07-haskell-list-comprehension.md
-    ├── 2020-07-03-gatsby-cpanel.md
-    ├── 2020-07-12-euso-project.md
-    ├── 2020-07-14-haskell-ghci-efficiency.md
-    ├── 2020-07-15-live-articles.md
-    ├── 2020-07-19-haskell-recursion.md
-    ├── 2020-08-31-first-year.md
-    ├── 2020-09-06-productive-web-browsing.md
-    └── 2020-11-26-understanding-graph-algorithms-I.md
-```
-
-Pretty cool, right? To use this feature, use `terminal` as language abbreviation after the three back-ticks.
-
-Another additional feature of this blog is to display an optional filename on top of the code bock. Do so by adding `<div class="filename">file.md</div>` before the code block, leaving a blank line space in between.
-
-<div class="filename">friends.md</div>
-
-```md
-_I like apples._
-— Anoukia
-```
-
 ## Math Equations
 
 I integrated the KaTeX Gatsby plugin with this blog which enables the parsing of LaTeX syntax in Markdown files. There are two different modes:

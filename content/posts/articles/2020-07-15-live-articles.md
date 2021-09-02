@@ -2,7 +2,7 @@
 date: 2020-07-18
 title: 'The Idea Behind Live Articles'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  'Today, I had this idea: articles on my website which are not complete yet. There are a few use cases for why I think that there is more to it than just publishing unfinished articles.'
 template: post
 slug: live-articles
 tags:
@@ -11,9 +11,6 @@ tags:
 ---
 
 ### The Idea & Benefits
-
-Today, I had this idea: articles on my website which aren't complete yet.
-There are a few use cases for why I think that there is more to it than just publishing unfinished articles:
 
 - Consider I'm working on some project. A live article could document my progress in real-time. More importantly, it would motivate me to finish the project since I've already put myself out there with the article.
 - I'm reading a new book. I'm using a live article to publish my notes to my [book notes section](/books) while I'm making progress with the book. This could

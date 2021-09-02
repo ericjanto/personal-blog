@@ -2,7 +2,11 @@
 date: 2020-05-10
 title: 'Starting This Blog'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  Not another blog!
+  That's what I thought initially. Surely, there are enough blogs around the web,
+  covering every single topic one can think of. You know what? I don't care. This blog
+  isn't even meant to be read by any people. There is a variety of different reasons why
+  I started it.
 author: 'Eric'
 template: post
 thumbnail: '../../thumbnails/blog.png'
@@ -12,12 +16,6 @@ tags:
   - 'productivity'
   - 'notes'
 ---
-
-Not another blog!
-That's what I thought initially. Surely, there are enough blogs around the web,
-covering every single topic one can think of. You know what? I don't care. This blog
-isn't even meant to be read by any people. There is a variety of different reasons why
-I started it.
 
 ## Broo, why?
 

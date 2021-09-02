@@ -10,22 +10,12 @@ crumbs:
 These days, I spend most of my time studying AI & Computer Science in Edinburgh.
 I also play lots of music, like [reading](/reading-list/), and hike up Arthur's seat from time to time.
 
-### Education
-
-Naah this page contains only personal information. Have a look at my [CV](https://www.ericjanto.com/cv) if you're interested in my educational background.
-
 ### Music
 
 I play the piano and the violin, the latter in two orchestras:
 
 - [Edinburgh University String Orchestra](https://string.eusa.ed.ac.uk/)
 - [Edinburgh University Chamber Orchestra](https://www.eusa.ed.ac.uk/activities/societies/society/euco/)
-
-Here are some pieces I'm practicing at the moment:
-
-- Fuga, Sonata I, Bach
-- En avril, à Paris. Original song by Charles Trenet, transcription by Weissenberg
-- Ballade No. 4, Chopin
 
 These are the songs or pieces I've been listening to the most recently: [On Repeat (Spotify)](https://open.spotify.com/playlist/37i9dQZF1EpihlA9BnKwgw?si=DPSDZrdBR1eBdU7-rdnX4w)
 

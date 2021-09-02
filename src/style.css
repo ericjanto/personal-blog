@@ -484,6 +484,10 @@ a.anchor:hover {
   border-bottom: none;
 }
 
+.anchor.before {
+  filter: invert(62%) sepia(86%) saturate(1673%) hue-rotate(152deg) brightness(96%) contrast(93%);
+}
+
 a code[class*='language-'] {
   color: var(--link-color) !important;
 }
@@ -653,6 +657,11 @@ main {
   .navbar a:first-of-type {
     margin-left: -1.5rem;
   }
+}
+
+.footnotes hr {
+  border: 0;
+  border-top: 0.5px solid darkgray;
 }
 
 /* Breadcrumb */
@@ -1041,9 +1050,9 @@ td {
 
 .gatsby-resp-image-figcaption {
   text-align: center;
-  color: rgba(0,0,0,0.6);
+  color: var(--link-hover);
   font-size: 15px;
-  margin-top: .2em;
+  margin-top: .9em;
 }
 
 .gatsby-resp-image-figure {

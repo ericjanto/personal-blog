@@ -2,7 +2,9 @@
 date: 2020-05-24
 title: 'Understanding Lists in Haskell'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  When you think about lists in general, you probably think about the grocery list
+  you've written last week. Or about a list of your New Year's resolutions.
+  Both lists have something in common, they store some data. This is a tutorial on how to use lists in Haskell.
 template: post
 slug: haskell-understanding-lists
 tags:
@@ -14,10 +16,6 @@ tags:
 
 _This article is directed at Haskell beginners. If you're already experienced, you might want to
 check out my [other Haskell articles](/tags/haskell)._
-
-When you think about lists in general, you probably think about the grocery list
-you've written last week. Or about a list of your New Year's resolutions.
-Both lists have something in common: they store some data.
 
 ## What Exactly Are Lists?
 

@@ -7,5 +7,4 @@ crumbs:
   - RSS
 ---
 
-- What's RSS
-- Subscribe to my [RSS feed](/rss.xml)
+You can subscribe to my RSS feed [here](/rss.xml). If you don't know what RSS is, [check it out](https://rss.com/blog/how-do-rss-feeds-work/).

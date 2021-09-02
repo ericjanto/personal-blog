@@ -2,7 +2,7 @@
 date: 2020-09-06
 title: 'Productive Web Browsing in Chrome'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  'It was not until my Bluetooth mouse stopped to work that I wanted to be able to use and navigate through Chrome only using my keyboard. After a few weeks, I noticed that it made my daily web browsing experience much more efficient and productive. This is a quick tutorial on how to web browse mouse-less on a Mac.'
 template: post
 slug: productive-web-browsing
 tags:
@@ -10,7 +10,7 @@ tags:
   - 'productivity'
 ---
 
-It was not until my Bluetooth mouse stopped to work that I wanted to be able to use and navigate through Chrome only using my keyboard. After a few weeks, I noticed that it made my daily web browsing experience much more efficient and productive. This is a quick tutorial on how to web browse mouse-less on a Mac.
+
 
 ### System Navigation
 

@@ -2,7 +2,8 @@
 date: 2020-07-19
 title: 'Understanding Recursion in Haskell'
 excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+  Recursion has always been a weird and demanding method to me. It just seemed odd to me to define something in terms of itself.
+  But after spending some time with defining recursive functions, I've learned to love it.
 template: post
 slug: haskell-recursion
 tags:
@@ -12,11 +13,6 @@ tags:
 ---
 
 ![Recursion Comic. Source: xkcd.com](../../images/recursion-xkcd.png 'xkcd on recursive patterns')
-
-Recursion has always been a weird and demanding method to me.
-It just seemed odd to me to define something in terms of itself.
-But after spending some time with defining recursive functions,
-I've learned to love it.
 
 #### Prerequisites
 
@@ -93,13 +89,8 @@ Recursion allows to find concise and elegant solutions to problems. It is a way 
 
 As our prof said: We all know that defining something in terms of itself is not always a sensible thing to do.
 
-<blockquote class=quotation>
-  <p>"Brexit means Brexit"</p>
-  <p>
-    <cite>– <a>Theresa May</a>, Member of Parliament of the United Kingdom
-    </cite>
-  </p>
-</blockquote>
+> "Brexit means Brexit" </br>
+> – Theresa May
 
 But that's not how it works with recursion. Self-reference is fine as long as long as the thing, you define it in terms of, is a **smaller instance** _(for now)_.
 

@@ -12,6 +12,8 @@ tags:
   - 'data-structures'
 ---
 
+_Some visualisations or graphics in this article might be difficult to see on the black background, my apologies. I have yet to find the time to recolour them._
+
 ![Personal Roam Research Graph](../../thumbnails/graph.png)
 
  Here's what I'm going to cover in this article:

@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
-import Sidebar from '../components/Sidebar'
 import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
 import { slugify } from '../utils/helpers'
@@ -48,7 +47,6 @@ export default function PostTemplate({ data, pageContext, ...props }) {
           </section>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
-        <Sidebar post={post} {...props} />
       </section>
     </Layout>
   )
