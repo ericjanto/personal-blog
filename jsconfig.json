@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "lib": [
+      "es2020.string",
+    ],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "baseUrl": "src",
