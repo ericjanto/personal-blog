@@ -182,11 +182,11 @@ You should never need to space tables out yourself. I wrote the above table like
 _Table before formatting_
 
 | Ice Cream Flavour | Rating (1-10) |
-| ----------------- | ------------- |
-| Lemon             | 8             |
-| Maracuja          | 9             |
-| Lime              | 9             |
-| Vanille           | 8             |
+| -| -|
+| Lemon | 8 |
+| Maracuja | 9 |
+| Lime | 9 |
+| Vanille | 8 |
 ```
 
 ## Quotes
