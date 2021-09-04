@@ -15,7 +15,7 @@ I also play lots of music, like [reading](/reading-list/), and hike up Arthur's 
 I play the piano and the violin, the latter in two orchestras:
 
 - [Edinburgh University String Orchestra](https://string.eusa.ed.ac.uk/)
-- [Edinburgh University Chamber Orchestra](https://www.eusa.ed.ac.uk/activities/societies/society/euco/)
+- [Edinburgh University Chamber Orchestra](https://euco.eusa.ed.ac.uk/)
 
 These are the songs or pieces I've been listening to the most recently: [On Repeat (Spotify)](https://open.spotify.com/playlist/37i9dQZF1EpihlA9BnKwgw?si=DPSDZrdBR1eBdU7-rdnX4w)
 
