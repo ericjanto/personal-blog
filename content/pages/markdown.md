@@ -100,10 +100,10 @@ The syntax for images is similar to the syntax for links:
 If you want to add a subtitle to the image, use single quotes and add a title after the image link.
 
 ```
-!['An xkcd comic on recursion. It gets me every time.'](../images/recursion-xkcd.png "An xkcd comic on recursion. It gets me every time.")
+!['An xkcd comic on recursion.'](../images/recursion-xkcd.png "An xkcd comic on recursion.")
 ```
 
-!['An xkcd comic on recursion. It gets me every time.'](../images/recursion-xkcd.png 'An xkcd comic on recursion. It gets me every time.')
+!['An xkcd comic on recursion.'](../images/recursion-xkcd.png 'An xkcd comic on recursion.')
 
 ## Headings
 
