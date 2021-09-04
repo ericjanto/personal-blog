@@ -83,8 +83,8 @@ pre[class*='language-'] {
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
   /* background-color: #00c3ff3a; */
-  /* border-left: 2px solid var(--link-color);
-  border-radius: 0; */
+  border: 2px solid #00c3ff3a;
+  border-radius: 0;
 }
 
 /* Inline code */
@@ -92,6 +92,7 @@ pre[class*='language-'] {
   padding: 0.1rem 0.3rem;
   border-radius: 0.3rem;
   background-color: #00c3ff3a;
+  border: 0;
 }
 
 pre.language-text,
