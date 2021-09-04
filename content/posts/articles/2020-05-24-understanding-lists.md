@@ -1,9 +1,14 @@
 ---
 date: 2020-05-24
 title: 'Understanding Lists in Haskell'
+excerpt:
+  When you think about lists in general, you probably think about the grocery list
+  you've written last week. Or about a list of your New Year's resolutions.
+  Both lists have something in common, they store some data. This is a tutorial on how to use lists in Haskell.
 template: post
 slug: haskell-understanding-lists
 tags:
+  - 'computer-science'
   - 'haskell'
   - 'data-structures'
   - 'basics'
@@ -11,10 +16,6 @@ tags:
 
 _This article is directed at Haskell beginners. If you're already experienced, you might want to
 check out my [other Haskell articles](/tags/haskell)._
-
-When you think about lists in general, you probably think about the grocery list
-you've written last week. Or about a list of your New Year's resolutions.
-Both lists have something in common: they store some data.
 
 ## What Exactly Are Lists?
 

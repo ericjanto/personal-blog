@@ -1,12 +1,5 @@
 export default [
   {
-    icon: '✏️',
-    title: 'Roam Publisher',
-    path: 'https://notes.ericjanto.com/',
-    description:
-      'Coming soon.',
-  },
-  {
     icon: '😷',
     title: 'Corona-Warn-App',
     path: 'https://www.coronawarn.app/',

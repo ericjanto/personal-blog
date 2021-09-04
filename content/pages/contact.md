@@ -2,10 +2,12 @@
 title: 'Contact'
 slug: contact
 template: page
+crumbs:
+  - Me
+  - Contact
 ---
 
-Critiques, ideas, comments? Feel free to send me an email!
+I like to make friends via the internet!
 
 - **Email**: [jantoeric@gmail.com](mailto:jantoeric@gmail.com)
-- **GitHub**: [ericjanto](https://github.com/ericjanto/)
 - **LinkedIn**: [Eric Janto](https://linkedin.com/in/eric-janto/)

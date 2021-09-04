@@ -14,7 +14,7 @@ to-heading: 2
 
 ## Meta Data
 
-Markdown supports the use meta data. This is optional information at the beginning of every Markdown file which does not get displayed.
+Markdown supports the use of meta data. This is optional information at the beginning of every Markdown file which does not get displayed.
 
 For example, this page has the following meta data:
 
@@ -42,12 +42,16 @@ date: 2020-05-10
 title: 'Starting This Blog'
 template: post
 slug: starting-this-blog
+excerpt:
+  'blablabla'
 tags:
   - 'student-life'
   - 'productivity'
   - 'notes'
 ---
 ```
+
+If you want to colour-code the article, use the tags `computer-science` or `life`, respectively.
 
 Note that the meta data section is separated from the rest of the document using `---` before and after the section.
 
@@ -125,12 +129,19 @@ Bulleted lists can be indented. I usually only use the first identation level to
 - Bulleted list
   - With indentation
 
+And here's an enumerated list:
+
+1. Enumerated list
+2. Cannot be indented on this website.
+  - Try it.
+
 ```md
 - Bulleted list
   - With indentation
 
 1. Enumerated list
 2. Cannot be indented on this website.
+  - Try it.
 ```
 
 A special type of list is the to-do list:
@@ -168,7 +179,7 @@ The above Markdown code parses like this:
 You should never need to space tables out yourself. I wrote the above table like below and used `Opt + Shift + F` to automatically format the table. You may need to have a Markdown prettier extension installed for your text editor of choice to do be able to do so.
 
 ```md
-*Table before formatting*
+_Table before formatting_
 
 | Ice Cream Flavour | Rating (1-10) |
 | ----------------- | ------------- |
@@ -183,7 +194,7 @@ You should never need to space tables out yourself. I wrote the above table like
 Quotes are useful to let important key aspects of the text stand out.
 
 > Markdown supports custom styling for quotes.
-> They can consist of multiple-line text.
+> They can consist of multiple-line text. [This is a link](/).
 
 ```md
 > Markdown supports custom styling for quotes.
@@ -222,36 +233,6 @@ The standard codeblock without any language specified looks like this:
 ```
 This is a standard codeblock.
 It doesn't support syntax highlighting.
-```
-
-This website supports a custom "codeblock" which simulates the appearance of a macOS terminal window using CSS.
-
-```terminal
-blog:posts eric$ tree
-.
-└── articles
-    ├── 2020-05-10-starting-this-blog.md
-    ├── 2020-05-24-understanding-lists.md
-    ├── 2020-06-07-haskell-list-comprehension.md
-    ├── 2020-07-03-gatsby-cpanel.md
-    ├── 2020-07-12-euso-project.md
-    ├── 2020-07-14-haskell-ghci-efficiency.md
-    ├── 2020-07-15-live-articles.md
-    ├── 2020-07-19-haskell-recursion.md
-    ├── 2020-08-31-first-year.md
-    ├── 2020-09-06-productive-web-browsing.md
-    └── 2020-11-26-understanding-graph-algorithms-I.md
-```
-
-Pretty cool, right? To use this feature, use `terminal` as language abbreviation after the three back-ticks.
-
-Another additional feature of this blog is to display an optional filename on top of the code bock. Do so by adding `<div class="filename">file.md</div>` before the code block, leaving a blank line space in between.
-
-<div class="filename">friends.md</div>
-
-```md
-*I like apples.*
-— Anoukia
 ```
 
 ## Math Equations
@@ -300,7 +281,7 @@ The square brackets need to be omitted, they are only here because otherwise the
 
 ## Graphs
 
-In [my post about graph algorithms](https://ericjanto.com/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I chose to draw graphs by hand (more fun + less time-consuming anyway).
+In [my post about graph algorithms](/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I chose to draw graphs by hand (more fun + less time-consuming anyway).
 
 [^1]: This is an example of a footnote.
 [^2]: Markdown auto-numbers this very section.

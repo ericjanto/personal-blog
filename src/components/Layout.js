@@ -3,8 +3,7 @@ import Helmet from 'react-helmet'
 
 import favicon from '../../content/thumbnails/favicon.png'
 
-import Nav from './Nav'
-import Footer from './Footer'
+import Navigation from './Navigation'
 
 import '../style.css'
 import '../new-moon.css'
@@ -15,9 +14,8 @@ export default function Layout({ children }) {
       <Helmet>
         <link rel="shortcut icon" type="image/png" href={favicon} />
       </Helmet>
-      <Nav />
       <main className="container">{children}</main>
-      <Footer />
+      <Navigation />
     </>
   )
 }

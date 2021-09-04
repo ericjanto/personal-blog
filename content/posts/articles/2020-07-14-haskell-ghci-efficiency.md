@@ -3,17 +3,18 @@ date: 2020-07-14
 title: 'How to Test For Efficiency in Haskell'
 template: post
 slug: haskell-efficiency
+excerpt:
+  While Haskell isn't famous for it's efficiency, sometimes we still want to measure how long the evaluation of an expression takes. This is a quick article on how to do so.
 tags:
+  - 'computer-science'
   - 'haskell'
   - 'quick-tip'
   - 'basics'
 ---
 
-While Haskell isn't famous for it's efficiency, sometimes we still want to measure how long the evaluation of an expression takes.
-
 To do so, you can use the `:set +s` command in GHCi.
 
-```terminal
+```bash
 ghci> :set +s
 ```
 
@@ -31,7 +32,5 @@ ghci> take 10 primes
 When you're tracking the time of fast evaluations like the one above, you should evaluate the expression a couple of times and take the mean of all time values. Sometimes GHCi needs a bit time to power up, that's why an evalutation could take longer the first time.
 
 This method works also with functions you've defined in an own .hs-file. You can remove the time evaluation by using `:unset +s`.
-
----
 
 Tip: If you're interested in prime number algorithms, check out the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).

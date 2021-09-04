@@ -1,11 +1,12 @@
 ---
 date: 2020-07-12
 title: 'A Gatsby Website for the Edinburgh University String Orchestra'
+excerpt:
+  'Project write-up for when I restructured and redesigned the website of the Edinburgh University String Orchestra. I used the Gatsby framework and cPanel to host the website.'
 template: post
 slug: euso-project
-path: https://string.eusa.ed.ac.uk/
-source: https://github.com/Edinburgh-University-String-Orchestra/euso-website
 tags:
+  - 'computer-science'
   - 'gatsby'
   - 'react'
   - 'project'

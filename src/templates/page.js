@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
+
 import config from '../utils/config'
 
 export default function PageTemplate({ data }) {
@@ -14,10 +16,8 @@ export default function PageTemplate({ data }) {
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO />
+      <BreadcrumbMenu page={ post } />
       <article>
-        <header>
-          <h1>{post.frontmatter.title}</h1>
-        </header>
         <section className="medium">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </section>
@@ -32,6 +32,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
+        crumbs
       }
     }
   }
