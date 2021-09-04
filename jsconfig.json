@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": [
-      "es2020.string",
-    ],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "baseUrl": "src",
