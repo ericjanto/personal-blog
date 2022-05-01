@@ -40,11 +40,6 @@ export default function PostTemplate({ data, pageContext, ...props }) {
             )}
           </header>
           <h1>{post.frontmatter.title}</h1>
-          <section>
-            <p>
-              {post.frontmatter.excerpt}
-            </p>
-          </section>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
       </section>
