@@ -3,11 +3,11 @@
   "private": true,
   "version": "2.0.0",
   "description": "Personal website running on Gatsby, React, and Node.js.",
-  "author": "Eric Janto & Tania Rascia",
+  "author": "Eric Janto",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write .",
     "start": "npm run develop",
     "serve": "gatsby serve",
