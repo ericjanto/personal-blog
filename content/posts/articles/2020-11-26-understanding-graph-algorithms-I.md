@@ -1,6 +1,6 @@
 ---
 date: 2020-11-26
-title: 'Understanding Graph Algorithms I: Graph Theory & Representations'
+title: 'Understanding graph algorithms I: graph theory & graph representations'
 excerpt:
   'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 template: post

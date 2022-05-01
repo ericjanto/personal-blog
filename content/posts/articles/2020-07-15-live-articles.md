@@ -1,6 +1,6 @@
 ---
 date: 2020-07-18
-title: 'The Idea Behind Live Articles'
+title: 'The idea behind live articles'
 excerpt:
   'Today, I had this idea: articles on my website which are not complete yet. There are a few use cases for why I think that there is more to it than just publishing unfinished articles.'
 template: post

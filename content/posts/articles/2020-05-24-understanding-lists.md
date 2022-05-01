@@ -1,6 +1,6 @@
 ---
 date: 2020-05-24
-title: 'Understanding Lists in Haskell'
+title: 'Understanding lists in Haskell'
 excerpt:
   When you think about lists in general, you probably think about the grocery list
   you've written last week. Or about a list of your New Year's resolutions.

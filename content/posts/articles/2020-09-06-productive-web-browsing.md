@@ -1,6 +1,6 @@
 ---
 date: 2020-09-06
-title: 'Productive Web Browsing in Chrome'
+title: 'Productive web browsing in Chrome'
 excerpt:
   'It was not until my Bluetooth mouse stopped to work that I wanted to be able to use and navigate through Chrome only using my keyboard. After a few weeks, I noticed that it made my daily web browsing experience much more efficient and productive. This is a quick tutorial on how to web browse mouse-less on a Mac.'
 template: post

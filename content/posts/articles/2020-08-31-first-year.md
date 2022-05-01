@@ -1,6 +1,6 @@
 ---
 date: 2020-08-31
-title: 'First Year'
+title: 'First year'
 excerpt:
   Last September, I moved to Edinburgh to go to uni, equipped with a suitcase, a bag and my violin. It would be the first time that I would be living on my own, away from my family, friends and familiar environment. Here's what I experienced in my first year.
 template: post

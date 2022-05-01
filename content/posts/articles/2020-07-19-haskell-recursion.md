@@ -1,6 +1,6 @@
 ---
 date: 2020-07-19
-title: 'Understanding Recursion in Haskell'
+title: 'Understanding recursion in Haskell'
 excerpt:
   Recursion has always been a weird and demanding method to me. It just seemed odd to me to define something in terms of itself.
   But after spending some time with defining recursive functions, I've learned to love it.

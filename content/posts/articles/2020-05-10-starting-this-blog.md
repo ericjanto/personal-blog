@@ -1,6 +1,6 @@
 ---
 date: 2020-05-10
-title: 'Starting This Blog'
+title: 'Starting this blog'
 excerpt:
   Not another blog!
   That's what I thought initially. Surely, there are enough blogs around the web,

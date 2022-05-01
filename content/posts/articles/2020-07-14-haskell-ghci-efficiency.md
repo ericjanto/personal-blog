@@ -1,6 +1,6 @@
 ---
 date: 2020-07-14
-title: 'How to Test For Efficiency in Haskell'
+title: 'How to test for efficiency in Haskell'
 template: post
 slug: haskell-efficiency
 excerpt:

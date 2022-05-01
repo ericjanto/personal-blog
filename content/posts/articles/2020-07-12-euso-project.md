@@ -1,6 +1,6 @@
 ---
 date: 2020-07-12
-title: 'A Gatsby Website for the Edinburgh University String Orchestra'
+title: 'A Gatsby website for the Edinburgh University String Orchestra'
 excerpt:
   'Project write-up for when I restructured and redesigned the website of the Edinburgh University String Orchestra. I used the Gatsby framework and cPanel to host the website.'
 template: post

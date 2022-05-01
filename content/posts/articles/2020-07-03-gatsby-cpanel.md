@@ -1,6 +1,6 @@
 ---
 date: 2020-07-03
-title: 'Deploying Your Gatsby Site to cPanel'
+title: 'Deploying your Gatsby site to cPanel'
 excerpt:
   While it is certainly possible to deploy your Gatsby project on cPanel within a few minutes, I struggled very much with it, having never done it before. This article covers a simple step-by-step explanation on what exactly to do.
 template: post

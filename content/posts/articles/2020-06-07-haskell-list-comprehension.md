@@ -1,6 +1,6 @@
 ---
 date: 2020-06-07
-title: 'How to Use List Comprehension in Haskell'
+title: 'How to use list comprehension in Haskell'
 excerpt:
   List comprehensions are one of my favourite features of Haskell. Just as recursion, list comprehension is a basic technique of functional programming and should be learned right in the beginning.
 template: post
