@@ -4,10 +4,7 @@ slug: reading-list
 template: page
 ---
 
-*I have moved to [goodreads](https://www.goodreads.com/ericjanto) to maintain my reading list.[^tes]*
-
-[^tes]:
-  This is a footnote
+*I moved to [goodreads](https://www.goodreads.com/ericjanto) to maintain my reading list.*
 
 The purpose of a reading list is not to have a rigid reading plan.
 It's rather a first reference point if you happen to be in the situation that you don't have any idea what to read
@@ -17,8 +14,8 @@ I have included an 'already read' list, not because I'm trying to show off what 
 it's not about whether someone has read a book but more about _how the reader engaged with it_. No, that list is merely more than
 a progress tracker to remind myself from time to time that I do read more than it sometimes appears to me, which can be a nice feeling.
 
-- [still to-read](/reading-list/#non-fiction)
-- [already read](/reading-list/#non-fiction-1)
+- [still to-read](/reading-list#non-fiction-to-read)
+- [already read](/reading-list#non-fiction-already-read)
 
 I'm always open to new book recommendations, feel free to [contact](/contact/) me.
 
