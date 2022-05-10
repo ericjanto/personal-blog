@@ -1,10 +1,10 @@
 ---
 date: 2022-05-10
-title: 'An append only note'
+title: 'Append-only writing'
 excerpt:
   Writing about an experimental writing process using an experimental writing process.
 template: post
-slug: an-append-only-note
+slug: append-only-writing
 tags:
   - 'other'
 ---
