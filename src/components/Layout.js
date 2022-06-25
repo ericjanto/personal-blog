@@ -5,7 +5,8 @@ import favicon from '../../content/thumbnails/favicon.png'
 
 import Navigation from './Navigation'
 
-import '../style.css'
+import '../style-new.css'
+import '../tufte.css'
 import '../new-moon.css'
 
 export default function Layout({ children }) {

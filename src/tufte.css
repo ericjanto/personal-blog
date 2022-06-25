@@ -1,0 +1,132 @@
+/* Tufte CSS styles, adapted for minimalist use */
+
+body {
+    counter-reset: sidenote-counter;
+}
+
+p {
+    vertical-align: baseline;
+}
+
+.footnotes {
+    display: none;
+}
+
+.sidenote,
+.marginnote {
+    float: right;
+    clear: right;
+    width: 30%;
+    margin-top: 0.27755575616rem;
+    margin-right: -35%;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+    text-indent: -0.85em;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after {
+    position: relative;
+    vertical-align: baseline;
+    content: counter(sidenote-counter);
+    font-size: 0.7rem;
+    top: -0.5rem;
+    left: 0.05rem;
+}
+
+.sidenote:before {
+    position: relative;
+    vertical-align: baseline;
+    content: counter(sidenote-counter) " ";
+    font-size: 0.7rem;
+    top: -0.1rem;
+    left: -0.3rem;
+}
+
+.marginnote:before {
+    position: relative;
+    vertical-align: baseline;
+    content: "* ";
+    color: grey;
+    font-size: 0.8rem;
+    top: -0.25rem;
+    left: -0.3rem;
+}
+
+.sidenote-number[for="sd-quote-sidenote"]:after {
+    left: -0.45rem;
+}
+
+blockquote .sidenote,
+blockquote .marginnote {
+    margin-right: -18.5rem;
+    width: 15rem;
+}
+
+.marginnote > code,
+.sidenote > code {
+    font-size: 1rem;
+}
+
+input.margin-toggle {
+    display: none;
+}
+
+label.sidenote-number {
+    display: inline-block;
+    max-height: 2rem; /* should be less than or equal to paragraph line-height */
+}
+
+label.margin-toggle:not(.sidenote-number) {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    pre > code {
+        width: 100%;
+    }
+
+    pre {
+        width: 100%;
+    }
+
+    label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+        color: grey;
+    }
+
+    .sidenote,
+    .marginnote {
+        display: none;
+    }
+
+    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .marginnote {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        position: relative;
+    }
+
+    .margin-toggle:after {
+        color: #15beec;
+    }
+
+    .sidenote:before {
+        color: #15beec;
+    }
+
+    label {
+        cursor: pointer;
+    }
+}
