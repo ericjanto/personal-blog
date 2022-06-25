@@ -4,7 +4,7 @@ slug: markdown
 template: page
 ---
 
-This is a dummy page to test custom [Markdown](https://www.markdownguide.org/) styling on my website.
+This is a dummy page to test custom [Markdown](https://www.markdownguide.org/) styling and parsing on my website.
 It can also be used as a Markdown cheat sheet.
 
 ```toc
@@ -182,11 +182,11 @@ You should never need to space tables out yourself. I wrote the above table like
 _Table before formatting_
 
 | Ice Cream Flavour | Rating (1-10) |
-| -| -|
-| Lemon | 8 |
-| Maracuja | 9 |
-| Lime | 9 |
-| Vanille | 8 |
+| ----------------- | ------------- |
+| Lemon             | 8             |
+| Maracuja          | 9             |
+| Lime              | 9             |
+| Vanille           | 8             |
 ```
 
 ## Quotes
@@ -201,19 +201,56 @@ Quotes are useful to let important key aspects of the text stand out.
 > They can consist of multiple-line text.
 ```
 
-## Footnotes
+## Footnotes and marginalia
 
-This sentence has a footnote.[^1] Footnotes are useful to link to external material or to references without interrupting the flow of the article.
+Footnotes and marginalia [^mn_diff] are not standardised semantics in the Markdown language; this website follows a customised approach.
+
+[^mn_diff]: {-} See [this article](/footnotes-and-marginalia) for the difference between footnotes and marginalia.
+
+Footnotes are best expressed using the inline syntax: `[^This is a footnote in inline syntax]`. If a separation of footnote location and footnote content is wanted (e.g. if one wants to put all footnote content in one place, say the end of a file), use the normal syntax:
 
 ```md
-The Markdown syntax for footnotes couldn't be easier.[^1]
+This is some text that will be referred to by a footnote[^custom_label].
 
-[^1]: Text for footnote 1. To be placed at the end of the document.
+...
+
+Some more text.
+
+[^custom_label]: This is the display footnote content. The custom label will not be displayed but instead be replaced by a number.
 ```
 
-The superscript text of the footnote needs to be a single word, no whitespaces are allowed. Usually, I follow a rigid enumeration system and do not use custom text.
+Marginalia syntax works exactly the same except for an inserted `{-}`:
 
-So far, the numbering system needs to be maintained manually. However, Markdown auto-numbers the footnote texts in the reference section[^2], so that's a good way of checking if the enumeration system for the superscript texts is still coherent.
+```md
+[^{-} This is a sidenote written in inline syntax.]
+
+Some text[^custom_label].
+
+[^custom_label]: {-} This is a sidenote written in normal syntax.
+```
+
+Marginalia can be good when wanting to display content on the side of the main text body. Content can vary in type, and can further be expressed using markdown. Text styling and links only are supported at the moment.[^{-} That's **bold**, *italic* and ~~strike-through~~.]
+
+Both sidenotes and footnotes can be used within quotes, however, not within code blocks.
+
+> What’s the difference between a vacuum cleaner and a lawyer on a motorcycle? The vacuum cleaner has the dirt bag on the inside.[^**Jimmy McGill**, *Better Call Saul*, *Season 2: Rebecca*]
+
+Sidenote and footnotes may include links.[^mn_link] In that case, inline syntax can't be used.
+
+[^mn_link]: This sidenote contains a [link](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt).
+
+To summarise:
+
+[^ {-} Table sidenotes or footnotes work in theory, they change the cell size of tables displayed in desktop view-mode though. That's why they are not recommended.]
+
+| Content type  | Inline syntax | Normal syntax |
+| ------------- | ------------- | ------------- |
+| Text          | yes           | yes           |
+| Stylised text | yes           | yes           |
+| Link          | no            | yes           |
+| Images        | no            | no            |
+| Code          | no            | no            |
+| LaTeX         | no            | no            |
 
 ## Code
 
@@ -281,7 +318,4 @@ The square brackets need to be omitted, they are only here because otherwise the
 
 ## Graphs
 
-In [my post about graph algorithms](/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I chose to draw graphs by hand (more fun + less time-consuming anyway).
-
-[^1]: This is an example of a footnote.
-[^2]: Markdown auto-numbers this very section.
+In [my post about graph algorithms](/understanding-graph-algorithms-i/) I relied on Mermaid to create graphs. However, there were cross-platform / -browser issues with that, so I in the future I'll draw graphs by hand (more fun + less time-consuming anyway).

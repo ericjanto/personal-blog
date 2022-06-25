@@ -24,9 +24,9 @@ module.exports = {
         description: 'I write about computer science and other stuff.',
         start_url: '/',
         background_color: 'white',
-        theme_color: '#5183f5',
+        theme_color: '#141414',
         display: 'minimal-ui',
-        icon: `static/logo.png`,
+        icon: `static/favicon.png`,
       },
     },
     {
@@ -161,20 +161,6 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-footnotes`,
-            options: {
-              footnoteBackRefPreviousElementDisplay: "inline",
-              footnoteBackRefDisplay: "inline",
-              footnoteBackRefInnerText: "↩", // Defaults to: "↩"
-              //use if you want the Wikipedia style ^ link without an underline beneath it
-              footnoteBackRefAnchorStyle: `text-decoration: none;`,
-              //use "front" for Wikipedia style ^ links
-              footnoteBackRefInnerTextStartPosition: "back",
-              useFootnoteMarkerText: false, // Defaults to false
-              useCustomDivider: "<hr/>" // Defaults to <hr/>
-            }
-          },
-          {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               offsetY: `30`,
@@ -205,6 +191,7 @@ module.exports = {
             }
           },
           'gatsby-remark-prismjs',
+          'gatsby-remark-tufte'
         ],
       },
     },
