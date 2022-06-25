@@ -286,7 +286,6 @@ We can use this to:
 
 - Cryan, Mary. ´Graphs I: graphs, Breadth-first search, Depth-first search.´ Class Lecture, University of Edinburgh, November 14, 2020.
 - Cormen, Thomas H., Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Third Edition. Cambridge, UNITED STATES: MIT Press, 2009.
-  http://ebookcentral.proquest.com/lib/ed/detail.action?docID=3339142.
   - Section 22.1
 - Radcliﬀe, Mary. ‘Math 228: Kuratowski’s Theorem’, n.d., 9.
   https://www.math.cmu.edu/~mradclif/teaching/228F16/Kuratowski.pdf.
