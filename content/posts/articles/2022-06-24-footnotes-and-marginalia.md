@@ -1,5 +1,5 @@
 ---
-date: 2022-06-24
+date: 2022-06-25
 title: Footnotes and marginalia
 excerpt:
   Footnotes are notes that are added at the end of a page, usually annotated by a small number. Since the most recent version of this website, footnotes are displayed at the side of the page, in a similar manner to marginalia ('sidenotes'). This article gives a short overview on the possible functionality on this website.
