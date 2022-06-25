@@ -6,7 +6,7 @@ excerpt:
 template: post
 slug: footnotes-and-marginalia
 tags:
-  - 'computer-science'
+  - 'other'
 ---
 
 Footnotes are notes that are added at the end of a page, usually annotated by a small number. Since the most recent version of this website, footnotes are displayed at the side of the page, in a similar manner to marginalia ('sidenotes'). I made this decision because footnotes come from a print history. The essential difference is that a web page can have a virtually infinite length, so the reader often needs to scroll the footnote into the viewpoint which disrupts the reading experience heavily. At this point, the only difference between footnotes and sidenotes is the way they are annotated.[^{-} In a mobile format, there don't exist any margins. Instead, footnote and marginalia annotations become clickable anchor links which expand and collapse the note within the text.]
