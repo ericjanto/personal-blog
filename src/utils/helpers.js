@@ -1,5 +1,3 @@
-import { x } from "../../node_modules/joi/lib/index"
-
 export function getSimplifiedPosts(posts, options = {}) {
   return posts.map((post) => ({
     id: post.node.id,
