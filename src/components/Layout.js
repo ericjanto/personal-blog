@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import favicon from '../../content/thumbnails/favicon.png'
-
 import Navigation from './Navigation'
 
 import '../style-new.css'
