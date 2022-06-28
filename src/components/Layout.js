@@ -4,9 +4,10 @@ import Helmet from 'react-helmet'
 import favicon from '../../content/thumbnails/favicon.png'
 import Navigation from './Navigation'
 
-import '../style-new.css'
+import '../style.css'
 import '../tufte.css'
 import '../new-moon.css'
+import '../reading-modes.css'
 
 export default function Layout({ children }) {
   return (
