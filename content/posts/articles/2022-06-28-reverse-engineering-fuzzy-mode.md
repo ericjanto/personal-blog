@@ -11,7 +11,7 @@ tags:
 
 I recently came across [Paco's website](https://paco.me/), which I adore for its simplicity, elegance, and meticulous attention to detail. One of those details is a fuzzy reading mode. Triggered by a shortcut (`alt` on Paco's website), certain website elements get blurred out. [^mn_paco] Only the element we let our mouse pointer hover over will be visible.
 
-[^mn_paco]: {-} Try the feature on my website using 'alt+f'.
+[^mn_paco]: {-} Try the feature on my website using 'ctrl+f'.
 
 My very next thought was "wow, I need this on my website". So I started reverse engineering the feature.[^{-} I call it *reverse engineering*, some people might call it *getting inspiration*, yet other people will plainly call it *stealing* ¯\(°_o)/¯] There are two challenges to overcome: firstly, figuring out how to blur out text elements and only show ones we hover over. Secondly, activate and de-activate fuzzy mode by using a customised shortcut.
 
