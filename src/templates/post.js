@@ -1,49 +1,71 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
 import Layout from '../components/Layout'
-import Suggested from '../components/Suggested'
 import SEO from '../components/SEO'
-import { slugify } from '../utils/helpers'
 
 import BreadcrumbMenu from '../components/BreadcrumbMenu'
 
 import config from '../utils/config'
+import { GlobalHotKeys } from 'react-hotkeys'
+
+import keyMap from '../utils/keyMap'
 
 require(`katex/dist/katex.min.css`)
 
 export default function PostTemplate({ data, pageContext, ...props }) {
+  const [fuzzy, setFuzzy] = useState(false)
+
+  const readingModes = {
+    FUZZY: fuzzy
+  }
+
+  const postHotKeyHandlers = {
+    FUZZY: () => setFuzzy((prev) => !prev)
+  }
+
+  function getReadingModeClass(readingModes) {
+    let classStr = ''
+    Object.entries(readingModes).forEach(function ([mode, isActive]) {
+      if (isActive) {
+        classStr += String(mode).toLowerCase()
+      }
+    })
+    return classStr
+  }
+
   const post = data.markdownRemark
-  // const { previous, next } = pageContext
   const { thumbnail } = post.frontmatter
   const crumbs = [""]
 
   return (
-    <Layout>
-      <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
-      <SEO postPath={post.fields.slug} postNode={post} postSEO />
-      <BreadcrumbMenu crumbs={crumbs} page={ post }/>
-      <section className="grid post">
-        <article>
-          <header className="article-header medium">
-            {thumbnail && (
-              <Img
-                fixed={thumbnail.childImageSharp.fixed}
-                className={
-                  post.frontmatter.category
-                    ? `guide-thumbnail`
-                    : `post-thumbnail`
-                }
-              />
-            )}
-          </header>
-          <h1>{post.frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </article>
-      </section>
-    </Layout>
+    <GlobalHotKeys keyMap={keyMap} handlers={postHotKeyHandlers}>
+      <Layout>
+        <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
+        <SEO postPath={post.fields.slug} postNode={post} postSEO />
+        <BreadcrumbMenu crumbs={crumbs} page={post} />
+        <section className="grid post">
+          <article className={getReadingModeClass(readingModes)}>
+            <header className="article-header medium">
+              {thumbnail && (
+                <Img
+                  fixed={thumbnail.childImageSharp.fixed}
+                  className={
+                    post.frontmatter.category
+                      ? `guide-thumbnail`
+                      : `post-thumbnail`
+                  }
+                />
+              )}
+            </header>
+            <h1>{post.frontmatter.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          </article>
+        </section>
+      </Layout>
+    </GlobalHotKeys>
   )
 }
 
