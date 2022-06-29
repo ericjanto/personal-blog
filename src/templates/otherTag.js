@@ -14,15 +14,15 @@ import Posts from '../components/Posts'
 export default function TagTemplate({ data }) {
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
-  const crumbs = ["Notes", "Writings", "Other"]
+  const crumbs = ['Notes', 'Writings', 'Other']
 
   return (
     <Layout>
       <Helmet title={`Posts tagged: other | ${config.siteTitle}`} />
       <SEO />
-      <BreadcrumbMenu crumbs={crumbs}/>
+      <BreadcrumbMenu crumbs={crumbs} />
       <section>
-        <Posts data={simplifiedPosts}/>
+        <Posts data={simplifiedPosts} />
       </section>
     </Layout>
   )
@@ -32,7 +32,12 @@ export const pageQuery = graphql`
   query OtherTagPage {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { tags: { nin: ["computer-science", "life"] }, template: { eq: "post" } } }
+      filter: {
+        frontmatter: {
+          tags: { nin: ["computer-science", "life"] }
+          template: { eq: "post" }
+        }
+      }
     ) {
       totalCount
       edges {

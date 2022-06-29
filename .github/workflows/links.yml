@@ -5,7 +5,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: "00 0 1 * *"
+    - cron: '00 0 1 * *'
 
 jobs:
   linkChecker:
@@ -19,7 +19,7 @@ jobs:
           args: --verbose --no-progress **/*.md **/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        
+
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v3
         with:

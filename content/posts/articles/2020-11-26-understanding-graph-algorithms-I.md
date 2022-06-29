@@ -1,8 +1,7 @@
 ---
 date: 2020-11-26
 title: 'Understanding graph algorithms I: graph theory & graph representations'
-excerpt:
-  'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
+excerpt: 'Graph algorithms have many useful applications, ranging from finding the shortest route on a street map to efficiently managing computer networks. These algorithms are an essential part of a standard computer science degree curriculum, so I decided to write down and explain the basics to understand the topic better myself.'
 template: post
 slug: understanding-graph-algorithms-i
 tags:
@@ -16,7 +15,7 @@ _Some visualisations or graphics in this article might be difficult to see on th
 
 ![Personal Roam Research Graph](../../thumbnails/graph.png)
 
- Here's what I'm going to cover in this article:
+Here's what I'm going to cover in this article:
 
 ```toc
 exclude: [Prerequisites, Goals]

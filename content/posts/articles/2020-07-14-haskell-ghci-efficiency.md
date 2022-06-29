@@ -3,8 +3,7 @@ date: 2020-07-14
 title: 'How to test for efficiency in Haskell'
 template: post
 slug: haskell-efficiency
-excerpt:
-  While Haskell isn't famous for it's efficiency, sometimes we still want to measure how long the evaluation of an expression takes. This is a quick article on how to do so.
+excerpt: While Haskell isn't famous for it's efficiency, sometimes we still want to measure how long the evaluation of an expression takes. This is a quick article on how to do so.
 tags:
   - 'computer-science'
   - 'haskell'

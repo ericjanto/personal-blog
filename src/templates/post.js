@@ -19,11 +19,11 @@ export default function PostTemplate({ data, pageContext, ...props }) {
   const [fuzzy, setFuzzy] = useState(false)
 
   const readingModes = {
-    FUZZY: fuzzy
+    FUZZY: fuzzy,
   }
 
   const postHotKeyHandlers = {
-    FUZZY: () => setFuzzy((prev) => !prev)
+    FUZZY: () => setFuzzy((prev) => !prev),
   }
 
   function getReadingModeClass(readingModes) {
@@ -38,7 +38,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
 
   const post = data.markdownRemark
   const { thumbnail } = post.frontmatter
-  const crumbs = [""]
+  const crumbs = ['']
 
   return (
     <GlobalHotKeys keyMap={keyMap} handlers={postHotKeyHandlers}>

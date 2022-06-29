@@ -1,8 +1,7 @@
 ---
 date: 2022-06-28
 title: 'Reverse engineering fuzzy mode'
-excerpt:
-  "Focus modes are fun: they allow the reader to filter out noise and to concentrate at chosen content only. This article is about reverse engineering a kind of focus mode which blurs out text, makes it fuzzy."
+excerpt: 'Focus modes are fun: they allow the reader to filter out noise and to concentrate at chosen content only. This article is about reverse engineering a kind of focus mode which blurs out text, makes it fuzzy.'
 template: post
 slug: reverse-engineering-fuzzy-mode
 tags:
@@ -13,19 +12,19 @@ I recently came across [Paco's website](https://paco.me/), which I adore for its
 
 [^mn_paco]: {-} Try the feature on my website using 'ctrl+f'.
 
-My very next thought was "wow, I need this on my website". So I started reverse engineering the feature.[^{-} I call it *reverse engineering*, some people might call it *getting inspiration*, yet other people will plainly call it *stealing* ¯\(°_o)/¯] There are two challenges to overcome: firstly, figuring out how to blur out text elements and only show ones we hover over. Secondly, activate and de-activate fuzzy mode by using a customised shortcut.
+My very next thought was "wow, I need this on my website". So I started reverse engineering the feature.[^{-} I call it _reverse engineering_, some people might call it _getting inspiration_, yet other people will plainly call it _stealing_ ¯ct°_o)/¯] There are two challenges to overcome: firstly, figuring out how to blur out text elements and only show ones we hover over. Secondly, activate and de-activate fuzzy mode by using a customised shortcut.
 
 Blurring out text elements can be done using CSS. I had this suspicion already when I saw that hovering unblurred elements. A simple `:hover` selector would be the perfect thing to use to this end. I opened the developer tools to inspect the styling of the website and saw my suspicions confirmed:
 
 ```css
-.alt :where(p,pre,li,img,div,blockquote) {
-    opacity: .6;
-    filter: blur(2px);
+.alt :where(p, pre, li, img, div, blockquote) {
+  opacity: 0.6;
+  filter: blur(2px);
 }
 
-.alt :where(p,pre,li,img,div,blockquote):hover {
-    opacity: 1;
-    filter: none;
+.alt :where(p, pre, li, img, div, blockquote):hover {
+  opacity: 1;
+  filter: none;
 }
 ```
 
@@ -42,7 +41,7 @@ const readingModes = {
 const postHotKeyHandlers = {
     FUZZY: () => setFuzzy((prev) => !prev)
 }
- 
+
 ...
 
 <GlobalHotKeys keyMap={keyMap} handlers={postHotKeyHandlers}>

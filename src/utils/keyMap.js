@@ -1,3 +1,3 @@
 export default {
-    FUZZY: 'ctrl+f'
+  FUZZY: 'ctrl+f',
 }

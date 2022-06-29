@@ -3,31 +3,31 @@
 @font-face {
   font-family: ia-mono;
   src: url('../static/fonts/ia-writer-mono/iAWriterMonoS-Regular.woff2'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Regular.woff'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Regular.eot');
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Regular.woff'),
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Regular.eot');
 }
 
 @font-face {
   font-family: ia-mono;
   src: url('../static/fonts/ia-writer-mono/iAWriterMonoS-Bold.woff2'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Bold.woff'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Bold.eot');
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Bold.woff'),
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Bold.eot');
   font-weight: bold;
 }
 
 @font-face {
   font-family: ia-mono;
   src: url('../static/fonts/ia-writer-mono/iAWriterMonoS-Italic.woff2'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Italic.woff'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-Italic.eot');
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Italic.woff'),
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-Italic.eot');
   font-style: italic;
 }
 
 @font-face {
   font-family: ia-mono;
   src: url('../static/fonts/ia-writer-mono/iAWriterMonoS-BoldItalic.woff2'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-BoldItalic.woff'),
-  url('../static/fonts/ia-writer-mono/iAWriterMonoS-BoldItalic.eot');
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-BoldItalic.woff'),
+    url('../static/fonts/ia-writer-mono/iAWriterMonoS-BoldItalic.eot');
   font-weight: bold;
   font-style: italic;
 }
@@ -35,31 +35,31 @@
 @font-face {
   font-family: ia-quattro;
   src: url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Regular.woff2'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Regular.woff'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Regular.eot');
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Regular.woff'),
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Regular.eot');
 }
 
 @font-face {
   font-family: ia-quattro;
   src: url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Bold.woff2'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Bold.woff'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Bold.eot');
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Bold.woff'),
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Bold.eot');
   font-weight: bold;
 }
 
 @font-face {
   font-family: ia-quattro;
   src: url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Italic.woff2'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Italic.woff'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Italic.eot');
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Italic.woff'),
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-Italic.eot');
   font-style: italic;
 }
 
 @font-face {
   font-family: ia-quattro;
   src: url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-BoldItalic.woff2'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-BoldItalic.woff'),
-  url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-BoldItalic.eot');
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-BoldItalic.woff'),
+    url('../static/fonts/ia-writer-quattro/iAWriterQuattroS-BoldItalic.eot');
   font-weight: bold;
   font-style: italic;
 }

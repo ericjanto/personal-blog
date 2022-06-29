@@ -1,16 +1,16 @@
 /* Fuzzy */
 :root {
-    --transition-long: 480ms;
+  --transition-long: 480ms;
 }
 
 .fuzzy :where(p, pre, li, img, div, blockquote, table) {
-    opacity: .6;
-    filter: blur(2px);
-    transition: var(--transition-long);
-    transition-property: opacity, filter;
+  opacity: 0.6;
+  filter: blur(2px);
+  transition: var(--transition-long);
+  transition-property: opacity, filter;
 }
 
 .fuzzy :where(p, pre, li, img, div, blockquote, table):hover {
-    opacity: 1;
-    filter: none;
+  opacity: 1;
+  filter: none;
 }

@@ -1,8 +1,7 @@
 ---
 date: 2020-05-10
 title: 'Starting this blog'
-excerpt:
-  Not another blog!
+excerpt: Not another blog!
   That's what I thought initially. Surely, there are enough blogs around the web,
   covering every single topic one can think of. You know what? I don't care. This blog
   isn't even meant to be read by any people. There is a variety of different reasons why

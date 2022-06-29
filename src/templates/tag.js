@@ -14,14 +14,14 @@ export default function TagTemplate({ data, pageContext }) {
   const { tag } = pageContext
   const posts = data.allMarkdownRemark.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
-  const crumbs = ["Notes","Writings", tag]
+  const crumbs = ['Notes', 'Writings', tag]
   return (
     <Layout>
       <Helmet title={`Posts tagged: ${tag} | ${config.siteTitle}`} />
       <SEO />
-      <BreadcrumbMenu crumbs={crumbs}/>
+      <BreadcrumbMenu crumbs={crumbs} />
       <section>
-        <Posts data={simplifiedPosts}/>
+        <Posts data={simplifiedPosts} />
       </section>
     </Layout>
   )

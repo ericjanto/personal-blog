@@ -8,7 +8,6 @@ import SEO from '../components/SEO'
 import config from '../utils/config'
 
 export default function BlogIndex() {
-
   const Brand = ({ title, ...props }) => (
     <div className="brand reversedLink" {...props}>
       <h4>
@@ -21,8 +20,7 @@ export default function BlogIndex() {
     <Layout>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <Brand title="Eric Janto">
-      </Brand>
+      <Brand title="Eric Janto"></Brand>
     </Layout>
   )
 }

@@ -64,15 +64,15 @@ export function categoriser(tags) {
 
 export function catPrettyPrint(tag) {
   const s = JSON.stringify(tag)
-  const words = s.split("-");
+  const words = s.split('-')
   console.log(words)
 
   for (let i = 0; i < words.length; i++) {
-    words[i] = words[i].replace(/"/g,'')
-    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+    words[i] = words[i].replace(/"/g, '')
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1)
   }
 
-  return words.join(" ")
+  return words.join(' ')
 }
 
 export function linkify(string) {
@@ -83,11 +83,7 @@ export function linkify(string) {
       .match(
         /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
       )
-      .map((x) => (
-        x === "crumb"
-          ? null
-          : x.toLowerCase())
-      )
+      .map((x) => (x === 'crumb' ? null : x.toLowerCase()))
       .join('')
   )
 }

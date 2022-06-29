@@ -16,7 +16,7 @@ export default function PageTemplate({ data }) {
     <Layout>
       <Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`} />
       <SEO />
-      <BreadcrumbMenu page={ post } />
+      <BreadcrumbMenu page={post} />
       <article>
         <section className="medium">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
