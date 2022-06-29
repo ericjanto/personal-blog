@@ -121,19 +121,19 @@ module.exports = {
       options: {
         defaultCrumb: {
           location: {
-            pathname: "/",
+            pathname: '/',
           },
-          crumbLabel: "Eric Janto",
-          crumbSeparator: " / ",
+          crumbLabel: 'Eric Janto',
+          crumbSeparator: ' / ',
         },
         exclude: [
           `**/writings/?search=**`,
           `**/dev-404-page/**`,
           `**/404/**`,
           `**/404.html`,
-          `**/offline-plugin-app-shell-fallback/**`
+          `**/offline-plugin-app-shell-fallback/**`,
         ],
-      }
+      },
     },
 
     // ===================================================================================
@@ -179,19 +179,19 @@ module.exports = {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
+              strict: `ignore`,
+            },
           },
           {
             resolve: 'gatsby-remark-graph',
             options: {
               // this is the language in your code-block that triggers mermaid parsing
               language: 'mermaid', // default
-              theme: 'default' // could also be dark, forest, or neutral
-            }
+              theme: 'default', // could also be dark, forest, or neutral
+            },
           },
           'gatsby-remark-prismjs',
-          'gatsby-remark-tufte'
+          'gatsby-remark-tufte',
         ],
       },
     },
@@ -240,6 +240,50 @@ module.exports = {
             date: node.frontmatter.date,
             excerpt: node.frontmatter.excerpt,
           })),
+      },
+    },
+    // ===================================================================================
+    // Misc
+    // ===================================================================================
+    {
+      resolve: `gatsby-plugin-html-comments`,
+      options: {
+        files: ['./public/**/*.html', './public/*.html'],
+        comment: [
+          {
+            regexp: /<html-comment>(.*?)<\/html-comment>/g,
+            comment: `<!--
+            
+            Hello!
+
+            Nice to see that people are interested in how
+            this website was built. If you're trying to
+            reverse engineer this website, I can save you
+            a lot of time: it is open-sourced on my GitHub
+            account. If you only take it as an inspiration
+            and change it more or less completely, feel
+            free to show me what you did! Otherwise,
+            please give me credits:)
+
+            I started developing this website using Tania
+            Rascia's personal website as a template. She
+            strongly discourages exactly that, so I tried
+            over the years to completely change the feel,
+            look and functionality of my website - which I
+            think I succeeded at. Except for some CSS, it is
+            probably closer to the Gatsby Advanced Starter
+            template now, which I would recommend as a general
+            starting place if you want to build your own Gatsby
+            website.
+
+            If you want to hang out you can reach me via my
+            contact details on this website.
+
+            - Eric
+            
+-->`,
+          },
+        ],
       },
     },
   ],
