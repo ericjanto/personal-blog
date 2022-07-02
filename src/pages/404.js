@@ -16,9 +16,7 @@ export default function FourOhFour() {
       <SEO />
       <BreadcrumbMenu crumbs={crumbs} />
       <section>
-        <p>
-          This page doesn't exist.
-        </p>
+        <p>This page doesn't exist.</p>
       </section>
     </Layout>
   )
