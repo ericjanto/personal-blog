@@ -49,7 +49,7 @@ ghci> xs
 "ello"
 ```
 
-> `x:xs` **i**s a **comm**on **for**m **o**f ****patte**rn **matchi**ng**. **I**t's **basical**ly a **notati**on **t**o **sa**y '**he**y I'm **expecti**ng **th**e **dat**a **t**o **hav**e **thi**s **structu**re'. **Whe**n **th**e **patte**rn **confor**ms **th**e **dat**a, **w**e **ca**n **us**e **th**e **variabl**es `x` **an**d `xs` **t**o **acce**ss **th**e **regardi**ng **dat**a (**her**e **th**e **hea**d **an**d **tai**l **o**f a **lis**t).
+> `x:xs` **i**s a **comm**on **for**m **o**f \***\*patte**rn **matchi**ng**. **I**t's **basical**ly a **notati**on **t**o **sa**y '**he**y I'm **expecti**ng **th**e **dat**a **t**o **hav**e **thi**s **structu**re'. **Whe**n **th**e **patte**rn **confor**ms **th**e **dat**a, **w**e **ca**n **us**e **th**e **variabl**es `x` **an**d `xs` **t**o **acce**ss **th**e **regardi**ng **dat**a (**her**e **th**e **hea**d **an**d **tai**l **o**f a **lis\*\*t).
 
 **Thi**s **definiti**on **giv**en, **w**e **ca**n **dedu**ce **tha**t **eve**ry **lis**t **mus**t **mat**ch **on**e **o**f **th**e **followi**ng **tw**o **patter**ns:
 
@@ -75,7 +75,7 @@ ghci> xs
 
 **Recursi**on **allo**ws **t**o **fin**d **conci**se **an**d **elega**nt **solutio**ns **t**o **proble**ms. **I**t **i**s a **wa**y **o**f **defini**ng a **functi**on:
 
-- **I**n **th**e **definiti**on **o**f **th**e **functi**on, **th**e **functi**on **cal**ls **itse**lf: ****Sel**f-**Referen**ce**.
+- **I**n **th**e **definiti**on **o**f **th**e **functi**on, **th**e **functi**on **cal**ls **itse**lf: \***\*Sel**f-**Referen**ce\*\*.
 - **I**n **ter**ms **o**f **lis**ts, **recursi**on **als**o **mea**ns: **defini**ng a **lis**t **i**n **ter**ms **o**f a **lis**t.
 
 **A**s **ou**r **pro**f **sai**d: **W**e **al**l **kno**w **tha**t **defini**ng **somethi**ng **i**n **ter**ms **o**f **itse**lf **i**s **no**t **alwa**ys a **sensib**le **thi**ng **t**o **d**o.
@@ -83,12 +83,12 @@ ghci> xs
 > "**Brex**it **mea**ns **Brex**it" </br>
 > – **There**sa **Ma**y
 
-**Bu**t **tha**t's **no**t **ho**w **i**t **wor**ks **wit**h **recursi**on. **Sel**f-**referen**ce **i**s **fin**e **a**s **lon**g **a**s **lon**g **a**s **th**e **thi**ng, **yo**u **defi**ne **i**t **i**n **ter**ms **o**f, **i**s a ****small**er **instan**ce** _(**fo**r **no**w)_.
+**Bu**t **tha**t's **no**t **ho**w **i**t **wor**ks **wit**h **recursi**on. **Sel**f-**referen**ce **i**s **fin**e **a**s **lon**g **a**s **lon**g **a**s **th**e **thi**ng, **yo**u **defi**ne **i**t **i**n **ter**ms **o**f, **i**s a \***\*small**er **instan**ce** \_(**fo**r **no\*\*w)\_.
 
 **Applyi**ng **thi**s **t**o **lis**ts:
 
-- **W**e **ar**e **buildi**ng **lis**ts **fro**m **oth**er **lis**ts, **bu**t **the**y **ar**e ****short**er** **lis**ts. **An**d **eventual**ly **w**e **rea**ch a **defin**ed ****bas**e-**cas**e** **whi**ch **i**s **oft**en **th**e **emp**ty **lis**t
-- **W**e **bre**ak **dow**n a **probl**em **int**o **small**er **proble**ms, **solvi**ng **tho**se **small**er **proble**ms **b**y **breaki**ng **the**m **dow**n **to**o **et**c. **unt**il **w**e **rea**ch **th**e ****bas**e **cas**e** **o**f **th**e **probl**em.
+- **W**e **ar**e **buildi**ng **lis**ts **fro**m **oth**er **lis**ts, **bu**t **the**y **ar**e \***\*short**er\*\* **lis**ts. **An**d **eventual**ly **w**e **rea**ch a **defin**ed \***\*bas**e-**cas**e\*\* **whi**ch **i**s **oft**en **th**e **emp**ty **lis**t
+- **W**e **bre**ak **dow**n a **probl**em **int**o **small**er **proble**ms, **solvi**ng **tho**se **small**er **proble**ms **b**y **breaki**ng **the**m **dow**n **to**o **et**c. **unt**il **w**e **rea**ch **th**e \***\*bas**e **cas**e\*\* **o**f **th**e **probl**em.
 
 **The**re **ar**e **differe**nt **way**s **o**f **defini**ng a **recursi**on:
 
@@ -107,12 +107,12 @@ squaresRec [] = []
 squaresRec (x:xs) = x * x : squaresRec xs
 ```
 
-**First**ly, **w**e **defin**ed, **rig**ht **aft**er **th**e **typ**e **signatu**re, **th**e ****bas**e **cas**e** **o**f `squaresRec`. **Whe**n **th**e **functi**on **encounte**rs **a**n **emp**ty **lis**t, **i**t **retur**ns **a**n **emp**ty **lis**t. **Thi**s **mak**es **sen**se **becau**se **ho**w **wou**ld **w**e **squa**re **a**n **emp**ty **lis**t?
+**First**ly, **w**e **defin**ed, **rig**ht **aft**er **th**e **typ**e **signatu**re, **th**e \***\*bas**e **cas**e\*\* **o**f `squaresRec`. **Whe**n **th**e **functi**on **encounte**rs **a**n **emp**ty **lis**t, **i**t **retur**ns **a**n **emp**ty **lis**t. **Thi**s **mak**es **sen**se **becau**se **ho**w **wou**ld **w**e **squa**re **a**n **emp**ty **lis**t?
 **The**n, **w**e **defin**ed **anoth**er **cas**e: **whe**n `squaresRec` **encounte**rs a **lis**t **whi**ch **match**es **th**e **patte**rn `x:xs` (**whi**ch **i**s **eve**ry **lis**t **exce**pt **th**e **emp**ty **lis**t), **w**e **squa**re **it**s **hea**d **an**d **appe**nd **i**t **t**o **whatev**er **i**s **return**ed **b**y `squaresRec xs`.
 
 **Noti**ce **tha**t **patter**ns **hav**e **t**o **b**e **surround**ed **b**y **parenthes**is **whe**n **the**y **ar**e **giv**en **a**s a **functi**on's **argume**nt.
 
-**I**t's a **goo**d **practi**ce **t**o **g**o **throu**gh **eac**h **ste**p **o**f a **recursi**on, **especial**ly **whe**n **yo**u **wan**t **t**o **fin**d **ou**t **wh**y a **functi**on **doe**sn't **beha**ve **th**e **wa**y **yo**u **wan**t **i**t. I **lik**e **t**o **cal**l **thi**s **techniq**ue **th**e ****rob**ot **techniq**ue** **sin**ce **w**e **prete**nd **t**o **b**e a **dum**b **rob**ot **whi**ch **onl**y **kno**ws **ho**w **t**o **compu**te **somethi**ng **ste**p **b**y **ste**p.
+**I**t's a **goo**d **practi**ce **t**o **g**o **throu**gh **eac**h **ste**p **o**f a **recursi**on, **especial**ly **whe**n **yo**u **wan**t **t**o **fin**d **ou**t **wh**y a **functi**on **doe**sn't **beha**ve **th**e **wa**y **yo**u **wan**t **i**t. I **lik**e **t**o **cal**l **thi**s **techniq**ue **th**e \***\*rob**ot **techniq**ue\*\* **sin**ce **w**e **prete**nd **t**o **b**e a **dum**b **rob**ot **whi**ch **onl**y **kno**ws **ho**w **t**o **compu**te **somethi**ng **ste**p **b**y **ste**p.
 
 ```haskell
 	squaresRec [1,2,3]
@@ -153,11 +153,11 @@ squaresCond someList =
         x * x : squaresCond xs
 ```
 
-**Her**e, **w**e **che**ck **i**n **ou**r **fir**st **conditi**on **fo**r **th**e **nulli**ty **o**f **th**e **functi**on's **paramet**er. **Shou**ld **th**e **lis**t **tur**n **ou**t **t**o **b**e **emp**ty, **w**e **jus**t **retu**rn **th**e **emp**ty **lis**t. **Aga**in, **thi**s **i**s **th**e ****bas**e **cas**e**.
+**Her**e, **w**e **che**ck **i**n **ou**r **fir**st **conditi**on **fo**r **th**e **nulli**ty **o**f **th**e **functi**on's **paramet**er. **Shou**ld **th**e **lis**t **tur**n **ou**t **t**o **b**e **emp**ty, **w**e **jus**t **retu**rn **th**e **emp**ty **lis**t. **Aga**in, **thi**s **i**s **th**e \***\*bas**e **cas**e\*\*.
 
 **Shou**ld **th**e **lis**t **b**e **no**n-**emp**ty, **w**e **defi**ne **variabl**es **fo**r **th**e **hea**d **an**d **tai**l **o**f **th**e **lis**t **s**o **tha**t **w**e **ca**n **ref**er **t**o **the**m. **Th**e **las**t **lin**e **sho**ws **th**e **actu**al **computati**on **whi**ch **allo**ws **th**e **functi**on **t**o **retu**rn **squar**ed **lis**t **elemen**ts.
 
-> ****Not**e**
+> \***\*Not**e\*\*
 >
 > - `let ... in` **enabl**es **loc**al **bindi**ng **whi**ch **i**s **onl**y **val**id **i**n **th**e **sco**pe **o**f **th**e **secti**on **aft**er `in`
 > - **onc**e **w**e **lea**ve **tha**t **par**t, **th**e **compil**er **doe**sn't **kno**w **wha**t `x` **an**d `xs` **i**s; **the**y **ar**e **onl**y **i**n **sco**pe **o**f `in` **an**d **nowhe**re **els**e
@@ -184,9 +184,9 @@ squaresCond' someList =
 
 I'm **confus**ed. **Wh**y **ar**e **the**re **s**o **man**y **differe**nt **thin**gs **t**o **accompli**sh **th**e **ver**y **sam**e **thi**ng? **Whi**ch **wa**y **o**f **defini**ng a **recursi**on **shou**ld a **us**e?
 
-I **understa**nd **tha**t **thi**s **ca**n **b**e a **bi**t **overwhelmi**ng **a**t **th**e **beginni**ng. **The**re **ar**e **man**y **differe**nt **possibilit**ies **t**o **defi**ne a **recursi**on **becau**se **Haske**ll's **synt**ax **i**s **qui**te **versati**le **i**n **tha**t **sen**se. **Thi**s **i**s **whe**re **th**e ****sty**le** **o**f **codi**ng **get**s **expos**ed.
+I **understa**nd **tha**t **thi**s **ca**n **b**e a **bi**t **overwhelmi**ng **a**t **th**e **beginni**ng. **The**re **ar**e **man**y **differe**nt **possibilit**ies **t**o **defi**ne a **recursi**on **becau**se **Haske**ll's **synt**ax **i**s **qui**te **versati**le **i**n **tha**t **sen**se. **Thi**s **i**s **whe**re **th**e \***\*sty**le\*\* **o**f **codi**ng **get**s **expos**ed.
 
-A **goo**d **rul**e **o**f **thu**mb **i**s **t**o **loo**k **ou**t **whi**ch **versi**on **o**f a **functi**on **th**e **mos**t ****conci**se** **an**d ****readab**le** **versi**on **i**s. I **pref**er **t**o **us**e **patte**rn **matchi**ng **sin**ce **i**t **allo**ws **ver**y **sho**rt **bu**t **expressi**ve **definitio**ns.
+A **goo**d **rul**e **o**f **thu**mb **i**s **t**o **loo**k **ou**t **whi**ch **versi**on **o**f a **functi**on **th**e **mos**t \***\*conci**se\*\* **an**d \***\*readab**le\*\* **versi**on **i**s. I **pref**er **t**o **us**e **patte**rn **matchi**ng **sin**ce **i**t **allo**ws **ver**y **sho**rt **bu**t **expressi**ve **definitio**ns.
 
 **The**re **ar**e, **o**f **cour**se, **oth**er **cas**es **whe**re **yo**u **mig**ht **wan**t **t**o **g**o **fo**r a **long**er **an**d **mor**e **complicat**ed **functi**on **i**f **i**t **wa**s **mor**e _**efficie**nt_. **Bu**t **tha**t **shoul**dn't **b**e **th**e **cas**e **wit**h **recursi**ve **functio**ns **i**n **Haske**ll **sin**ce **al**l **differe**nt **synt**ax **versio**ns **ar**e **mor**e **o**r **les**s **simil**ar **i**n **ter**ms **o**f **efficien**cy.
 
@@ -215,13 +215,13 @@ ghci> test_squares
 
 ## **Conclusi**on
 
-**W**e **ca**n **defi**ne a **functi**on **recursive**ly **b**y **usi**ng ****sel**f-**referen**ce** **an**d **th**e **fac**t **tha**t a **lis**t **i**s **eith**er **emp**ty `[]` **o**r **construct**ed `x:xs`.
+**W**e **ca**n **defi**ne a **functi**on **recursive**ly **b**y **usi**ng \***\*sel**f-**referen**ce\*\* **an**d **th**e **fac**t **tha**t a **lis**t **i**s **eith**er **emp**ty `[]` **o**r **construct**ed `x:xs`.
 
-**T**o **distingui**sh **betwe**en **th**e ****bas**e **cas**e** **an**d **th**e **defau**lt **cas**e **o**f a **recursi**on, **w**e **ca**n **us**e **patte**rn **matchi**ng **o**r **condition**al **espressio**ns **suc**h **a**s `if-then-else` **o**r **guar**ds. **Patte**rn **matchi**ng **oft**en **tur**ns **ou**t **t**o **b**e **mor**e **conci**se **an**d **readab**le.
+**T**o **distingui**sh **betwe**en **th**e \***\*bas**e **cas**e\*\* **an**d **th**e **defau**lt **cas**e **o**f a **recursi**on, **w**e **ca**n **us**e **patte**rn **matchi**ng **o**r **condition**al **espressio**ns **suc**h **a**s `if-then-else` **o**r **guar**ds. **Patte**rn **matchi**ng **oft**en **tur**ns **ou**t **t**o **b**e **mor**e **conci**se **an**d **readab**le.
 
-**T**o **tes**t a **recursi**ve **functi**on, **i**t **i**s **goo**d **practi**ce **t**o **defi**ne **th**e **sam**e **functi**on **usi**ng **lis**t **comprehens**ion **an**d **the**n **t**o **us**e ****QuickChe**ck** **t**o **tes**t **bot**h **definitio**ns **fo**r **equali**ty.
+**T**o **tes**t a **recursi**ve **functi**on, **i**t **i**s **goo**d **practi**ce **t**o **defi**ne **th**e **sam**e **functi**on **usi**ng **lis**t **comprehens**ion **an**d **the**n **t**o **us**e \***\*QuickChe**ck\*\* **t**o **tes**t **bot**h **definitio**ns **fo**r **equali**ty.
 
-**Sometim**es **w**e **als**o **wan**t **t**o **g**o **throu**gh **eac**h **ste**p **o**f a **recursi**ve **functi**on **cal**l **t**o **spo**t **bug**s, **whi**ch **i**s **call**ed ****rob**ot **techniq**ue**.
+**Sometim**es **w**e **als**o **wan**t **t**o **g**o **throu**gh **eac**h **ste**p **o**f a **recursi**ve **functi**on **cal**l **t**o **spo**t **bug**s, **whi**ch **i**s **call**ed \***\*rob**ot **techniq**ue\*\*.
 
 ### **Of**f-**Roa**d **Knowled**ge
 
@@ -248,7 +248,7 @@ enumFromRec m = m : enumFromRec (m+1)
 
 #### 2. **Pae**no **Axio**ms
 
-**Whe**n **thinki**ng **abo**ut **recursi**on **i**n **Haske**ll, **the**re **exis**ts **a**n **adequa**te **analo**gy **t**o **th**e ****Pae**no **Axio**ms** (**Pae**no, 1858 - 1932) **whi**ch **offe**rs a **simil**ar **approa**ch **o**n **defini**ng **natur**al **numbe**rs **recursive**ly:
+**Whe**n **thinki**ng **abo**ut **recursi**on **i**n **Haske**ll, **the**re **exis**ts **a**n **adequa**te **analo**gy **t**o **th**e \***\*Pae**no **Axio**ms** (**Pae**no, 1858 - 1932) **whi**ch **offe**rs a **simil**ar **approa**ch **o**n **defini**ng **natur**al **numbe**rs **recursive\*\*ly:
 
 A **natur**al **numb**er **i**s **eith**er
 

@@ -15,10 +15,10 @@ _**Thi**s **artic**le **i**s **direct**ed **a**t **Haske**ll **beginne**rs. **I*
 
 **Phe**w, **soun**ds a **bi**t **overcomplica**ted, **doe**sn't **i**t? **Le**t's **decompo**se **th**e **definiti**on.
 
-- ****Dat**a **structu**re:** A **wa**y **t**o **sto**re **dat**a. **Som**e **dat**a **structur**es **ar**e **goo**d **fo**r **sorti**ng **you**r **dat**a, **oth**er **dat**a **structur**es **mig**ht **b**e **goo**d **fo**r **maki**ng a **lar**ge **amou**nt **o**f **dat**a **a**s **accessib**le **a**s **possib**le.
-- ****Sto**re:** A **lis**t **kee**ps, **stor**es, **you**r **dat**a **s**o **tha**t **yo**u **ca**n **d**o **stu**ff **wit**h **i**t **lat**er.
-- ****Elemen**ts:** **Tha**t's **jus**t **th**e **dat**a **yo**u **pu**t **int**o **you**r **lis**t. **I**f **yo**u **ha**d a **strawber**ry, a **lem**on, **an**d a **watermel**on **o**n **you**r **groce**ry **lis**t, **the**n **eac**h **o**f **the**m **wou**ld **b**e **precise**ly **on**e **eleme**nt.
-- ****Homogeneo**us:** **Al**l **elemen**ts **i**n **th**e **lis**t **hav**e **t**o **b**e **o**f **th**e **sam**e **typ**e, **fo**r **examp**le **onl**y **intege**rs **o**r **onl**y **characte**rs.
+- \***\*Dat**a **structu**re:** A **wa**y **t**o **sto**re **dat**a. **Som**e **dat**a **structur**es **ar**e **goo**d **fo**r **sorti**ng **you**r **dat**a, **oth**er **dat**a **structur**es **mig**ht **b**e **goo**d **fo**r **maki**ng a **lar**ge **amou**nt **o**f **dat**a **a**s **accessib**le **a**s **possib\*\*le.
+- \***\*Sto**re:** A **lis**t **kee**ps, **stor**es, **you**r **dat**a **s**o **tha**t **yo**u **ca**n **d**o **stu**ff **wit**h **i**t **lat\*\*er.
+- \***\*Elemen**ts:\*\* **Tha**t's **jus**t **th**e **dat**a **yo**u **pu**t **int**o **you**r **lis**t. **I**f **yo**u **ha**d a **strawber**ry, a **lem**on, **an**d a **watermel**on **o**n **you**r **groce**ry **lis**t, **the**n **eac**h **o**f **the**m **wou**ld **b**e **precise**ly **on**e **eleme**nt.
+- \***\*Homogeneo**us:\*\* **Al**l **elemen**ts **i**n **th**e **lis**t **hav**e **t**o **b**e **o**f **th**e **sam**e **typ**e, **fo**r **examp**le **onl**y **intege**rs **o**r **onl**y **characte**rs.
 
 ### **Synt**ax
 
@@ -39,7 +39,7 @@ emptyList = []
 
 ### **Homogeneo**us
 
-**W**e **stat**ed **tha**t **al**l **elemen**ts **hav**e **t**o **b**e **o**f **th**e ****sam**e **typ**e**. **Consid**er **thi**s **examp**le:
+**W**e **stat**ed **tha**t **al**l **elemen**ts **hav**e **t**o **b**e **o**f **th**e \***\*sam**e **typ**e**. **Consid**er **thi**s **examp\*\*le:
 
 ```haskell
  -- valid:
@@ -61,7 +61,7 @@ ghci> a
 [[1,2],[2,3,4,5]]
 ```
 
-> ****Not**e:** **Lis**ts **contain**ed **i**n a **lis**t **ca**n **b**e **o**f **differe**nt **lengt**hs **bu**t **hav**e **t**o **conta**in **th**e **sam**e **typ**e **o**f **elemen**ts.
+> \***\*Not**e:\*\* **Lis**ts **contain**ed **i**n a **lis**t **ca**n **b**e **o**f **differe**nt **lengt**hs **bu**t **hav**e **t**o **conta**in **th**e **sam**e **typ**e **o**f **elemen**ts.
 
 **Lis**ts **ca**n **eve**n **conta**in **functio**ns:
 
@@ -117,8 +117,8 @@ ghci> sum[1,4,20,5,1]
 
 A **fe**w **thin**gs **t**o **not**e:
 
-- **Th**e **concatenat**ion **operat**or `++` **tak**es ****tw**o **lis**ts** **containi**ng **elemen**ts **o**f **th**e **sam**e **typ**e.
-- **Th**e **con**s **operat**or `:` **tak**es **a**n ****eleme**nt** **an**d a ****lis**t** **containi**ng **elemen**ts **o**f **th**e **sam**e **typ**e.
+- **Th**e **concatenat**ion **operat**or `++` **tak**es \***\*tw**o **lis**ts\*\* **containi**ng **elemen**ts **o**f **th**e **sam**e **typ**e.
+- **Th**e **con**s **operat**or `:` **tak**es **a**n \***\*eleme**nt\*\* **an**d a \***\*lis**t\*\* **containi**ng **elemen**ts **o**f **th**e **sam**e **typ**e.
 - **B**e **caref**ul **no**t **t**o **us**e `head`, `last`, `init`, `tail` **o**n **emp**ty **lis**ts **a**s **i**t **wou**ld **resu**lt **i**n **a**n **err**or.
 
 ## **Rang**es

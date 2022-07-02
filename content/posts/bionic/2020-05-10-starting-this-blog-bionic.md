@@ -11,7 +11,7 @@ bionic: true
 > **thi**s **blo**g? **Wh**y **do**n't **yo**u **jus**t **wat**ch **Netfl**ix?"
 
 **Sin**ce I'm **qui**te **pragmat**ic **i**n **maki**ng **suc**h **decisio**ns, I **divid**ed **m**y **reaso**ns **int**o
-**tw**o **categori**es: ****Purpo**se** **an**d ****Goa**ls**.
+**tw**o **categori**es: \***\*Purpo**se\*\* **an**d \***\*Goa**ls\*\*.
 
 ### **Purpo**se
 

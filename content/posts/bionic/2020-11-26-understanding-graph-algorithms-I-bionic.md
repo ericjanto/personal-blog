@@ -25,7 +25,7 @@ to-heading: 2
 ## **Goa**ls
 
 - **Understa**nd **gra**ph **theo**ry
-- **Bui**ld **foundatio**ns **fo**r ****Understand**ing **Gra**ph **Algorith**ms **I**I: **Travers**al **Algorith**ms** (**no**t **publish**ed **ye**t)
+- **Bui**ld **foundatio**ns **fo**r \***\*Understand**ing **Gra**ph **Algorith**ms **I**I: **Travers**al **Algorith**ms** (**no**t **publish**ed **ye\*\*t)
 
 # A **Bi**t **o**f **Gra**ph **Theo**ry
 
@@ -62,8 +62,8 @@ $V$ and $E$ are sets, so we can write the following:
 
 **W**e'**v**e **see**n **th**e **visualisat**ion **o**f a **gra**ph **abo**ve. **Vertic**es **ar**e **represent**ed **b**y **labell**ed **circl**es, **an**d **edg**es **ar**e **visualis**ed **usi**ng **lin**es **t**o **conne**ct **th**e **vertic**es. **Not**e **tha**t **w**e **hav**e **tw**o **differe**nt **kin**ds **o**f **edg**es:
 
-- ****direct**ed **edg**e**: **represent**ed **b**y **a**n **arr**ow, **als**o **call**ed _**arc**h_
-- ****undirect**ed **edg**e**: **represent**ed **b**y a **pla**in **lin**e
+- \***\*direct**ed **edg**e**: **represent**ed **b**y **a**n **arr**ow, **als**o **call**ed \_**arc\*\*h\_
+- \***\*undirect**ed **edg**e**: **represent**ed **b**y a **pla**in **lin\*\*e
 
 **W**e **us**e _**direct**ed_ edges when we have an edge going from some vertex $u$ to some vertex $v$ but not vice versa:
 
@@ -93,7 +93,7 @@ So if a graph has some edge $(a,b)$ (that is, going from vertex $a$ to vertex $b
 From a mathematical perspective, it's fairly easy to distinguish between these two types. To this end, we note that $E$ is a _**bina**ry **relati**on_ **a**s **i**t **i**s a **subs**et **o**f a **Cartesi**an **produ**ct. **Le**t's **als**o **reca**ll **th**e **definiti**on **o**f a _**symmetr**ic_ **relati**on:
 
 > Let $R$ be a relation on a set $A$.
-> A relation $R$ is ****symmetr**ic** if, and only if, for every $x,y\in A$, if $xRy$ then $yRx$.
+> A relation $R$ is \***\*symmetr**ic\*\* if, and only if, for every $x,y\in A$, if $xRy$ then $yRx$.
 
 This is just another way of saying that for all pairs $(x,y)$ in $R$, there must also be a complementing pair $(y,x)$. A graph $G=(V,E)$ is undirected if, and only if, $E$ is symmetric.
 
@@ -186,15 +186,15 @@ I'**l**l **jus**t **thr**ow **thi**s **tab**le **a**t **you**r **hea**d; **expla
 
 ### **Advantag**es **o**f **Adjacen**cy **Matric**es
 
-****Eas**y **Implementat**ion**
+\***\*Eas**y **Implementat**ion\*\*
 
 **Adjacen**cy **matric**es **hav**e a **maj**or **advanta**ge **tha**t **the**y **ar**e **ver**y **eas**y **t**o **impleme**nt. **W**e **ca**n **simp**ly **us**e a **tw**o-**dimension**al **arr**ay, **o**r **eve**n **on**e-**dimension**al **i**f **w**e **us**e **a**n **injecti**ve, **o**r **ideal**ly **bijecti**ve, **mappi**ng **functi**on.
 
-****Goo**d **fo**r **Undirect**ed-**Che**ck**
+\***\*Goo**d **fo**r **Undirect**ed-**Che**ck\*\*
 
 **I**t's **eas**y **t**o **che**ck **wheth**er a **gra**ph **i**s **undirect**ed **o**r **no**t. **I**f **i**t's **a**n **undirect**ed **gra**ph, **th**e _**correspond**ing **adjacen**cy **matr**ix **i**s **symmetr**ic_ **arou**nd **th**e **diagon**al. **I**f **yo**u **do**n't **kno**w **wh**y **thi**s **i**s **th**e **cas**e, I'd **advi**se **yo**u **t**o **dra**w **a**n **undirect**ed **gra**ph **an**d **wri**te **dow**n **th**e **adjacen**cy **matr**ix.
 
-****Goo**d **fo**r **Adjacen**cy-**Che**ck**
+\***\*Goo**d **fo**r **Adjacen**cy-**Che**ck\*\*
 
 Given that we have direct access to all entries of $A$ using array indices, we can check very efficiently if, given a pair of vertices, they are adjacent, i.e. there exists an edge between the vertices.
 
@@ -202,33 +202,33 @@ Index-accesses and simple comparisons happen within constant time, so worst-case
 
 ### **Disadvanta**ges **o**f **Adjacen**cy **Matric**es
 
-****Spa**ce-**Inefficie**nt **Implementat**ion**
+\***\*Spa**ce-**Inefficie**nt **Implementat**ion\*\*
 
 We have an $n\times n$ matrix, so the implementation will use up $\theta (n^2)$ space. So rather space-inefficient in comparison to adjacency lists where we don't have all the zeros of $A$.
 
-****Slo**w **Adjacen**cy **Visi**ts**
+\***\*Slo**w **Adjacen**cy **Visi**ts\*\*
 
 We do have direct access via indices, so we can directly access the row for vertex $u$. However, we don't know which of the cells of that row are $1$ and which are $0$. So we need to go through the entire list which is of length $n$. Worst-case running-time of $\theta (n)$.
 
-****Slo**w **Vis**it-**Al**l**
+\***\*Slo**w **Vis**it-**Al**l\*\*
 
 Similar to the prior section, but now we're going through all $n$ rows and for each row through all $n$ columns. So worst-case running-time of $\theta (n^2)$.
 
 ### **Advantag**es **o**f **Adjacen**cy **Lis**ts
 
-****Spa**ce-**Efficie**nt **Implementat**ion**
+\***\*Spa**ce-**Efficie**nt **Implementat**ion\*\*
 
 In comparison to the adjacency matrix, the adjacency list is a more compact way of representing a graph as we don't have all the zeros of $A$.
 
 The list has $n$ entries and within these entries, all $m$ vertices are split up. So space-efficiency of $\theta (n+m)$.
 
-****Goo**d **fo**r **Adjacen**cy **Visi**ts**
+\***\*Goo**d **fo**r **Adjacen**cy **Visi**ts\*\*
 
 If we want to visit all vertices adjacent to $v$, we simply index into the entry for $v$, a $\theta(1)$ operation, and go through the entry list which has length $out(v)$.
 
 Worst-case running-time of $\theta (out(v))$, pretty good!
 
-****Goo**d **fo**r **Visiti**ng **Al**l **Vertic**es**
+\***\*Goo**d **fo**r **Visiti**ng **Al**l **Vertic**es\*\*
 
 We have a faster asymptotic worst-case running-time for visiting all vertices which are adjacent to a given vertex. We simply direct-access the entry for each of $n$ vertices and go along the respective entry list, which has length $m$ in total.
 
@@ -236,7 +236,7 @@ Worst-case running-time of $\theta(n+m)$.
 
 ### **Disadvanta**ges **o**f **Adjacen**cy **Lis**ts
 
-****Slo**w **Adjacen**cy **Che**ck** _(is $w$ a neighbour of $v$?)_
+\***\*Slo**w **Adjacen**cy **Che**ck\*\* _(is $w$ a neighbour of $v$?)_
 
 Since each of the entries of the adjacency list is an unordered list of neighbours, we need to go through the list until we find $w$ (or we don't, then the check evaluates to `False`).
 

@@ -76,13 +76,13 @@ _**Yo**u **ca**n [**ski**p](/first-year/#lockdown) **t**o **th**e **nex**t **bi*
 
 **Thi**s **cour**se **consist**ed **o**f **tw**o **su**b-**cours**es: **Introducti**on **t**o **Function**al **Programmi**ng **an**d **Computatio**nal **Log**ic.
 
-****Function**al **Programmi**ng**
+\***\*Function**al **Programmi**ng\*\*
 
 - **Learn**ed: **Haske**ll, **recursi**on, **lis**t **comprehens**ion, **functio**ns & **compositi**on, **tac**it **programmi**ng (**lov**ed **tha**t **on**e), **dat**a **structur**es (**lis**ts, **tre**es), **dat**a **abstracti**on, **algebra**ic **dat**a, **high**er-**ord**er **functio**ns, **et**c.
 - **Wel**l **taug**ht, **profess**or **wa**s **o**n **th**e **committ**ee **whi**ch **develop**ed **Haske**ll; **h**e **wa**s **pret**ty **coo**l
 - **Learn**ed **t**o **lov**e **Haske**ll; **i**t's **ver**y **cle**an **an**d **elega**nt — I **do**n't **kno**w **whe**re **t**o **app**ly **i**t **thou**gh
 
-****Computatio**nal **Log**ic**
+\***\*Computatio**nal **Log**ic\*\*
 
 - **Learn**ed: **tru**th **tabl**es, **Syllogis**ms, **FS**M, **Propositio**nal **Log**ic, **Karnau**gh **Map**s, **NF**A, **reg**ex, **et**c.
 - **Ba**d **profess**or (I **lik**ed **hi**m **bu**t **h**e **wa**s **unab**le **t**o **tea**ch) / **ba**d **organis**ed, I **did**n't **ge**t **th**e **gis**t **o**f **wh**y **w**e **wer**e **learni**ng **thi**s

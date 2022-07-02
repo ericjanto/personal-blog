@@ -43,7 +43,7 @@ I **us**e **Vimi**um **onl**y **fo**r **th**e **followi**ng **functio**ns:
 | `Shift + F` | **Simil**ar **t**o `F` **bu**t **ope**ns **lin**k **i**n **ne**w **ta**b |
 | `J`         | **Scro**ll **dow**n a **bi**t                                            |
 | `K`         | **Scro**ll **u**p a **bi**t                                              |
-| `D`         | **Scro**ll **D****ow**n **hal**f a **pag**e                              |
+| `D`         | **Scro**ll **D\*\***ow**n **hal**f a **pag\*\*e                          |
 | `U`         | **Scro**ll **U**p **hal**f a **pag**e                                    |
 
 **Noti**ce **tha**t **Vimi**um **cann**ot **b**e **activat**ed **whi**le **you**r **curs**or **i**s **i**n **som**e **inp**ut **fie**ld. **Yo**u'd **hav**e **t**o **pre**ss `Esc` **fir**st **an**d **the**n **us**e **an**y **o**f **th**e **shortcu**ts **abo**ve.

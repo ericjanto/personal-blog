@@ -24,7 +24,7 @@ bionic: true
 
 **Th**e **fir**st **ste**p **wa**s **t**o **gath**er **informati**on **o**n **wha**t **featur**es **th**e **committ**ee **wou**ld **lik**e **t**o **se**e. I **draft**ed a **lis**t **an**d **divid**ed **i**t **int**o **essenti**al **an**d **nic**e-**t**o-**hav**e **featur**es.
 
-****Essentia**ls**
+\***\*Essentia**ls\*\*
 
 - **Conte**nt / **Pag**es
   - **Concer**ts
@@ -33,7 +33,7 @@ bionic: true
   - **Joi**n
 - **Blo**g
 
-****Nic**e-**t**o-**hav**e**
+\***\*Nic**e-**t**o-**hav**e\*\*
 
 - **Conte**nt / **Pag**es
   - **Soci**al **Lif**e
@@ -44,7 +44,7 @@ bionic: true
 
 ### **Conce**pt & **Too**ls
 
-****Conce**pt: **Functional**ity > **Desi**gn**
+\***\*Conce**pt: **Functional**ity > **Desi**gn\*\*
 
 I **ha**d **t**o **bea**r **i**n **min**d **wha**t **kin**d **o**f **foc**us **gro**up **wou**ld **vis**it **th**e **websi**te. I **suppos**ed **th**e **gro**up **wou**ld **consi**st **o**f
 
@@ -58,7 +58,7 @@ I **sketch**ed a **fe**w **layou**ts **i**n **m**y **notebo**ok (**hav**en't **h
 
 **Th**e **onl**y **decisi**on **lef**t: **whi**ch **languag**es **an**d **too**ls **shou**ld I **us**e?
 
-****Too**ls**
+\***\*Too**ls\*\*
 
 **Jus**t **havi**ng **develop**ed **m**y **blo**g, I **thoug**ht **i**t **wou**ld **b**e a **goo**d **ide**a **t**o **us**e **th**e **sam**e **too**ls, **especial**ly **becau**se I **ha**d a **goo**d **experien**ce **usi**ng **the**m. **Thi**s **wou**ld **all**ow **m**e **t**o **reu**se **som**e **ide**as **an**d **componen**ts.
 
@@ -113,9 +113,9 @@ I **wo**n't **g**o **to**o **muc**h **int**o **deta**il **sin**ce **th**e **enti
 - [x] **RS**S **fee**d
 - [x] **Easi**ly **editab**le
 
-****Paymen**ts**: I **wa**s **initial**ly **planni**ng **o**n **integrati**ng [**stri**pe]() **i**n **combinati**on **wit**h [**ticketsa**le]() **i**n **m**y **codeba**se **whi**ch **seem**ed **t**o **b**e **qui**te **uncomplica**ted **giv**en [**thi**s **Gats**by **plug**in](). **Aft**er **looki**ng **a**t **the**ir **prici**ng, I **postpon**ed **thi**s **featu**re, **supposi**ng **tha**t **i**t's **simp**ly **no**t **wor**th **i**t **fo**r **u**s **t**o **sel**l **ticke**ts **onli**ne. A **sa**d **thi**ng **sin**ce I **wa**s **looki**ng **forwa**rd **t**o **worki**ng **myse**lf **int**o **th**e **who**le **stri**pe **technolo**gy.
+\***\*Paymen**ts**: I **wa**s **initial**ly **planni**ng **o**n **integrati**ng [**stri**pe]() **i**n **combinati**on **wit**h [**ticketsa**le]() **i**n **m**y **codeba**se **whi**ch **seem**ed **t**o **b**e **qui**te **uncomplica**ted **giv**en [**thi**s **Gats**by **plug**in](). **Aft**er **looki**ng **a**t **the**ir **prici**ng, I **postpon**ed **thi**s **featu**re, **supposi**ng **tha**t **i**t's **simp**ly **no**t **wor**th **i**t **fo**r **u**s **t**o **sel**l **ticke**ts **onli**ne. A **sa**d **thi**ng **sin**ce I **wa**s **looki**ng **forwa**rd **t**o **worki**ng **myse**lf **int**o **th**e **who**le **stri**pe **technolo\*\*gy.
 
-****Liv**e-**streami**ng**: **Anoth**er **featu**re **whi**ch I **decid**ed **t**o **postpo**ne **fo**r **no**w. **YouTu**be **offe**rs **gre**at **liv**e-**streami**ng **technolo**gy + **i**t's **fo**r **fre**e. **Th**e **onl**y **reaso**ns **t**o **hav**e **liv**e-**strea**ms **o**n **thi**s **websi**te **wou**ld **b**e:
+\***\*Liv**e-**streami**ng**: **Anoth**er **featu**re **whi**ch I **decid**ed **t**o **postpo**ne **fo**r **no**w. **YouTu**be **offe**rs **gre**at **liv**e-**streami**ng **technolo**gy + **i**t's **fo**r **fre**e. **Th**e **onl**y **reaso**ns **t**o **hav**e **liv**e-**strea**ms **o**n **thi**s **websi**te **wou**ld **b\*\*e:
 
 1.  **W**e **wan**t **t**o **char**ge **viewe**rs **fo**r **th**e **watchi**ng **experien**ce. **See**ms **unlike**ly **fo**r **no**w **sin**ce **classic**al **concer**ts **wou**ld **requi**re a **ver**y **hig**h **aud**io **quali**ty **i**n **th**e **stre**am **t**o **b**e **an**y **nea**r a **goo**d **conce**rt **experien**ce.
 2.  **W**e **wan**t **t**o **mainta**in **ou**r **integri**ty **an**d **do**n't **wan**t **th**e **orchest**ra **t**o **b**e **affiliat**ed **t**o **oth**er **bran**ds **suc**h **a**s **Goog**le (**YouTu**be).
