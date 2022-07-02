@@ -55,4 +55,3 @@ I use Vimium only for the following functions:
 Notice that Vimium cannot be activated while your cursor is in some input field. You'd have to press `Esc` first and then use any of the shortcuts above.
 
 Now you have everything to enjoy Chrome in a frictionless and fast way.
-

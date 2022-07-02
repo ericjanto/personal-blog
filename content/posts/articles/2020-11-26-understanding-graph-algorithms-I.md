@@ -290,4 +290,3 @@ We can use this to:
   https://www.math.cmu.edu/~mradclif/teaching/228F16/Kuratowski.pdf.
 - ‘Cartesian Product’. In Wikipedia, 12 November 2020.
   https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=988368067.
-

@@ -111,4 +111,3 @@ True
 
 - [Understanding Recursion in Haskell](/haskell-recursion/)
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 15-18`
-

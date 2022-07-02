@@ -54,4 +54,3 @@ const postHotKeyHandlers = {
 There are a few things to notice here. We want to keep track of whether fuzzy mode is activated or not. We use the react hook `useState()` for this purpose as it allows us to keep track of the value of `fuzzy` even when it's already passed to an element's class name in the render function later on. Furthermore, I implemented it in a way that it'll be an easy task to add additional reading modes (hence the dictionary structure and not a simple boolean variable). `getReadingModeClass()` is a simple helper function which returns an appropriate class string.
 
 This was a fun way of spending an hour of my free time after work! And to repeat, full credits to [Paco](https://paco.me/) for this fantastic idea and the CSS.
-

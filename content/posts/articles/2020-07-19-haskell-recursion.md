@@ -292,4 +292,3 @@ Sometimes, a good solution would be to make sure that the list is never empty, e
 
 - [How to Use List Comprehension in Haskell](/haskell-list-comprehension)
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 51-53`
-

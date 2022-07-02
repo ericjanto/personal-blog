@@ -33,4 +33,3 @@ When you're tracking the time of fast evaluations like the one above, you should
 This method works also with functions you've defined in an own .hs-file. You can remove the time evaluation by using `:unset +s`.
 
 Tip: If you're interested in prime number algorithms, check out the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
-
