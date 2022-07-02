@@ -3,14 +3,32 @@
   --transition-long: 480ms;
 }
 
-.fuzzy :where(p, pre, li, img, div, blockquote, table) {
+.fuzzy :where(p, pre, li, img, blockquote, table) {
   opacity: 0.6;
   filter: blur(2px);
   transition: var(--transition-long);
   transition-property: opacity, filter;
 }
 
-.fuzzy :where(p, pre, li, img, div, blockquote, table):hover {
+.fuzzy :where(p, pre, li, img, blockquote, table):hover {
   opacity: 1;
-  filter: none;
+  filter: blur(0px);
+}
+
+/* Bionic */
+.bionic :where(p, li, blockquote) {
+  color: #a5a5a5;
+}
+
+.bionic :where(a) {
+  text-decoration: underline;
+  text-decoration-color: #7e7e7e;
+}
+
+.bionic :where(p, li, blockquote) > * {
+  color: #fafafa;
+}
+
+.bionic :where(img, code) {
+  filter: grayscale(100%);
 }

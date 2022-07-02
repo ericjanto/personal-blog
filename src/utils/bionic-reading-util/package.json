@@ -1,0 +1,8 @@
+{
+  "name": "bionic-reading-util",
+  "version": "1.0.0",
+  "main": "bionicify.js",
+  "type": "module",
+  "license": "MIT",
+  "private": true
+}

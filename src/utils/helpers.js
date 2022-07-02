@@ -65,7 +65,6 @@ export function categoriser(tags) {
 export function catPrettyPrint(tag) {
   const s = JSON.stringify(tag)
   const words = s.split('-')
-  console.log(words)
 
   for (let i = 0; i < words.length; i++) {
     words[i] = words[i].replace(/"/g, '')

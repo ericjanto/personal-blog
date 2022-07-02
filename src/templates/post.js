@@ -2,41 +2,47 @@ import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
-
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
-
-import BreadcrumbMenu from '../components/BreadcrumbMenu'
-
 import config from '../utils/config'
 import { GlobalHotKeys } from 'react-hotkeys'
 
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
+import BreadcrumbMenu from '../components/BreadcrumbMenu'
 import keyMap from '../utils/keyMap'
 
 require(`katex/dist/katex.min.css`)
 
 export default function PostTemplate({ data, pageContext, ...props }) {
-  const [fuzzy, setFuzzy] = useState(false)
-
-  const readingModes = {
-    FUZZY: fuzzy,
-  }
+  const [readingModesState, setReadingModes] = useState({
+    bionic: false,
+    fuzzy: false,
+  })
 
   const postHotKeyHandlers = {
-    FUZZY: () => setFuzzy((prev) => !prev),
+    FUZZY: () => {
+      setReadingModes((prev) => {
+        return { ...prev, fuzzy: !prev.fuzzy }
+      })
+    },
+    BIONIC: () => {
+      setReadingModes((prev) => {
+        return { ...prev, bionic: !prev.bionic }
+      })
+    },
   }
 
-  function getReadingModeClass(readingModes) {
+  function getReadingModeClass(readingModesState) {
     let classStr = ''
-    Object.entries(readingModes).forEach(function ([mode, isActive]) {
+    Object.entries(readingModesState).forEach(function ([mode, isActive]) {
       if (isActive) {
-        classStr += String(mode).toLowerCase()
+        classStr += String(mode).toLowerCase() + ' '
       }
     })
-    return classStr
+    return classStr.trim()
   }
 
   const post = data.markdownRemark
+  const bionicHTML = pageContext.bionicPost.node.html
   const { thumbnail } = post.frontmatter
   const crumbs = ['']
 
@@ -47,7 +53,7 @@ export default function PostTemplate({ data, pageContext, ...props }) {
         <SEO postPath={post.fields.slug} postNode={post} postSEO />
         <BreadcrumbMenu crumbs={crumbs} page={post} />
         <section className="grid post">
-          <article className={getReadingModeClass(readingModes)}>
+          <article className={getReadingModeClass(readingModesState)}>
             <header className="article-header medium">
               {thumbnail && (
                 <Img
@@ -61,7 +67,13 @@ export default function PostTemplate({ data, pageContext, ...props }) {
               )}
             </header>
             <h1>{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div
+              dangerouslySetInnerHTML={
+                readingModesState.bionic
+                  ? { __html: bionicHTML }
+                  : { __html: post.html }
+              }
+            />
           </article>
         </section>
       </Layout>
