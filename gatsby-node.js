@@ -30,12 +30,32 @@ const createPages = async ({ graphql, actions }) => {
     `
   )
 
+  // TODO: use slug instead of title for matching bionic posts
+  const bionicResults = await graphql(
+    `
+      {
+        allMarkdownRemark(filter: { frontmatter: { bionic: { eq: true } } }) {
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+              }
+              html
+            }
+          }
+        }
+      }
+    `
+  )
+
   if (result.errors) {
     throw result.errors
   }
 
   const all = result.data.allMarkdownRemark.edges
   const posts = all.filter((post) => post.node.frontmatter.template === 'post')
+  const bionicPosts = bionicResults.data.allMarkdownRemark.edges
   const pages = all.filter((post) => post.node.frontmatter.template === 'page')
   const tagSet = new Set()
 
@@ -46,6 +66,13 @@ const createPages = async ({ graphql, actions }) => {
   posts.forEach((post, i) => {
     const previous = i === posts.length - 1 ? null : posts[i + 1].node
     const next = i === 0 ? null : posts[i - 1].node
+
+    let bionicPost = undefined
+    bionicPosts.forEach((bpost, i) => {
+      if (bpost.node.frontmatter.title === post.node.frontmatter.title) {
+        bionicPost = bpost
+      }
+    })
 
     if (post.node.frontmatter.tags) {
       post.node.frontmatter.tags.forEach((tag) => {
@@ -60,6 +87,7 @@ const createPages = async ({ graphql, actions }) => {
         slug: post.node.fields.slug,
         previous,
         next,
+        bionicPost,
       },
     })
   })
