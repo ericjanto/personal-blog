@@ -202,3 +202,4 @@ _Thanks to Anoukia Nistor for reading a draft of this article._
 ![Pentland Hills](../../images/first-year-03041.jpg)
 
 ![Blackford Hill](../../images/first-year-03156.jpg)
+

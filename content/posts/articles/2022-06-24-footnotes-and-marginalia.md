@@ -17,3 +17,4 @@ One should aim to find a balance between strictly appropriate use of perhaps use
 If interested, you can see the markdown syntax on my [Markdown cheatsheet](/markdown#footnotes-and-marginalia).
 
 [^fn_mla]: [MLA Endnotes and Footnotes](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_endnotes_and_footnotes.html), Purdue Writing Lab. Accessed June 24, 2022.
+

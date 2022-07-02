@@ -17,3 +17,4 @@ One could say that posting New Year's resolutions at the start of May is slightl
 5. **Get to know new people and keep in touch with old friends.**<br> As I go into my last year of university, I realise how important it is to maintain a good network of friends and useful contacts – both for having a good support system and for feeling accepted. With this goal, I aim to **contact 1 new person a week**, so 37 people by the end of this year.
 
 My thought process behind these goals was to make them as realistic and quantifiable as possible. Goals which try to enforce habits onto my much-varying daily structure would simply not work. I might work towards some of these goals a lot during some times, and much less during other times. With this article, the starting gun has been fired. I'm curious how fun, difficult, fruitful, or maybe even surprising this journey will be.
+

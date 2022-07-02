@@ -25,3 +25,4 @@ I observed a few things using these rules to write this very note. It is difficu
 I'm not sure whether the loss of ideas that come up during the writing process constitutes a too large disadvantage of this writing process. Maybe a variation of the ruleset could be beneficial: the writer is allowed to write down the directions they intend the text to go whenever they stop writing.
 
 It would be interesting to test this set of rules on a larger piece of writing. Currently, I'm using a generic text editor, relying on myself to be disciplined enough to adhere to the writing policies (I'm not, I keep catching myself correcting minor typos). It would be an easy task to write a simple command-line tool which strictly enforces the rules. I'm certainly keen to further experiment with this.
+

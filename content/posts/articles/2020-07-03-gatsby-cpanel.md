@@ -124,3 +124,4 @@ I chose `/home/userName/repositories` as it makes it easier to find it should I 
 Choose a repo name and click on `Create`. Make sure that your `public_html` folder is empty, go back to the Git control panel in cPanel and click on the `Manage` button next to your repository name. Then go to `Pull or Deploy`, click on `Update from Remote` and then `Deploy HEAD Commit`.
 
 That should be it! Enjoy your website, generated with Gatsby, deployed to and hosted by cPanel.
+

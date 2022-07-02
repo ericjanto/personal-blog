@@ -144,3 +144,4 @@ These are the top 3 + 1 things I've learned:
 4. I had to write a documentation. I think I'm finally getting better at writing those things.
 
 I don't know if I'm ever going to need any web development skills at Uni but it was still a good experience and I guess I can never know too much.
+

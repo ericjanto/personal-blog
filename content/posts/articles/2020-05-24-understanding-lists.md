@@ -221,3 +221,4 @@ Comments are ignored by the compiler. -}
 - [How to Use List Comprehension in Haskell](/haskell-list-comprehension/)
 - [Understanding Recursion in Haskell](/haskell-recursion)
 - Learn You a Haskell for Great Good!, M. Lipovača: `pp 7-14`
+

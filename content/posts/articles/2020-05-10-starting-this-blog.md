@@ -66,3 +66,4 @@ Well, that's it for now. I'm excited, how all of this will turn out eventually.
 Writing all of this while having lots of time (due to [COVID-19](https://en.wikipedia.org/wiki/COVID-19_pandemic)) will be
 totally different to maintaining this blog once the next semester has started.
 I guess, I'll just have to watch some of [Ali's videos](https://www.youtube.com/user/Sepharoth64) to keep myself motivated and to stay productive!
+
