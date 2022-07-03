@@ -8,7 +8,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "format": "prettier --write .",
+    "format": "prettier --loglevel warn --write .",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "bionicify": "node src/utils/bionic-reading-util/bionicify.js"
