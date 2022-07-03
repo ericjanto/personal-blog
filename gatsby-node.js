@@ -30,7 +30,6 @@ const createPages = async ({ graphql, actions }) => {
     `
   )
 
-  // TODO: use slug instead of title for matching bionic posts
   const bionicResults = await graphql(
     `
       {
@@ -68,7 +67,7 @@ const createPages = async ({ graphql, actions }) => {
     const next = i === 0 ? null : posts[i - 1].node
 
     let bionicPost = undefined
-    bionicPosts.forEach((bpost, i) => {
+    bionicPosts.forEach((bpost) => {
       if (bpost.node.frontmatter.title === post.node.frontmatter.title) {
         bionicPost = bpost
       }
@@ -76,7 +75,9 @@ const createPages = async ({ graphql, actions }) => {
 
     if (post.node.frontmatter.tags) {
       post.node.frontmatter.tags.forEach((tag) => {
-        tagSet.add(tag)
+        if (tag != 'other') {
+          tagSet.add(tag)
+        }
       })
     }
 
