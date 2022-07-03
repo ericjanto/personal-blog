@@ -29,6 +29,7 @@
   color: #fafafa;
 }
 
-.bionic :where(img, code) {
+.bionic :where(img, code, blockquote, pre),
+.bionic .sidenote-number:after {
   filter: grayscale(100%);
 }

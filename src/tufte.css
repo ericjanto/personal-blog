@@ -120,6 +120,11 @@ label.margin-toggle:not(.sidenote-number) {
 
   .margin-toggle:after {
     color: #15beec;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .margin-toggle:hover:after {
+    color: #aaaaaa;
   }
 
   .sidenote:before {
