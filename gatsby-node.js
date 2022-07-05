@@ -1,4 +1,6 @@
+const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
+const fsExtra = require('fs-extra')
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -155,6 +157,33 @@ const createNode = ({ node, actions, getNode }) => {
       node,
       value: slug,
     })
+  }
+
+  // =====================================================================================
+  // Static Image URLs
+  // =====================================================================================
+  const sourceNorm = path.normalize(`${__dirname}/content/images`)
+  const destination = `/images`
+
+  if (node.internal.type === 'File') {
+    const dir = path.normalize(node.dir)
+
+    if (dir.includes(sourceNorm)) {
+      const relativeToDestination = dir.replace(sourceNorm, '')
+      const newPath = path.join(
+        process.cwd(),
+        'public',
+        destination,
+        relativeToDestination,
+        node.base
+      )
+
+      fsExtra.copy(node.absolutePath, newPath, (err) => {
+        if (err) {
+          console.log('Error copying file: ', err)
+        }
+      })
+    }
   }
 }
 

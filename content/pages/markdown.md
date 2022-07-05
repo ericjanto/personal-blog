@@ -85,7 +85,7 @@ We distinguish between external and internal links. External links link to a for
 [Link to the Headings section of this page](/markdown#headings)
 ```
 
-Note how the internal link does not have a `https://` or `www.` prefix. It rather follows this syntax: `/page-name/#section-title`.
+Note how the internal link does not have a `https://` or `www.` prefix. It rather follows this syntax: `/page-name/#section-title`. For well-implemented websites, internal links can link to assets. For instance, this is a link to an [xkcd comic](../images/recursion-xkcd.png).
 
 It is good practice and an essential security factor to use meaningful link texts.
 
