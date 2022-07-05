@@ -42,7 +42,9 @@ export default function PostTemplate({ data, pageContext, ...props }) {
   }
 
   const post = data.markdownRemark
-  const bionicHTML = pageContext.bionicPost.node.html
+  const bionicHTML = pageContext.bionicPost
+    ? pageContext.bionicPost.node.html
+    : undefined
   const { thumbnail } = post.frontmatter
   const crumbs = ['']
 
