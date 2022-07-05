@@ -115,7 +115,6 @@ module.exports = {
     // FUNCTIONALITIES
     // ===================================================================================
 
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
