@@ -4,7 +4,7 @@ slug: follow
 template: page
 ---
 
-[Newsletter](/newsletter) will be up soon. Follow my [RSS](/rss) feed until then to keep up to date with the website content.
+[Newsletter](/newsletter) will be up soon. Follow my [RSS](/rss.xml) feed until then to keep up to date with the website content.
 
 Find me on the internet:
 
