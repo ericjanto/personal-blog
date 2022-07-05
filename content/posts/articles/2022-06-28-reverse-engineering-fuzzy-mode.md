@@ -1,7 +1,7 @@
 ---
 date: 2022-06-28
 title: 'Reverse engineering fuzzy mode'
-excerpt: 'Focus modes are fun: they allow the reader to filter out noise and to concentrate at chosen content only. This article is about reverse engineering a kind of focus mode which blurs out text, makes it fuzzy.'
+excerpt: 'Focus modes are fun: they allow the reader to filter out noise and to concentrate on chosen content only. This article is about reverse engineering a kind of focus mode which blurs out text, makes it fuzzy.'
 template: post
 slug: reverse-engineering-fuzzy-mode
 tags:
