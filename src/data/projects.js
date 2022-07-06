@@ -1,17 +1,17 @@
 export default [
   {
-    icon: '😷',
-    title: 'Corona-Warn-App',
-    path: 'https://www.coronawarn.app/',
+    icon: '📖',
+    title: 'Bionic Markdown',
+    path: 'https://www.npmjs.com/package/bionic-markdown',
     description:
-      'The official COVID-19 exposure notification app for Germany • Systems & UI testing team.',
+      'A Node.js module which processes Markdown so that it is suitable for bionic reading.',
   },
   {
-    icon: '🌎',
-    title: 'BreakOut',
-    path: 'https://break-out.org',
+    icon: '📄',
+    title: 'Frontmatter Processor',
+    path: 'https://www.npmjs.com/package/markdown-frontmatter-processor',
     description:
-      'In teams of two. Without money. As far as possible. For a good cause • fintech team.',
+      'A Node.js module which makes it easy to read and change YAML frontmatter in Markdown files.',
   },
   {
     icon: '🌐',
