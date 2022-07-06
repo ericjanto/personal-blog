@@ -1,6 +1,6 @@
 export default {
   siteTitle: 'Eric Janto',
   siteUrl: 'https://www.ericjanto.com',
-  description: 'I write about computer science and other stuff.',
-  userTwitter: 'JantoEric',
+  description: 'Welcome to my personal website. This website contains a project showcase, various writings about computer science, and more.',
+  userTwitter: 'ericjnto',
 }
