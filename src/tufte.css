@@ -30,8 +30,8 @@ p {
 }
 
 .sidenote :where(a),
-.marginnote :where(a){
-  color: var(--dark-link-color)
+.marginnote :where(a) {
+  color: var(--dark-link-color);
 }
 
 .sidenote-number {
