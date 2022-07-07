@@ -1,8 +1,6 @@
-/* Fuzzy */
-:root {
-  --transition-long: 480ms;
-}
+@import 'variables.css';
 
+/* Fuzzy */
 .fuzzy :where(p, pre, li, img, blockquote, table) {
   opacity: 0.6;
   filter: blur(2px);
@@ -17,16 +15,16 @@
 
 /* Bionic */
 .bionic :where(p, li, blockquote) {
-  color: #a5a5a5;
+  color: var(--medium-font-color);
 }
 
 .bionic :where(a) {
   text-decoration: underline;
-  text-decoration-color: #7e7e7e;
+  text-decoration-color: var(--medium-font-color);
 }
 
 .bionic :where(p, li, blockquote) > * {
-  color: #fafafa;
+  color: var(--text-color);
 }
 
 .bionic :where(img, code, blockquote, pre),

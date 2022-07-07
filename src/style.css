@@ -1,34 +1,5 @@
 @import 'typography.css';
-
-/* Global variables */
-
-:root {
-  --font-color: #495057;
-  --heading-color: #343a40;
-  --dark-font-color: #212529;
-  --medium-font-color: #60656c;
-  --light-font-color: #868e96;
-  --border: #d6d9de;
-
-  --link-color: #15beec;
-  --link-hover: #aaaaaa;
-  --text-color: #fafafa;
-  --darker-text-color: #cecece;
-  --background: #141414;
-  --light-background: #2f2f2f;
-  --border-color: #ffffff;
-
-  --smaller-font-size: 0.9rem;
-  --normal-font-size: 1rem;
-  --medium-font-size: 1.1rem;
-  --larger-font-size: 1.2rem;
-  --top-font-size: 1.3rem;
-
-  --small-screen: 600px;
-  --normal-screen: 768px;
-  --larger-screen: 992px;
-  --largest-screen: 1200px;
-}
+@import 'variables.css';
 
 /* Reset */
 
