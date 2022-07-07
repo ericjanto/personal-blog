@@ -14,8 +14,16 @@
 }
 
 /* Bionic */
-.bionic :where(p, li, blockquote) {
+.bionic :where(p, li, blockquote, a) {
   color: var(--medium-font-color);
+}
+
+.bionic :where(.sidenote, .marginnote) {
+  color: var(--medium-font-color) !important;
+}
+
+.bionic :where(.sidenote, .marginnote) > * {
+  color: var(--text-color) !important;
 }
 
 .bionic :where(a) {
@@ -23,7 +31,11 @@
   text-decoration-color: var(--medium-font-color);
 }
 
-.bionic :where(p, li, blockquote) > * {
+.bionic :where(p, li, blockquote) > *:not(a) {
+  color: var(--text-color);
+}
+
+.bionic :where(a) > * {
   color: var(--text-color);
 }
 
