@@ -1041,6 +1041,10 @@ td {
   margin-top: 0.9em;
 }
 
+.gatsby-resp-image-wrapper {
+  max-width: 100% !important;
+}
+
 .gatsby-resp-image-figure {
   margin: 0;
 }
