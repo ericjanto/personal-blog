@@ -18,7 +18,7 @@ export default [
     title: 'Personal Website',
     path: 'https://github.com/ericjanto/personal-blog',
     description:
-      'My personal website, created with Gatsby, react, and node.js • full stack dev.',
+      'My personal website, created with Gatsby, react, and Node.js.',
   },
   {
     icon: '🎻',
@@ -27,13 +27,13 @@ export default [
     source:
       'https://github.com/Edinburgh-University-String-Orchestra/euso-website',
     description:
-      'A minimalist Gatsby website for the Edinburgh University String Orchestra • full stack dev.',
+      'A minimalist Gatsby website for the Edinburgh University String Orchestra.',
   },
   {
     icon: '🎷',
     title: 'EUJO Website',
     path: 'https://eujo.eusa.ed.ac.uk/history/',
     description:
-      'The official website for the Edinburgh University Jazz Orchestra • full stack dev.',
+      'The official website for the Edinburgh University Jazz Orchestra.',
   },
 ]
