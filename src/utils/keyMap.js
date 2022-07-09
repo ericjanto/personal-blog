@@ -1,4 +1,4 @@
 export default {
-  FUZZY: 'ctrl+f',
+  FUZZY: 'ctrl+z',
   BIONIC: 'ctrl+b',
 }
