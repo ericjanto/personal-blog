@@ -5,7 +5,7 @@ bionic: true
 
 I **recent**ly **cam**e **acro**ss [**Pac**o's **websi**te](https://paco.me/), **whi**ch I **ado**re **fo**r **it**s **simplici**ty, **elegan**ce, **an**d **meticulo**us **attenti**on **t**o **deta**il. **On**e **o**f **tho**se **detai**ls **i**s a **fuz**zy **readi**ng **mod**e. **Trigger**ed **b**y a **shortc**ut (`alt` on Paco's website), certain website elements get blurred out. [^mn_paco] Only the element we let our mouse pointer hover over will be visible.
 
-[^mn_paco]: {-} Try the feature on my website using 'ctrl+f'.
+[^mn_paco]: {-} Try the feature on my website using 'ctrl+z'.
 
 My very next thought was "wow, I need this on my website". So I started reverse engineering the feature.[^{-} I call it _**rever**se **engineeri**ng_, **som**e **peop**le **mig**ht **cal**l **i**t _**getti**ng **inspirati**on_, **ye**t **oth**er **peop**le **wil**l **plain**ly **cal**l **i**t _**steali**ng_ ¯**c**t°_o)/¯] **The**re **ar**e **tw**o **challeng**es **t**o **overco**me: **first**ly, **figuri**ng **ou**t **ho**w **t**o **blu**r **ou**t **tex**t **elemen**ts **an**d **onl**y **sho**w **one**s **w**e **hov**er **ove**r. **Second**ly, **activa**te **an**d **d**e-**activa**te **fuz**zy **mod**e **b**y **usi**ng a **customis**ed **shortc**ut.
 
