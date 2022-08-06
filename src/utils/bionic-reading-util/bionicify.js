@@ -4,8 +4,8 @@ import path from 'path'
 import processFrontmatter from 'markdown-frontmatter-processor'
 import fs from 'fs'
 
-const articles_path = 'content/posts/articles/'
-const bionic_path = 'content/posts/bionic/'
+const ARTICLES_PATH = 'content/posts/articles/'
+const BIONIC_PATH = 'content/posts/bionic/'
 
 function getChangedArticleNames() {
   console.log('🔍 Checking which files to bionicify...')
@@ -13,11 +13,11 @@ function getChangedArticleNames() {
     .toString()
     .split('\n')
   const changedArticles = changedFiles.filter((fn) => {
-    return fn.includes(articles_path)
+    return fn.includes(ARTICLES_PATH)
   })
 
   return changedArticles.map((an) => {
-    return an.replace(articles_path, '')
+    return an.replace(ARTICLES_PATH, '')
   })
 }
 
@@ -38,9 +38,9 @@ function changeFrontmatter(md) {
 
 function bionificyAll(articleNames) {
   articleNames.forEach((an) => {
-    const oldFilePath = path.join(articles_path, an)
+    const oldFilePath = path.join(ARTICLES_PATH, an)
     const newName = an.replace('.md', '-bionic.md')
-    const newFilePath = path.join(bionic_path, newName)
+    const newFilePath = path.join(BIONIC_PATH, newName)
     const oldMd = fs.readFileSync(oldFilePath).toString()
     const newMd = changeFrontmatter(bionicifyMarkdown(oldMd))
     fs.writeFileSync(newFilePath, newMd)
