@@ -183,6 +183,22 @@ hr {
   border: 1px solid #eeeeee;
 }
 
+article hr {
+  border: 0;
+  background: None;
+  overflow: visible;
+  padding-bottom: 2.5rem;
+}
+
+article hr::after {
+  content: '⁂';
+  display: block;
+  line-height: 1;
+  text-align: center;
+  color: var(--light-font-color);
+}
+
+
 blockquote {
   margin: 1.5rem 0;
   padding: 1rem;
