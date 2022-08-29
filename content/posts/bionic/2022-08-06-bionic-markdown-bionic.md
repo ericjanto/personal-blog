@@ -21,7 +21,7 @@ to-heading: 6
 
 ## **Conceptu**al **wor**k
 
-I **start**ed **investigat**ing. A **fe**w **momen**ts **i**n, I **cam**e **acro**ss **th**e [**offici**al **AP**I](https://rapidapi.com/bionic-reading-bionic-reading-default/api/bionic-reading1/). Quickly, I realised that using the API was not an option for me for two reasons. Firstly, the API endpoint wasn't flexible enough. I needed to customise the behaviour of which text elements get bionificied [^{-} For ease of writing, let's call the process of converting text to bionic text "to bionicify". Perhaps I should've chosen "bionify" as it doesn't sound as silly when said out loud, but alas...], and which elements stay the same (for example, for code blocks I prefer non-bionic content). Secondly, I couldn't afford to pay for the API pro subscription. Sure, I could've set up a script which guaranteed to never surpass the freemium request limit by only making requests for changed and relevant files and creating a queue if the number of those files surpasses the limit...but where would've been the fun in that?
+I **start**ed **investigat**ing. A **fe**w **momen**ts **i**n, I **cam**e **acro**ss **th**e [**offici**al **AP**I](https://rapidapi.com/bionic-reading-bionic-reading-default/api/bionic-reading1/). Quickly, I realised that using the API was not an option for me for two reasons. Firstly, the API endpoint wasn't flexible enough. I needed to customise the behaviour of which text elements get bionicified [^{-} For ease of writing, let's call the process of converting text to bionic text "to bionicify". Perhaps I should've chosen "bionify" as it doesn't sound as silly when said out loud, but alas...], and which elements stay the same (for example, for code blocks I prefer non-bionic content). Secondly, I couldn't afford to pay for the API pro subscription. Sure, I could've set up a script which guaranteed to never surpass the freemium request limit by only making requests for changed and relevant files and creating a queue if the number of those files surpasses the limit...but where would've been the fun in that?
 
 **O**k, a **cust**om **implementat**ion **i**t **wa**s **the**n. **Looki**ng **a**t **th**e **structu**re **o**f **m**y **websi**te, I **was**n't **entire**ly **sur**e **whe**re **t**o **beg**in. **Al**l **o**f **m**y **writin**gs **o**n **thi**s **websi**te **ar**e **stor**ed **i**n **Markdo**wn **fil**es. I **us**e a **stat**ic **sit**e **generat**or **t**o **conve**rt **Markdo**wn **fil**es **t**o **HTM**L. **Th**e **generat**or **itse**lf **i**s **equipp**ed **wit**h a **tailor**ed **Markdo**wn **pars**er **whi**ch **suppor**ts **customis**ed **synt**ax **suc**h **a**s **Pand**oc-**sty**le **inli**ne **footnot**es **an**d **marginal**ia. **Simil**ar **t**o **th**e **AP**I, **shou**ld I **bionici**fy **th**e **Markdo**wn **conte**nt **an**d **genera**te **HTM**L **a**s **outp**ut, **essential**ly **customisi**ng **th**e **Markdo**wn **pars**er? **O**r **Markdo**wn **a**s **outp**ut? **O**r **shou**ld I **rath**er **bionici**fy **th**e **alrea**dy **generat**ed **HTM**L?
 
@@ -298,7 +298,7 @@ const postHotKeyHandlers = {
 />
 ```
 
-**Al**l **o**f **th**e **abo**ve **wa**s **enou**gh **t**o **rea**ch **m**y **minim**um **goa**l: I **cou**ld **sho**w **bionifici**ed **conte**nt **o**n **m**y **websi**te. **Howev**er, **the**re **wer**e a **fe**w **bit**s I **want**ed **t**o **impro**ve.
+**Al**l **o**f **th**e **abo**ve **wa**s **enou**gh **t**o **rea**ch **m**y **minim**um **goa**l: I **cou**ld **sho**w **bionicifi**ed **conte**nt **o**n **m**y **websi**te. **Howev**er, **the**re **wer**e a **fe**w **bit**s I **want**ed **t**o **impro**ve.
 
 ## **Automati**ng **wit**h **pr**e-**comm**it
 
@@ -364,7 +364,7 @@ I **reali**se **tha**t **th**e **mai**n **functional**ity **o**f **m**y **implem
 
 **The**re **ar**e **sti**ll a **fe**w **corn**er **cas**es **whi**ch I **hav**en't **fix**ed **ye**t, **suc**h **a**s **wha**t **shou**ld **happ**en **wit**h **tex**t **tha**t **i**s **alrea**dy **bol**d **i**n **th**e **origin**al **fil**e. **Thi**s **ca**n **lea**d **t**o **stran**ge **\_\_****fra**g\*\*\_**\_men**ts. I **als**o **jus**t **igno**re **paragrap**hs **whi**ch **hav**e **an**y **footno**te **synt**ax **i**n **the**m, **leadi**ng **t**o **enti**re **paragrap**hs **wit**h **decreas**ed **opaci**ty:
 
-![An image of one of my published posts, in bionic mode. It shows that the paragraphs which feature footnotes or sidenotes are fully greyed out and do not feature any bold content.](../images/bionic-deficiency.png 'Corner case to fix: paragraphs which contain footnote syntax are completely ignored during the bionification process')
+![An image of one of my published posts, in bionic mode. It shows that the paragraphs which feature footnotes or sidenotes are fully greyed out and do not feature any bold content.](../images/bionic-deficiency.png 'Corner case to fix: paragraphs which contain footnote syntax are completely ignored during the bionicifation process')
 
 **Mor**e **delica**te **filteri**ng **o**f **th**e **MDA**ST **wou**ld **b**e **need**ed **t**o **fi**x **thi**s.
 
