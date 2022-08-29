@@ -36,7 +36,7 @@ function changeFrontmatter(md) {
   return processFrontmatter(md, options)
 }
 
-function bionificyAll(articleNames) {
+function bionicifyAll(articleNames) {
   articleNames.forEach((an) => {
     const oldFilePath = path.join(ARTICLES_PATH, an)
     const newName = an.replace('.md', '-bionic.md')
@@ -56,4 +56,4 @@ function bionificyAll(articleNames) {
   }
 }
 const filesToChange = getChangedArticleNames()
-bionificyAll(filesToChange)
+bionicifyAll(filesToChange)
