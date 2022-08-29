@@ -26,7 +26,7 @@ to-heading: 6
 
 ## Conceptual work
 
-I started investigating. A few moments in, I came across the [official API](https://rapidapi.com/bionic-reading-bionic-reading-default/api/bionic-reading1/). Quickly, I realised that using the API was not an option for me for two reasons. Firstly, the API endpoint wasn't flexible enough. I needed to customise the behaviour of which text elements get bionificied [^{-} For ease of writing, let's call the process of converting text to bionic text "to bionicify". Perhaps I should've chosen "bionify" as it doesn't sound as silly when said out loud, but alas...], and which elements stay the same (for example, for code blocks I prefer non-bionic content). Secondly, I couldn't afford to pay for the API pro subscription. Sure, I could've set up a script which guaranteed to never surpass the freemium request limit by only making requests for changed and relevant files and creating a queue if the number of those files surpasses the limit...but where would've been the fun in that?
+I started investigating. A few moments in, I came across the [official API](https://rapidapi.com/bionic-reading-bionic-reading-default/api/bionic-reading1/). Quickly, I realised that using the API was not an option for me for two reasons. Firstly, the API endpoint wasn't flexible enough. I needed to customise the behaviour of which text elements get bionicified [^{-} For ease of writing, let's call the process of converting text to bionic text "to bionicify". Perhaps I should've chosen "bionify" as it doesn't sound as silly when said out loud, but alas...], and which elements stay the same (for example, for code blocks I prefer non-bionic content). Secondly, I couldn't afford to pay for the API pro subscription. Sure, I could've set up a script which guaranteed to never surpass the freemium request limit by only making requests for changed and relevant files and creating a queue if the number of those files surpasses the limit...but where would've been the fun in that?
 
 Ok, a custom implementation it was then. Looking at the structure of my website, I wasn't entirely sure where to begin. All of my writings on this website are stored in Markdown files. I use a static site generator to convert Markdown files to HTML. The generator itself is equipped with a tailored Markdown parser which supports customised syntax such as Pandoc-style inline footnotes and marginalia. Similar to the API, should I bionicify the Markdown content and generate HTML as output, essentially customising the Markdown parser? Or Markdown as output? Or should I rather bionicify the already generated HTML?
 
@@ -305,7 +305,7 @@ Lastly, showing normal or bionicified content was done by a conditional attribut
 />
 ```
 
-All of the above was enough to reach my minimum goal: I could show bionificied content on my website. However, there were a few bits I wanted to improve.
+All of the above was enough to reach my minimum goal: I could show bionicified content on my website. However, there were a few bits I wanted to improve.
 
 ## Automating with pre-commit
 
@@ -371,7 +371,7 @@ I realise that the main functionality of my implementation is centred around _te
 
 There are still a few corner cases which I haven't fixed yet, such as what should happen with text that is already bold in the original file. This can lead to strange **\_\_**frag\*\*\_\_ments. I also just ignore paragraphs which have any footnote syntax in them, leading to entire paragraphs with decreased opacity:
 
-![An image of one of my published posts, in bionic mode. It shows that the paragraphs which feature footnotes or sidenotes are fully greyed out and do not feature any bold content.](../images/bionic-deficiency.png 'Corner case to fix: paragraphs which contain footnote syntax are completely ignored during the bionification process')
+![An image of one of my published posts, in bionic mode. It shows that the paragraphs which feature footnotes or sidenotes are fully greyed out and do not feature any bold content.](../images/bionic-deficiency.png 'Corner case to fix: paragraphs which contain footnote syntax are completely ignored during the bionicifation process')
 
 More delicate filtering of the MDAST would be needed to fix this.
 
