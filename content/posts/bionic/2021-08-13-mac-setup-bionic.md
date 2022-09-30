@@ -106,29 +106,46 @@ __Res__et __you__r __ma__c __followi__ng [__the__se __ste__ps](https://support.a
     # Install CLT for Xcode
     $ xcode-select --install
 
+    # Create zsh config file
+    $ touch ~/.zshrc
+
     # Install Homebrew
-    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    $ /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     $ brew update
 
-    # Install npm
-    $ brew install node
+    # Install mackup
+    $ brew install mackup
+
+    # Clone dotfiles repository
+    $ vim ~/.mackup.cfg
+
+    # Set storage in mackup cfg file
+    [storage]
+    engine = file_system
+    path = path/to/dotfiles
+    directoy = Mackup
+
+    $ mackup restore
+
+    # Download & install oh-my-zsh
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
     # Install node version manager
-    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-    $ vim .bash_profile
-    # a + paste:
-    # export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-    # :wq
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+
+    # Install node
+    $ nvm install node
+    $ nvm use node
 
     # Install yarn
     $ npm i -g yarn
     ```
 
     1.  __Insta__ll __th__e __applicatio__ns __yo__u __nee__d. __Do__n't __ope__n __mos__t __o__f __the__m __jus__t __ye__t __a__s __Mack__up __wil__l __resto__re __the__m. I __usual__ly __g__o __wit__h __thi__s __ord__er:
-        1.  __Alfr__ed (__mak__es __everythi__ng __els__e __quick__er)
-        2.  __Chro__me (__t__o __downlo__ad __oth__er __app__s __vi__a __th__e __we__b)
-        3.  __Th__e __res__t __i__n __alphabetic__al __ord__er.
+        1.  __Chro__me (__t__o __downlo__ad __oth__er __app__s __vi__a __th__e __we__b)
+        2.  __Rayca__st
+        3.  __Rectang__le
+        4.  __Th__e __res__t __i__n __alphabetic__al __ord__er.
     2.  __Resto__re __ap__p __configurati__ons __wit__h __Mack__up.
         1.  `brew install mackup`
         2.  `mackup restore`
