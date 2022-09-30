@@ -3,96 +3,96 @@ title: Mac setup
 bionic: true
 ---
 
-I **recent**ly **ra**n **ou**t **o**f **har**d **dri**ve **memo**ry **spa**ce **an**d **coul**dn't **b**e **bother**ed **t**o **tra**ck **dow**n **an**d **uninsta**ll **al**l **th**e **clutt**er **tha**t **accumulat**ed **ove**r **tw**o **yea**rs **o**f **softwa**re **developme**nt. **Hen**ce, I **res**et **m**y **MacBo**ok. I **use**d **thi**s **occasi**on **t**o **crea**te a **ste**p-**b**y-**ste**p **gui**de **o**n **ho**w **exact**ly I **res**et **m**y **ma**c. **I**t **ca**n **als**o **b**e **use**d **a**s a **migrati**on **gui**de **fro**m **on**e **ma**c **t**o **anoth**er **o**r **a**n **explanati**on **o**f **ho**w **t**o **se**t **u**p a **ne**w **ma**c.
+I __recent__ly __ra__n __ou__t __o__f __har__d __dri__ve __memo__ry __spa__ce __an__d __coul__dn't __b__e __bother__ed __t__o __tra__ck __dow__n __an__d __uninsta__ll __al__l __th__e __clutt__er __tha__t __accumulat__ed __ove__r __tw__o __yea__rs __o__f __softwa__re __developme__nt. __Hen__ce, I __res__et __m__y __MacBo__ok. I __use__d __thi__s __occasi__on __t__o __crea__te a __ste__p-__b__y-__ste__p __gui__de __o__n __ho__w __exact__ly I __res__et __m__y __ma__c. __I__t __ca__n __als__o __b__e __use__d __a__s a __migrati__on __gui__de __fro__m __on__e __ma__c __t__o __anoth__er __o__r __a__n __explanati__on __o__f __ho__w __t__o __se__t __u__p a __ne__w __ma__c.
 
 ![Screenshot of my doc](../../images/mac-setup-2021-08-13.png)
 
-### **Preparati**on
+### __Preparati__on
 
-1.  **D**o a [**Tim**e **Machi**ne **Back**up](https://support.apple.com/en-gb/HT201250), **savi**ng **i**t **o**n **a**n **extern**al **har**d **dri**ve. **I**t's **alwa**ys **wis**e **t**o **d**o **suc**h a **back**up **befo**re **tryi**ng **t**o **app**ly **maj**or **chang**es **t**o **you**r **ma**c.
-    **Shou**ld **th**e **extern**al **har**d **dri**ve **b**e **encrypt**ed, **mak**e **sur**e **tha**t **yo**u **hav**en't **sav**ed **th**e **passwo**rd **fo**r **i**t **o**n **you**r **Ma**c **onl**y **s**o **tha**t **yo**u **ca**n **acce**ss **i**t **aft**er **you**r **ma**c **ha**s **bee**n **eras**ed.
+1.  __D__o a [__Tim__e __Machi__ne __Back__up](https://support.apple.com/en-gb/HT201250), __savi__ng __i__t __o__n __a__n __extern__al __har__d __dri__ve. __I__t's __alwa__ys __wis__e __t__o __d__o __suc__h a __back__up __befo__re __tryi__ng __t__o __app__ly __maj__or __chang__es __t__o __you__r __ma__c.
+    __Shou__ld __th__e __extern__al __har__d __dri__ve __b__e __encrypt__ed, __mak__e __sur__e __tha__t __yo__u __hav__en't __sav__ed __th__e __passwo__rd __fo__r __i__t __o__n __you__r __Ma__c __onl__y __s__o __tha__t __yo__u __ca__n __acce__ss __i__t __aft__er __you__r __ma__c __ha__s __bee__n __eras__ed.
 
-2.  **Not**e **wha**t **applicatio**ns **yo**u **wan**t **t**o **kee**p. **Ge**t **ri**d **o**f **tho**se **yo**u **do**n't **nee**d **anymo**re. **D**o **som**e **resear**ch **whe**re **yo**u **ca**n **downlo**ad **the**m **fro**m. **Se**e **th**e **tab**le **a**t **th**e **en**d **o**f **thi**s **pos**t **t**o **se**e **whi**ch **one**s I **cho**se **t**o **kee**p.
+2.  __Not__e __wha__t __applicatio__ns __yo__u __wan__t __t__o __kee__p. __Ge__t __ri__d __o__f __tho__se __yo__u __do__n't __nee__d __anymo__re. __D__o __som__e __resear__ch __whe__re __yo__u __ca__n __downlo__ad __the__m __fro__m. __Se__e __th__e __tab__le __a__t __th__e __en__d __o__f __thi__s __pos__t __t__o __se__e __whi__ch __one__s I __cho__se __t__o __kee__p.
 
-3.  **Configurati**ons **o**f **mac**OS **app**s **ar**e **usual**ly **sav**ed **i**n **dotfil**es, i.e. **fil**es **starti**ng **wit**h a **do**t, **lik**e `.bash_profile`. **I**f **yo**u **wan**t **t**o **us**e **tho**se **configurati**ons **fo**r **you**r **ne**w **ma**c, **us**e [**Mack**up](https://github.com/lra/mackup#supported-applications) **t**o **sav**e **th**e **dotfil**es (**i**t's [**wel**l-**document**ed](https://github.com/lra/mackup/tree/master/doc)) **an**d **mak**e **sur**e **t**o **kee**p **the**m **somewhe**re **oth**er **tha**n **th**e **har**d **dri**ve **yo**u'**r**e **abo**ut **t**o **era**se.
-    **Onc**e **yo**u **hav**e **everythi**ng **se**t **u**p, **thi**s **shou**ld **b**e **al**l **yo**u **nee**d **t**o **d**o:
+3.  __Configurati__ons __o__f __mac__OS __app__s __ar__e __usual__ly __sav__ed __i__n __dotfil__es, i.e. __fil__es __starti__ng __wit__h a __do__t, __lik__e `.bash_profile`. __I__f __yo__u __wan__t __t__o __us__e __tho__se __configurati__ons __fo__r __you__r __ne__w __ma__c, __us__e [__Mack__up](https://github.com/lra/mackup#supported-applications) __t__o __sav__e __th__e __dotfil__es (__i__t's [__wel__l-__document__ed](https://github.com/lra/mackup/tree/master/doc)) __an__d __mak__e __sur__e __t__o __kee__p __the__m __somewhe__re __oth__er __tha__n __th__e __har__d __dri__ve __yo__u'__r__e __abo__ut __t__o __era__se.
+    __Onc__e __yo__u __hav__e __everythi__ng __se__t __u__p, __thi__s __shou__ld __b__e __al__l __yo__u __nee__d __t__o __d__o:
 
         ```bash
         # Old mac
         $ mackup backup
         ```
 
-4.  **Expo**rt **you**r [**netwo**rk **settin**gs](https://support.apple.com/en-gb/guide/mac-help/mchlp2521/mac) **an**d **sav**e **the**m **somewhe**re **exte**rn **i**f **yo**u **wan**t **t**o **kee**p **you**r **VPN**s **et**c.
+4.  __Expo__rt __you__r [__netwo__rk __settin__gs](https://support.apple.com/en-gb/guide/mac-help/mchlp2521/mac) __an__d __sav__e __the__m __somewhe__re __exte__rn __i__f __yo__u __wan__t __t__o __kee__p __you__r __VPN__s __et__c.
 
-### **Res**et
+### __Res__et
 
-**Res**et **you**r **ma**c **followi**ng [**the**se **ste**ps](https://support.apple.com/en-gb/HT201065).
+__Res__et __you__r __ma__c __followi__ng [__the__se __ste__ps](https://support.apple.com/en-gb/HT201065).
 
-### **Ne**w **Set**up
+### __Ne__w __Set__up
 
-1.  **Insta**ll **th**e **newe**st **mac**OS.
+1.  __Insta__ll __th__e __newe__st __mac__OS.
 
-2.  **Impo**rt **an**d **se**t **you**r **netwo**rk **settin**gs.
+2.  __Impo__rt __an__d __se__t __you__r __netwo__rk __settin__gs.
 
-3.  **Se**t **mos**t **importa**nt **bas**ic **settin**gs **i**n **you**r **syst**em **preferen**ce **ap**p, **eith**er **b**y **usi**ng **th**e **U**I **o**r a **fil**e **simil**ar **t**o [**m**y `.MacOSX` **fil**e](https://github.com/ericjanto/dotfiles/blob/master/Mackup/.MacOSX):
+3.  __Se__t __mos__t __importa__nt __bas__ic __settin__gs __i__n __you__r __syst__em __preferen__ce __ap__p, __eith__er __b__y __usi__ng __th__e __U__I __o__r a __fil__e __simil__ar __t__o [__m__y `.MacOSX` __fil__e](https://github.com/ericjanto/dotfiles/blob/master/Mackup/.MacOSX):
 
     ```bash
     $ chmod +x .MacOSX
     $ sh .MacOSX
     ```
 
-    **Th**e **fir**st **comma**nd **giv**es **th**e **fil**e **th**e **necessa**ry **executi**on **permissi**on. **Th**e **seco**nd **comma**nd **execut**ed **th**e **scri**pt.
+    __Th__e __fir__st __comma__nd __giv__es __th__e __fil__e __th__e __necessa__ry __executi__on __permissi__on. __Th__e __seco__nd __comma__nd __execut__es __th__e __scri__pt.
 
-    **Aft**er **tha**t, **resta**rt **you**r **Ma**c.
+    __Aft__er __tha__t, __resta__rt __you__r __Ma__c.
 
-4.  **Som**e **defau**lt **optio**ns I **hav**e **ye**t **t**o **inclu**de **i**n **th**e `.MacOSX` **fil**e, **the**y **nee**d **manu**al **ste**ps:
+4.  __Som__e __defau__lt __optio__ns I __hav__e __ye__t __t__o __inclu__de __i__n __th__e `.MacOSX` __fil__e, __the__y __nee__d __manu__al __ste__ps:
 
-    - **Keyboa**rd > **Inp**ut **Sour**ce > **Germ**an + **Engli**sh (**U**K)
+    *   __Keyboa__rd > __Inp__ut __Sour__ce > __Germ__an + __Engli__sh (__U__K)
 
-    - **Langua**ge > **Prima**ry: **U**K
+    *   __Langua__ge > __Prima__ry: __U__K
 
-    - **Trackp**ad
+    *   __Trackp__ad
+        *   __Poi__nt & __Cli__ck
+            *   __Ta__p __t__o __cli__ck
+            *   __Cli__ck: __fir__m
+            *   __Tracki__ng __spe__ed: __on__e __rig__ht __t__o __midd__le
+        *   __Mor__e __Gestur__es
+            *   __Ap__p __Exp__oé, __thr__ee __finge__rs __dow__n
 
-      - **Poi**nt & **Cli**ck
-        - **Ta**p **t**o **cli**ck
-        - **Cli**ck: **fir**m
-        - **Tracki**ng **spe**ed: **on**e **rig**ht **t**o **midd**le
-      - **Mor**e **Gestur**es
-        - **Ap**p **Exp**oé, **thr**ee **finge**rs **dow**n
+    *   __Accessibil__ity
+        *   __Point__er __Contr__ol
+            *   __Trackp__ad __optio__ns
+                *   __Enab__le __draggi__ng → __thr__ee-__fing__er __dra__g
 
-    - **Accessibil**ity
+    *   __Chan__ge __locati__on __o__f __whe__re __screensho__ts __ar__e __sav__ed (__i__f __no__t __alrea__dy __don__e __wit__h __th__e __set__up __scri__pt):
 
-      - **Point**er **Contr**ol
-        - **Trackp**ad **optio**ns
-          - **Enab**le **draggi**ng → **thr**ee-**fing**er **dra**g
+        ```bash
+        $ cd
+        $ cd Documents
+        $ mkdir Screenshots
+        ```
 
-    - **Chan**ge **locati**on **o**f **whe**re **screensho**ts **ar**e **sav**ed:
+        *   __Ope__n `Screenshot.app` > __Optio__ns > __Sav__ed __t__o `~/Documents/Screenshots`
 
-      ```bash
-      $ cd
-      $ cd Documents
-      $ mkdir Screenshots
-      ```
+    *   __Find__er > __Settin__gs
 
-      - **Ope**n `Screenshot.app` > **Optio**ns > **Sav**ed **t**o `~/Documents/Screenshots`
+        *   __Settin__gs > __Ne__w __windo__ws __sho__w > __Downloa__ds
+        *   __Sideb__ar > __Unti__ck __iClo__ud __an__d __tag__s
+        *   __Advanc__ed __Settin__gs > __Whe__n __performi__ng a __sear__ch > __Sear__ch __curre__nt __fold__er
+        *   __Sideb__ar __lik__e __thi__s:
 
-    - **Find**er > **Settin**gs
+        ![My finder sidebar](../../images/finder-2021-08-13.png)
 
-      - **Settin**gs > **Ne**w **windo**ws **sho**w > **Downloa**ds
-      - **Sideb**ar > **Unti**ck **iClo**ud **an**d **tag**s
-      - **Advanc**ed **Settin**gs > **Whe**n **performi**ng a **sear**ch > **Sear**ch **curre**nt **fold**er
-      - **Sideb**ar **lik**e **thi**s:
+    *   __Find__er > `cmd + shift + h` > __Se__t __t__o __colu__mn __vie__w > `cmd + j` > __Alwa__ys __colu__mn __vie__w __an__d __brow__se __i__n __colu__mn __vie__w
 
-      ![My finder sidebar](../../images/finder-2021-08-13.png)
+    *   __Doc__k > __Rig__ht __cli__ck > __Unti__ck "__Sho__w __rece__nt __applicatio__ns __i__n __Doc__k"
 
-    - **Find**er > `cmd + shift + h` > **Se**t **t**o **colu**mn **vie**w > `cmd + j` > **Alwa**ys **colu**mn **vie**w **an**d **brow**se **i**n **colu**mn **vie**w
+    *   __Backgrou__nd: __Downlo__ad __th__e __pho__to __bel__ow > __Downloa__ds > __Rig__ht __cli__ck > __Se__t __a__s __deskt__op __pictu__re
+        ![Background photo by joseph lee](../../images/joseph-lee.jpg)
 
-    - **Doc**k > **Rig**ht **cli**ck > **Unti**ck "**Sho**w **rece**nt **applicatio**ns **i**n **Doc**k"
+    *   __Choo__se __a__n __exciti__ng __acce__nt __colo__ur:)
 
-    - **Backgrou**nd: **Downlo**ad **th**e **pho**to **bel**ow > **Downloa**ds > **Rig**ht **cli**ck > **Se**t **a**s **deskt**op **pictu**re
-      ![Background photo by joseph lee](../../images/joseph-lee.jpg)
-
-5.  **Se**t **u**p a **bas**ic **developme**nt **environme**nt
+5.  __Se__t __u__p a __bas__ic __developme__nt __environme__nt
 
     ```bash
     # Create minimalist file/project organisation
@@ -125,33 +125,33 @@ I **recent**ly **ra**n **ou**t **o**f **har**d **dri**ve **memo**ry **spa**ce **
     $ npm i -g yarn
     ```
 
-    1.  **Insta**ll **th**e **applicatio**ns **yo**u **nee**d. **Do**n't **ope**n **mos**t **o**f **the**m **jus**t **ye**t **a**s **Mack**up **wil**l **resto**re **the**m. I **usual**ly **g**o **wit**h **thi**s **ord**er:
-        1.  **Alfr**ed (**mak**es **everythi**ng **els**e **quick**er)
-        2.  **Chro**me (**t**o **downlo**ad **oth**er **app**s **vi**a **th**e **we**b)
-        3.  **Th**e **res**t **i**n **alphabetic**al **ord**er.
-    2.  **Resto**re **ap**p **configurati**ons **wit**h **Mack**up.
+    1.  __Insta__ll __th__e __applicatio__ns __yo__u __nee__d. __Do__n't __ope__n __mos__t __o__f __the__m __jus__t __ye__t __a__s __Mack__up __wil__l __resto__re __the__m. I __usual__ly __g__o __wit__h __thi__s __ord__er:
+        1.  __Alfr__ed (__mak__es __everythi__ng __els__e __quick__er)
+        2.  __Chro__me (__t__o __downlo__ad __oth__er __app__s __vi__a __th__e __we__b)
+        3.  __Th__e __res__t __i__n __alphabetic__al __ord__er.
+    2.  __Resto__re __ap__p __configurati__ons __wit__h __Mack__up.
         1.  `brew install mackup`
         2.  `mackup restore`
-    3.  **Se**t **u**p **Tim**e **Machi**ne.
+    3.  __Se__t __u__p __Tim__e __Machi__ne.
 
-**Tha**t's **i**t.
+__Tha__t's __i__t.
 
-| Name                               | Purpose                                               | Source                                                                                      | Installation Notes                                                                                                                                                                                                               |
-| ---------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Adobe Lightroom CC                 | Photo-editing                                         | [**Ado**be **Creati**ve **Clo**ud](https://www.adobe.com/uk/creativecloud/desktop-app.html) |                                                                                                                                                                                                                                  |
-| **Alfr**ed                         | **O**S **Navigati**on + **miscellane**ous             | [**aldreda**pp.**co**m](https://www.alfredapp.com/)                                         |                                                                                                                                                                                                                                  |
-| **Ank**i                           | **Ap**p **fo**r **spac**ed-**repiti**on **syst**em    | [**app**s.**ankiw**eb.**ne**t](https://apps.ankiweb.net/)                                   |                                                                                                                                                                                                                                  |
-| **AppClean**er                     | **Dele**te **ma**c **app**s **th**e **cle**an **wa**y | [**freemacso**ft.**ne**t/**appclean**er](https://freemacsoft.net/appcleaner/)               |                                                                                                                                                                                                                                  |
-| **Calib**re                        | **Boo**k **manageme**nt **fo**r **m**y **Kind**le     | [**calib**re-**ebo**ok.**co**m/**downlo**ad](https://calibre-ebook.com/download)            |                                                                                                                                                                                                                                  |
-| **Doz**er                          | **Tid**y **men**u **ba**r                             | `brew install --cask dozer`                                                                 | `cmd + shift + s` **t**o **togg**le                                                                                                                                                                                              |
-| **Goog**le **Chro**me              | **Dai**ly **we**b-**browsi**ng + **we**b **de**v      | [**goog**le.**c**o.**u**k/**chro**me](https://www.google.co.uk/chrome/)                     | **Sig**n **int**o **Chro**me **wit**h **you**r **goog**le **accou**nt **t**o **automatica**lly **impo**rt **you**r **bookmar**ks **an**d **extensio**ns </br> </br> **Extensio**ns: **UBlockOrig**in, **DuckDuck**Go, **Vimi**um |
-| **Intell**iJ **IDE**A **Ultima**te | **Jav**a **ID**E                                      | [**JetBrai**ns **Toolb**ox](https://www.jetbrains.com/toolbox-app/)                         | **Syn**c **optio**ns **fro**m **accou**nt                                                                                                                                                                                        |
-| **OneDri**ve                       | **Clo**ud **Spa**ce                                   | **App**le **Ap**p **Sto**re                                                                 |                                                                                                                                                                                                                                  |
-| **PyCha**rm **Profession**al       | **Pyth**on **ID**E                                    | [**JetBrai**ns **Toolb**ox](https://www.jetbrains.com/toolbox-app/)                         | **Syn**c **optio**ns **fro**m **accou**nt                                                                                                                                                                                        |
-| **Qui**ck **Dra**ft                | **Qui**ck **men**u **ba**r **notep**ad                | **App**le **Ap**p **Sto**re                                                                 | `cmd + d`                                                                                                                                                                                                                        |
-| **Rectang**le                      | **Wind**ow **resizi**ng + **positioni**ng             | [**rectanglea**pp.**co**m](https://rectangleapp.com/)                                       |                                                                                                                                                                                                                                  |
-| **Spa**rk                          | **Ema**il                                             | **App**le **Ap**p **Sto**re                                                                 |                                                                                                                                                                                                                                  |
-| **Spoti**fy                        | **Mus**ic **streami**ng                               | [**spoti**fy.**co**m](https://www.spotify.com/us/download/mac/)                             |                                                                                                                                                                                                                                  |
-| **Tim**er                          | **Pomodo**ro **an**d **timi**ng **stu**ff             | [**Gith**ub](https://github.com/michaelvillar/timer-app/releases)                           |                                                                                                                                                                                                                                  |
-| **Visu**al **Stud**io **Cod**e     | **Al**l-**purpo**se **tex**t-**edit**or               | [**cod**e.**visualstud**io.**co**m](https://code.visualstudio.com/Download)                 |                                                                                                                                                                                                                                  |
-| **Zoo**m                           | **No**n-**person**al **vid**eo **cal**ls              | [**zoo**m.**u**s/**downlo**ad](https://zoom.us/download)                                    |                                                                                                                                                                                                                                  |
+| Name                   | Purpose                        | Source                                                                          | Installation Notes                                                                                                                                       |
+| ---------------------- | ------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adobe Lightroom CC     | Photo-editing                  | [__Ado__be __Creati__ve __Clo__ud](https://www.adobe.com/uk/creativecloud/desktop-app.html) |                                                                                                                                                          |
+| __Alfr__ed                 | __O__S __Navigati__on + __miscellane__ous  | [__aldreda__pp.__co__m](https://www.alfredapp.com/)                                     |                                                                                                                                                          |
+| __Ank__i                   | __Ap__p __fo__r __spac__ed-__repiti__on __syst__em | [__app__s.__ankiw__eb.__ne__t](https://apps.ankiweb.net/)                                   |                                                                                                                                                          |
+| __AppClean__er             | __Dele__te __ma__c __app__s __th__e __cle__an __wa__y  | [__freemacso__ft.__ne__t/__appclean__er](https://freemacsoft.net/appcleaner/)               |                                                                                                                                                          |
+| __Calib__re                | __Boo__k __manageme__nt __fo__r __m__y __Kind__le  | [__calib__re-__ebo__ok.__co__m/__downlo__ad](https://calibre-ebook.com/download)                |                                                                                                                                                          |
+| __Doz__er                  | __Tid__y __men__u __ba__r                  | `brew install --cask dozer`                                                     | `cmd + shift + s` __t__o __togg__le                                                                                                                              |
+| __Goog__le __Chro__me          | __Dai__ly __we__b-__browsi__ng + __we__b __de__v   | [__goog__le.__c__o.__u__k/__chro__me](https://www.google.co.uk/chrome/)                         | __Sig__n __int__o __Chro__me __wit__h __you__r __goog__le __accou__nt __t__o __automatica__lly __impo__rt __you__r __bookmar__ks __an__d __extensio__ns </br> </br> __Extensio__ns: __UBlockOrig__in, __DuckDuck__Go, __Vimi__um |
+| __Intell__iJ __IDE__A __Ultima__te | __Jav__a __ID__E                       | [__JetBrai__ns __Toolb__ox](https://www.jetbrains.com/toolbox-app/)                     | __Syn__c __optio__ns __fro__m __accou__nt                                                                                                                                |
+| __OneDri__ve               | __Clo__ud __Spa__ce                    | __App__le __Ap__p __Sto__re                                                                 |                                                                                                                                                          |
+| __PyCha__rm __Profession__al   | __Pyth__on __ID__E                     | [__JetBrai__ns __Toolb__ox](https://www.jetbrains.com/toolbox-app/)                     | __Syn__c __optio__ns __fro__m __accou__nt                                                                                                                                |
+| __Qui__ck __Dra__ft            | __Qui__ck __men__u __ba__r __notep__ad         | __App__le __Ap__p __Sto__re                                                                 | `cmd + d`                                                                                                                                                |
+| __Rectang__le              | __Wind__ow __resizi__ng + __positioni__ng  | [__rectanglea__pp.__co__m](https://rectangleapp.com/)                                   |                                                                                                                                                          |
+| __Spa__rk                  | __Ema__il                          | __App__le __Ap__p __Sto__re                                                                 |                                                                                                                                                          |
+| __Spoti__fy                | __Mus__ic __streami__ng                | [__spoti__fy.__co__m](https://www.spotify.com/us/download/mac/)                         |                                                                                                                                                          |
+| __Tim__er                  | __Pomodo__ro __an__d __timi__ng __stu__ff      | [__Gith__ub](https://github.com/michaelvillar/timer-app/releases)                   |                                                                                                                                                          |
+| __Visu__al __Stud__io __Cod__e     | __Al__l-__purpo__se __tex__t-__edit__or        | [__cod__e.__visualstud__io.__co__m](https://code.visualstudio.com/Download)                 |                                                                                                                                                          |
+| __Zoo__m                   | __No__n-__person__al __vid__eo __cal__ls       | [__zoo__m.__u__s/__downlo__ad](https://zoom.us/download)                                    |                                                                                                                                                          |
